@@ -1,0 +1,69 @@
+\documentclass[]{article}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+
+\pagestyle{headings}
+\fancyhf{}
+\setcounter{section}{-1}								%Gliederungsnummerierung faengt bei 0 an.
+
+%opening
+\title{Reduzierung der systematischen Unsicherheit bei der Peakeextraktion neutraler Pionen durch Monte Carlo Template Fits}
+\author{Marvin Hemmer}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+	\section{Einleitung}
+
+	\section{Experimenteller Aufbau}
+
+	\section{Analyse}
+	\subsection{Daten}
+	\subsubsection{Datensatz}
+	\subsubsection{Trigger und Cuts}
+	\subsection{Peak Extraktion mit der Standard Methode}
+	Messungen mit dem EMCal liefern Ort und Energie von u.a. Photonen. Mit diesen Informationen ist es m{\"o}glich neutrale Pionen zu rekonstruieren, da ein ${\it \pi^{0}}$ zu $\left( 98.823\pm0.034\right)\%$ in zwei Photonen zerf{\"a}llt. Der Zerfall findet statistisch Verteilt nach eine Durschnitssl{\"a}nge von ${\it c\tau} = 25.5$nm vom prim{\"a}ren Vertex statt. Der prim{\"a}ren Vertex wird dabei mit Hilfe der ITS bestimmt.
+	Mit dem Wissen, wo sich der prim{\"a}ren Vertex befindet, sowie der Ortsaufl{\"o}sung des EMCals kann der Zerfallswinkel zwischen zwei Photonen, welche durch das EMCal detektiert wurden, bestimmt werden.
+	Die Energien der beiden Photonen $E_{\gamma1}$ und $E_{\gamma2}$, sowie der Zerfallswinkel sind f{\"u}r die Berechnung der invariante Masse erforderlich. F{\"u}r diese gilt:
+	\begin{align}
+	\label{eq_invmass}
+	m_{inv} &= \sqrt{2E_{\gamma1}E_{\gamma2}(1-\cos\left( \theta_{\gamma\gamma}\right) )} 
+	\end{align}
+	Au{\ss}erdem kann aus den vorangegangenen Informationen die Aufteilung des Impulses der Photonen bestimmt werden, welche wiederum notwendig sind um den transversalen Impuls $p_{T}$ des $\pi^{0}$ zu Kalkulieren.
+	Es gilt:
+	\begin{align}
+	\label{eq_pt}
+	p_{T\pi^{0}} &= \sqrt{\left(p_{x1}+p_{x2}\right)^{2} +\left(p_{y1}+p_{y2}\right)^{2}} 
+	\end{align}
+	Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen.\newline
+	Aus dem gew{\"a}hlten Datensatz werden pro Event alle m{\"o}glichen Kombinationen von zwei Photonen mit korrespondierendem $\theta_{\gamma\gamma}$ benutzt, um $m_{inv}$ nach \ref{eq_invmass} zu berechnen, sowie $p_{T\pi^{0}}$ nach \ref{eq_pt} und so eine invariante Massenverteilung zu erhalten, welche in verschiedenen $p_{T}$-Intervallen aufgeteilt wird. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden.
+	\newline
+	Wird die Verteilung nun auf die einzelnen Intervalle projiziert, erh{\"a}lt man Verteilungen der invarianten Masse, welche aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds abgesch{\"a}tz.
+	
+	\subsubsection{Rekonstruktion}
+	\subsubsection{Absch{\"a}tzung des unkorrelierten Untergrunds}
+	\subsubsection{Absch{\"a}tzung des korrelierten Untergrunds}
+	\subsection{Peak Extraktion mit Templates}
+	\subsubsection{Templates}
+	\subsubsection{Fit Methode}
+	\section{Korrigierter Yield}
+	\subsection{Korrekturen}
+	\subsection{Variationen}
+	\section{Zusammenfassung und Aussicht}
+
+
+
+\end{document}
