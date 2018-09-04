@@ -6,7 +6,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Datensatz}{3}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Trigger und Cuts}{3}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Peak Extraktion mit der Standard Methode}{3}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Rekonstruktion}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1}Rekonstruktion}{3}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{4}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Absch{\"a}tzung des korrelierten Untergrunds}{4}{subsubsection.2.2.3}
 \contentsline {subsection}{\numberline {2.3}Peak Extraktion mit Templates}{4}{subsection.2.3}

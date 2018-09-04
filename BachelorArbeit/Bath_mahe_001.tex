@@ -48,13 +48,25 @@
 	\label{eq_pt}
 	p_{T\pi^{0}} &= \sqrt{\left(p_{x1}+p_{x2}\right)^{2} +\left(p_{y1}+p_{y2}\right)^{2}} 
 	\end{align}
-	Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen.\newline
-	Aus dem gew{\"a}hlten Datensatz werden pro Event alle m{\"o}glichen Kombinationen von zwei Photonen mit korrespondierendem $\theta_{\gamma\gamma}$ benutzt, um $m_{inv}$ nach \ref{eq_invmass} zu berechnen, sowie $p_{T\pi^{0}}$ nach \ref{eq_pt} und so eine invariante Massenverteilung zu erhalten, welche in verschiedenen $p_{T}$-Intervallen aufgeteilt wird. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden.
-	\newline
-	Wird die Verteilung nun auf die einzelnen Intervalle projiziert, erh{\"a}lt man Verteilungen der invarianten Masse, welche aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds abgesch{\"a}tz.
+	Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen.
+	
 	
 	\subsubsection{Rekonstruktion}
+	Aus dem gew{\"a}hlten Datensatz werden pro Event alle m{\"o}glichen Kombinationen von zwei Photonen mit korrespondierendem $\theta_{\gamma\gamma}$ benutzt, um $m_{inv}$ nach \ref{eq_invmass} zu berechnen, sowie $p_{T\pi^{0}}$ nach \ref{eq_pt} und so eine invariante Massenverteilung zu erhalten, welche in verschiedenen $p_{T}$-Intervallen aufgeteilt wird. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden.
+	
+	
+	Wird die Verteilung nun auf die einzelnen Intervalle projiziert, erh{\"a}lt man Verteilungen der invarianten Masse, welche aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen. Dennoch ist ein deutlicher Peak im Bereich der Pionenmasse von ca. 135MeV/$c^{2}$ zu erkennen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds abgesch{\"a}tz.
+	
 	\subsubsection{Absch{\"a}tzung des unkorrelierten Untergrunds}
+	
+	Durch das kombinieren aller Photonenkandidaten ist ein gro{\ss}er Anteil der rekonstruierten Massen nicht korreliert, da die beiden Photonen nicht zusammenh{"a}ngen {\"u}ber beispielsweise einen Zerfall. Um diesen unkorrelierten Untergrund abzuw{\"a}gen kombiniert man im sogenannten Eventmixing Photonen aus unterschiedlichen Events zusammen, da so sicher keine Verbindung zwischen den beiden Photonen besteht.
+	
+	
+	Die Verteilung aus den mixed Events weist keinen Peak auf und hat eine gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge, als die Verteilung aus dem selben Events, weshalb die mixed Event Verteilung an die der same Events skaliert werden muss. Die Skalierung erfolgt im rechten Bereich au{\ss}erhalb des $\pi^{0}$-Peaks und es ergibt sich f{\"u}r den Skalierungsfaktor:
+	\begin{align}
+	\alpha &= \frac{\sum_{i \neq j}\sum_{n}\gamma^{n}_{i}\gamma^{n}_{j}}{\sum_{i,j}\sum_{n \neq m}\gamma^{(n)}_{i}\gamma^{(m)}_{j}}
+	\end{align}
+	Die oberen Indizes symbolisieren hierbei das Event aus dem ein Photon kommt. 
 	\subsubsection{Absch{\"a}tzung des korrelierten Untergrunds}
 	\subsection{Peak Extraktion mit Templates}
 	\subsubsection{Templates}
