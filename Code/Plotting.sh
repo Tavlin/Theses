@@ -3,8 +3,8 @@
 echo "start Iter Temp Fit"
 
 
-DIR=${PWD##*/} # the directery where I am currently to make things a bit more
+DIR="GammaCalo-All_503_normal_and_extra" # the directery where I am currently to make things a bit more
                # felxible in the code
 
 
-# time root -l -b -q IterTempCreation.C++\(\"$DIR\",$4\)
+time root -l -b -q Plotting.C++\(\"$DIR\"\)

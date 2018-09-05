@@ -192,6 +192,7 @@ void SetHistoStandardSettings(TH1* histo, Double_t XOffset = 1.2, Double_t YOffs
 
 void SetHistoStandardSettings2(TH2* histo, Double_t XOffset = 1.2, Double_t YOffset = 1., Double_t textSize = 42, Double_t textFont = 43){
   histo->SetStats(0);
+  histo->SetTitle("");
   histo->GetXaxis()->SetTitleOffset(XOffset);
   histo->GetYaxis()->SetTitleOffset(YOffset);
   histo->GetXaxis()->SetTitleSize(textSize);
