@@ -2,6 +2,7 @@
 \usepackage[german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{lastpage}
 \usepackage{epstopdf}
 \usepackage{fancyhdr}
 \usepackage{amsmath}
@@ -64,9 +65,9 @@
 	
 	Die Verteilung aus den mixed Events weist keinen Peak auf und hat eine gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge, als die Verteilung aus dem selben Events, weshalb die mixed Event Verteilung an die der same Events skaliert werden muss. Die Skalierung erfolgt im rechten Bereich au{\ss}erhalb des $\pi^{0}$-Peaks und es ergibt sich f{\"u}r den Skalierungsfaktor:
 	\begin{align}
-	\alpha &= \frac{\sum_{i \neq j}\sum_{n}\gamma^{(n)}_{i}\gamma^{(n)}_{j}}{\sum_{i,j}\sum_{n \neq m}\gamma^{(n)}_{i}\gamma^{(m)}_{j}}
+	\alpha &= \frac{\sum_{i \neq j}\sum_{n}m_{inv}\left( \gamma^{(n)}_{i},\gamma^{(n)}_{j}\right) }{\sum_{i,j}\sum_{n \neq m}m_{inv}\left( \gamma^{(n)}_{i},\gamma^{(m)}_{j}\right) }
 	\end{align}
-	Die oberen Indizes symbolisieren hierbei das Event aus dem ein Photon kommt. 
+	Die oberen Indizes stehen hierbei f{\"u}r das Event, aus welchem ein Photon kommt. 
 	\subsubsection{Absch{\"a}tzung des korrelierten Untergrunds}
 	\subsection{Peak Extraktion mit Templates}
 	\subsubsection{Templates}
