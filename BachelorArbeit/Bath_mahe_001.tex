@@ -2,8 +2,11 @@
 \usepackage[german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{lastpage}
 \usepackage{epstopdf}
+\graphicspath{outdir=/u/mhemmer/Documents/Theses/BachelorArbeit/}
 \usepackage{fancyhdr}
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -36,14 +39,14 @@
 	\subsubsection{Datensatz}
 	\subsubsection{Trigger und Cuts}
 	\subsection{Peak Extraktion mit der Standard Methode}
-	Messungen mit dem EMCal liefern Ort und Energie von u.a. Photonen. Mit diesen Informationen ist es m{\"o}glich neutrale Pionen zu rekonstruieren, da ein ${\it \pi^{0}}$ zu $\left( 98.823\pm0.034\right)\%$ in zwei Photonen zerf{\"a}llt. Der Zerfall findet statistisch Verteilt nach eine Durschnitssl{\"a}nge von ${\it c\tau} = 25.5$nm vom prim{\"a}ren Vertex statt. Der prim{\"a}ren Vertex wird dabei mit Hilfe der ITS bestimmt.
-	Mit dem Wissen, wo sich der prim{\"a}ren Vertex befindet, sowie der Ortsaufl{\"o}sung des EMCals kann der Zerfallswinkel zwischen zwei Photonen, welche durch das EMCal detektiert wurden, bestimmt werden.
+	Messungen mit dem EMCal liefern Ort und Energie von u.a. Photonen Kandidaten. Mit diesen Informationen ist es m{\"o}glich neutrale Pionen zu rekonstruieren, da ein ${\it \pi^{0}}$ zu $\left( 98.823\pm0.034\right)\%$ in zwei Photonen zerf{\"a}llt. Der Zerfall findet statistisch Verteilt nach eine Durschnitssl{\"a}nge von ${\it c\tau} = 25.5$nm vom prim{\"a}ren Vertex statt, wobei dieser mit Hilfe der ITS bestimmt.
+	Mit dem Wissen, wo sich der prim{\"a}ren Vertex befindet, sowie der Ortsaufl{\"o}sung des EMCals kann der Zerfallswinkel zwischen zwei Photonen Kandidaten, welche durch das EMCal detektiert wurden, bestimmt werden.
 	Die Energien der beiden Photonen $E_{\gamma1}$ und $E_{\gamma2}$, sowie der Zerfallswinkel sind f{\"u}r die Berechnung der invariante Masse erforderlich. F{\"u}r diese gilt:
 	\begin{align}
 	\label{eq_invmass}
 	m_{inv} &= \sqrt{2E_{\gamma1}E_{\gamma2}(1-\cos\left( \theta_{\gamma\gamma}\right) )} 
 	\end{align}
-	Au{\ss}erdem kann aus den vorangegangenen Informationen die Aufteilung des Impulses der Photonen bestimmt werden, welche wiederum notwendig sind um den transversalen Impuls $p_{T}$ des $\pi^{0}$ zu Kalkulieren.
+	Au{\ss}erdem kann aus den vorangegangenen Daten die Aufteilung des Impulses der Photonen Kandidaten bestimmt werden, welche wiederum notwendig ist, um den transversalen Impuls $p_{T}$ des $\pi^{0}$ zu Kalkulieren.
 	Es gilt:
 	\begin{align}
 	\label{eq_pt}
@@ -53,12 +56,36 @@
 	
 	
 	\subsubsection{Rekonstruktion}
-	Aus dem gew{\"a}hlten Datensatz werden pro Event alle m{\"o}glichen Kombinationen von zwei Photonen mit korrespondierendem $\theta_{\gamma\gamma}$ benutzt, um $m_{inv}$ nach \ref{eq_invmass} zu berechnen, sowie $p_{T\pi^{0}}$ nach \ref{eq_pt} und so eine invariante Massenverteilung zu erhalten, welche in verschiedenen $p_{T}$-Intervallen aufgeteilt wird. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden.
+	\begin{figure}[tbp]
+		\centering
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=.95\linewidth]{hInvMass_pT_Signal.pdf}
+			\caption{}
+			\label{figInvMassPt_a}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=.95\linewidth]{hInvMass_pT_Bkg.pdf}
+			\caption{}
+			\label{figInvMassPt_b}
+		\end{subfigure}
+		\caption{\newline{\bf (a)}: Rekombination von Cluster-Paaren aus jeweils der gleichen Kollision ({\it same event}).Die schwarze Linie liegt im Bereich $m_{inv}=0.135\text{GeV/}c^{2}$ was ungef{\"a}hr der $\pi^{0}$ Masse entspricht. Dort ist eine deutliche Peakstruktur zu Erkennen.\newline{\bf (b)}: Rekombination von Cluster-Paaren aus jeweils unterschiedlichen Kollision ({\it mixed event}). Beides in Abh{\"a}ngigkeit der invarianten Masse, sowie des transversalen Impulses.}
+		\label{figInvMassPt}
+	\end{figure}
+	Aus dem gew{\"a}hlten Datensatz werden alle m{\"o}glichen Kombinationen von zwei Photonen Kandidaten aus der gleichen Kollision ({\it same event}) mit korrespondierendem $\theta_{\gamma\gamma}$ benutzt, um $m_{inv}$ nach \ref{eq_invmass} zu berechnen, sowie $p_{T,\pi^{0}}$ nach \ref{eq_pt} und so eine invariante Massenverteilung zu erhalten (vgl. Abbildung \ref{figInvMassPt_a}). In dieser Verteilung ist bereits eine auffallende Struktur bei $m_{inv}\approx 0.135\text{GeV/}c^{2}$ zu erkennen, welche auf richtig rekombinierte $\pi^{0}$ schlie{\ss}en l{\"a}sst. Abbildung \ref{figInvMassPt_b} zeigt eine invariante Massenverteilung bei der Photonen Kandidaten aus unterschiedlichen Kollisionen ({\it mixed event}) miteinander kombiniert werden, auf welche in Kapitel \ref{sssec:num3} genauer eingegangen wird.\newline
 	
+	\begin{figure}[tbp]
+		\centering
+		\includegraphics[width=.8\linewidth]{hSignalPlusBkg.pdf}
+		\caption{text}
+		\label{key}
+	\end{figure}
 	
-	Wird die Verteilung nun auf die einzelnen Intervalle projiziert, erh{\"a}lt man Verteilungen der invarianten Masse, welche aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen. Dennoch ist ein deutlicher Peak im Bereich der Pionenmasse von ca. 135MeV/$c^{2}$ zu erkennen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds abgesch{\"a}tz.
+	Um $\pi^{0}$s in einzelnen $p_{T}$-Intervallen z{\"a}hlen zu k{\"o}nnen wird die Verteilung in entsprechende Abst{\"a}nden auf die Y-Achse projiziert. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden. Man erh{\"a}lt Verteilungen der invarianten Masse, welche aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen. Dennoch ist ein deutlicher Peak im Bereich der Pionenmasse von ca. 135MeV/$c^{2}$ zu erkennen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds abgesch{\"a}tz.
 	
 	\subsubsection{Absch{\"a}tzung des unkorrelierten Untergrunds}
+	\label{sssec:num3}
 	
 	Durch das kombinieren aller Photonenkandidaten ist ein gro{\ss}er Anteil der rekonstruierten Massen nicht korreliert, da die beiden Photonen nicht zusammenh{"a}ngen {\"u}ber beispielsweise einen Zerfall. Um diesen unkorrelierten Untergrund abzuw{\"a}gen kombiniert man im sogenannten Eventmixing Photonen aus unterschiedlichen Events zusammen, da so sicher keine Verbindung zwischen den beiden Photonen besteht.
 	
