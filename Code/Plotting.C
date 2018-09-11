@@ -56,7 +56,7 @@ void Plotting(std::string current_path){
   TH1D*  hTrueMesonInvMassMC      = NULL;
   TH1D*  hSignalPlusBkg           = NULL;
   TH1D*  hCorrBckMC               = NULL;
-  TH1D*  hUncorrBkg               = NULL;
+  TH1D*  hUncorrBkgNorm               = NULL;
 
   TFile* ESDFile_MC       = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/Daten/" + current_path + ".root");
   if (ESDFile_MC->IsOpen() ) printf("ESDFile_MC opened successfully\n");
@@ -116,8 +116,6 @@ void Plotting(std::string current_path){
 
 
 
-  ESDFile_MC->Close();
-  ESDFile_data->Close();
   //////////////////////////////////////////////////////////////////////////////
 
 
@@ -152,7 +150,7 @@ void Plotting(std::string current_path){
   DataFile = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/GammaCalo-All_503_normal_and_extra/00010113_1111112067032220000_01631031000000d0/13TeV/Pi0_data_GammaConvV1WithoutCorrection_00010113_1111112067032220000_01631031000000d0.root");
   if (DataFile->IsOpen() ) printf("DataFile opened successfully\n");
   hSignalPlusBkg  = (TH1D*) DataFile->Get(Form("Mapping_GG_InvMass_in_Pt_Bin%02d",k));
-  hUncorrBkg      = (TH1D*) DataFile->Get(Form("Mapping_BckNorm_InvMass_in_Pt_Bin%02d",k));
+  hUncorrBkgNorm  = (TH1D*) DataFile->Get(Form("Mapping_BckNorm_InvMass_in_Pt_Bin%02d",k));
 
   ////////////////////////////////////////////////////////////////////////////
   // Getting the purposed corr Background
@@ -166,23 +164,90 @@ void Plotting(std::string current_path){
   TString str_copy = str.Copy();
   str_copy.ReplaceAll("<","#leq");
   str.Replace(0,20,str_copy,23);
+  str = Form("%.1lf #leq #it{p}_{T} (GeV/#it{c}) < %.1lf", fBinsPi013TeVEMCPt[k], fBinsPi013TeVEMCPt[k+1]);
 
 
   c2->cd();
+  TLegend* legSignalPlusBkg = new TLegend(0.6, 0.7, 0.9, 0.9);
+  SetLegendSettigns(legSignalPlusBkg,63, 43);
+  legSignalPlusBkg->AddEntry(hSignalPlusBkg, "Signal", "lp");
+  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
+  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
   SetHistoStandardSettings(hSignalPlusBkg, 1.2, 1.2, 84, 43);
   hSignalPlusBkg->SetXTitle(minv_str);
   hSignalPlusBkg->SetYTitle("counts");
   hSignalPlusBkg->SetMarkerSize(2.5);
 
-  hSignalPlusBkg->Draw("AXIS");
+  hSignalPlusBkg->DrawCopy("AXIS");
   hSignalPlusBkg->DrawCopy("SAME");
-  // DrawLabelALICE(0.55, 0.9, 0.025, 39, 43, str);
+  legSignalPlusBkg->Draw("SAME");
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
   c2->Update();
   c2->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.pdf"));
   c2->Clear();
 
+  delete legSignalPlusBkg;
 
 
+  // uncorrelated Background Making and Drawing
+  TH1D* hUncorrBkg = hInvMass_pT_Bkg->ProjectionX("hUncorrBkg", hInvMass_pT_Bkg->GetYaxis()->FindBin(3.2),  hInvMass_pT_Bkg->GetYaxis()->FindBin(3.4));
+  hUncorrBkg->Rebin(4);
+  c2->cd();
+  TLegend* legUncorrBkg = new TLegend(0.5, 0.3, 0.8, 0.5);
+  SetLegendSettigns(legUncorrBkg,63, 43);
+  legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} Rekombinationen", "lp");
+  SetHistoStandardSettings(hUncorrBkg, 1.2, 1.2, 84, 43);
+  hUncorrBkg->SetMarkerColor(kBlue+2);
+  hUncorrBkg->SetLineColor(kBlue+2);
+  hUncorrBkg->SetXTitle(minv_str);
+  hUncorrBkg->SetYTitle("counts");
+  hUncorrBkg->SetMarkerSize(2.5);
+
+  hUncorrBkg->DrawCopy("AXIS");
+  hUncorrBkg->DrawCopy("SAME");
+  legUncorrBkg->Draw("SAME");
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
+  c2->Update();
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkg.pdf"));
+  c2->Clear();
+
+  delete legUncorrBkg;
+
+  // scaled uncorrelated with Signal + both Backgrunds
+  c2->cd();
+  TLegend* legUncorrBkgNorm = new TLegend(0.6, 0.7, 0.9, 0.9);
+  SetLegendSettigns(legUncorrBkgNorm,63, 43);
+  legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "lp");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
+  legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "skalierte #it{mixed event}", "f");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "Rekombinationen", "");
+  SetHistoStandardSettings(hUncorrBkgNorm, 1.2, 1.2, 84, 43);
+  hUncorrBkgNorm->SetFillColor(kBlue+2);
+  hUncorrBkgNorm->SetLineWidth(2);
+  hUncorrBkgNorm->SetFillStyle(3344);
+  hUncorrBkgNorm->SetMarkerColor(kBlue+2);
+  hUncorrBkgNorm->SetLineColor(kBlue+2);
+  hUncorrBkgNorm->SetXTitle(minv_str);
+  hUncorrBkgNorm->SetYTitle("counts");
+  hUncorrBkgNorm->SetMarkerSize(2.5);
+
+  hSignalPlusBkg->DrawCopy("AXIS");
+  hSignalPlusBkg->DrawCopy("SAME");
+  hUncorrBkgNorm->Draw("HIST SAME");
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
+  c2->Update();
+  TLine* lBkgFitRange = new TLine(0.19, gPad->GetUymax()*0.995, 0.30, gPad->GetUymax()*0.995);
+  lBkgFitRange->SetLineColor(kCyan+2);
+  lBkgFitRange->SetLineWidth(4);
+  legUncorrBkgNorm->AddEntry(lBkgFitRange, "Parametrisierungs Bereich", "l");
+  legUncorrBkgNorm->Draw("SAME");
+  lBkgFitRange->Draw("SAME");
+
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.pdf"));
+  c2->Clear();
+
+  delete legUncorrBkgNorm;
 
   delete hNEvents;
   delete hMC_Pi0InAcc_Pt;
@@ -196,6 +261,8 @@ void Plotting(std::string current_path){
   delete hSignalPlusBkg;
   delete hCorrBckMC;
   delete lPi0_mass;
+  ESDFile_MC->Close();
+  ESDFile_data->Close();
   MCFile->Close();
   DataFile->Close();
   delete c1;

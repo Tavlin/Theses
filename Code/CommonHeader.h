@@ -337,7 +337,85 @@ void DrawLabelALICE(Double_t startTextX = 0.13, Double_t startTextY = 0.9, Doubl
   delete alice;
   delete energy;
   delete Template;
+  delete Template2;
   delete detprocess;
+  delete detprocess2;
+  delete pt;
+
+}
+
+
+void DrawLabelALICEwoTemp(Double_t startTextX = 0.13, Double_t startTextY = 0.9, Double_t textHeight = 0.04, Double_t textSize = 42, Double_t textFont = 43, TString str = " "){
+  TString textAlice       = "ALICE work in progress";
+  TString textEvents      = "Data";
+  TLatex *alice           = NULL;
+  TLatex *pt              = NULL;
+  TLatex *energy          = NULL;
+  TLatex *detprocess      = NULL;
+  TLatex *detprocess2     = NULL;;
+
+  Double_t differenceText  = textHeight*1.7;
+  if(str == "" || str == " "){
+    alice            = new TLatex(startTextX, startTextY, Form("%s",textAlice.Data()));
+
+    pt               = new TLatex(startTextX, (startTextY-1.5*differenceText), str);
+
+    energy           = new TLatex(startTextX, (startTextY-1.5*differenceText), "pp, #sqrt{#it{s}} = 13 TeV");
+
+    detprocess       = new TLatex(startTextX, (startTextY-2.5*differenceText), "#pi^{0}#rightarrow#gamma#gamma");
+
+    detprocess2      = new TLatex(startTextX, (startTextY-3.5*differenceText), "#gamma's rec. with EMCal ");
+  }
+
+  else{
+    alice            = new TLatex(startTextX, startTextY, Form("%s",textAlice.Data()));
+
+    pt               = new TLatex(startTextX, (startTextY-1.5*differenceText), str);
+
+    energy           = new TLatex(startTextX, (startTextY-2.5*differenceText), "pp, #sqrt{#it{s}} = 13 TeV");
+
+    detprocess       = new TLatex(startTextX, (startTextY-3.5*differenceText), "#pi^{0}#rightarrow#gamma#gamma");
+
+    detprocess2      = new TLatex(startTextX, (startTextY-4.5*differenceText), "#gamma's rec. with EMCal ");
+  }
+
+  alice->SetNDC();
+  alice->SetTextColor(1);
+  alice->SetTextFont(textFont);
+  alice->SetTextSize(textSize);
+  alice->DrawClone();
+
+  energy->SetNDC();
+  energy->SetTextColor(1);
+  energy->SetTextSize(textSize);
+  energy->SetTextFont(textFont);
+  energy->DrawClone();
+
+  detprocess->SetNDC();
+  detprocess->SetTextColor(1);
+  detprocess->SetTextSize(textSize);
+  detprocess->SetTextFont(textFont);
+  detprocess->DrawClone();
+
+  detprocess2->SetNDC();
+  detprocess2->SetTextColor(1);
+  detprocess2->SetTextSize(textSize);
+  detprocess2->SetTextFont(textFont);
+  detprocess2->DrawClone();
+
+  pt->SetNDC();
+  pt->SetTextColor(1);
+  pt->SetTextSize(textSize);
+  pt->SetTextFont(textFont);
+  if(!(str == "" || str == " ")){
+    pt->DrawClone();
+  }
+
+
+  delete alice;
+  delete energy;
+  delete detprocess;
+  delete detprocess2;
   delete pt;
 
 }
