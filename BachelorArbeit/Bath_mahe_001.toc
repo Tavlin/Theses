@@ -1,18 +1,23 @@
 \select@language {german}
 \contentsline {section}{\numberline {0}Einleitung}{3}{section.0}
-\contentsline {section}{\numberline {1}Experimenteller Aufbau}{3}{section.1}
-\contentsline {section}{\numberline {2}Analyse}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Daten}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Datensatz}{3}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Trigger und Cuts}{3}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Peak Extraktion mit der Standard Methode}{3}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Rekonstruktion}{3}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{5}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Absch{\"a}tzung des korrelierten Untergrunds}{7}{subsubsection.2.2.3}
-\contentsline {subsection}{\numberline {2.3}Peak Extraktion mit Templates}{7}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Templates}{7}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Fit Methode}{7}{subsubsection.2.3.2}
-\contentsline {section}{\numberline {3}Korrigierter Yield}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Korrekturen}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Variationen}{7}{subsection.3.2}
-\contentsline {section}{\numberline {4}Zusammenfassung und Aussicht}{7}{section.4}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
+\contentsline {section}{\numberline {2}Experimenteller Aufbau}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}CERN}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}LHC}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}ALICE}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}elektromagnetische Kaloriemeter}{3}{subsection.2.4}
+\contentsline {section}{\numberline {3}Analyse}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Daten}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{3}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Trigger und Auswahlkriterien}{3}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Rekonstruktion}{3}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{4}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Absch{\"a}tzung des korrelierten Untergrunds}{7}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{7}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Templates}{7}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Fit Methode}{7}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Variationen}{7}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Aussicht}{7}{section.5}

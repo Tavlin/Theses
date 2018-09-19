@@ -20,7 +20,7 @@
 \setcounter{section}{-1}								%Gliederungsnummerierung faengt bei 0 an.
 
 %opening
-\title{Reduzierung der systematischen Unsicherheit bei der Peakeextraktion neutraler Pionen durch Monte Carlo Template Fits}
+\title{Systematische Studie der Peakextraktion neutraler Pionen in pp-Kollision bei $\sqrt{s}=13\text{ TeV}$ mittels Templates}
 \author{Marvin Hemmer}
 
 \begin{document}
@@ -31,15 +31,21 @@
 \newpage
 
 	\section{Einleitung}
+	\section{Theorie}
 
 	\section{Experimenteller Aufbau}
+	\subsection{CERN}
+	\subsection{LHC}
+	\subsection{ALICE}
+	\subsection{elektromagnetische Kaloriemeter}
 
 	\section{Analyse}
 	\subsection{Daten}
 	\subsubsection{Datensatz}
-	\subsubsection{Trigger und Cuts}
-	\subsection{Peak Extraktion mit der Standard Methode}
-	Messungen mit dem EMCal liefern Ort und Energie von u.a. Photonenkandidaten. Mit diesen Informationen ist es m{\"o}glich neutrale Pionen zu rekonstruieren, da ein ${\it \pi^{0}}$ zu $\left( 98.823\pm0.034\right)\%$ in zwei Photonen zerf{\"a}llt. Der Zerfall findet statistisch Verteilt nach eine Durschnitssl{\"a}nge von ${\it c\tau} = 25.5$nm vom prim{\"a}ren Vertex statt, wobei dieser mit Hilfe der ITS bestimmt.
+	\subsubsection{Trigger und Auswahlkriterien}
+	\subsection{Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}	
+	\subsubsection{Rekonstruktion}
+	Messungen mit dem EMCal liefern Ort und Energie von unter anderem Photonenkandidaten. Mit diesen Informationen ist es m{\"o}glich neutrale Pionen zu rekonstruieren, da ein ${\it \pi^{0}}$ zu $\left( 98.823\pm0.034\right)\%$ in zwei Photonen zerf{\"a}llt. Der Zerfall findet statistisch Verteilt nach eine Durschnitssl{\"a}nge von ${\it c\tau} = 25.5$nm vom prim{\"a}ren Vertex statt, wobei dieser mit Hilfe der ITS bestimmt.
 	Mit dem Wissen, wo sich der prim{\"a}ren Vertex befindet, sowie der Ortsaufl{\"o}sung des EMCals kann der Zerfallswinkel zwischen zwei Photonenkandidaten, welche durch das EMCal detektiert wurden, bestimmt werden.
 	Die Energien der beiden Photonen $E_{\gamma1}$ und $E_{\gamma2}$, sowie der Zerfallswinkel sind f{\"u}r die Berechnung der invarianten Masse erforderlich. F{\"u}r diese gilt:
 	\begin{align}
@@ -53,9 +59,6 @@
 	p_{T\pi^{0}} &= \sqrt{\left(p_{x1}+p_{x2}\right)^{2} +\left(p_{y1}+p_{y2}\right)^{2}} 
 	\end{align}
 	Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen.
-	
-	
-	\subsubsection{Rekonstruktion}
 	\begin{figure}[tbp]
 		\centering
 		\begin{subfigure}{.5\textwidth}
@@ -113,7 +116,7 @@
 	Das Resultat der Skalierung ist in Abbildung \ref{figUncorrBkgNorm} zu sehen, wo zus{\"a}tzlich noch das Signal inklusiver beider Untergr{\"u}nde eingezeichnet ist, um besser erkennen zu k{\"o}nnen, wie sich der abgesch{\"a}tzte korrelierte Untergrund relativ zum gesamten Signal verh{\"a}lt.
 	Das es sich hierbei nur um eine Absch{\"a}tzung handelt kann daran ausmachen werden, dass um $m_{inv} = 0.3 (\text{GeV/}c)$ der unkorrelierte Untergrund gr{\"o}{\ss}er ist, als das Signal mit beiden Untergrundkomponenten, was bedeutet, dass nach Abzug des unkorrelierten Untergrunds das Signal mit korreliertem Untergrund dort negativ w{\"a}re, was physikalisch nicht sinnvoll ist.
 	\subsubsection{Absch{\"a}tzung des korrelierten Untergrunds}
-	\subsection{Peak Extraktion mit Templates}
+	\subsection{Peak Extraktion mit Hilfe von Parametrisierungen von Templates}
 	\subsubsection{Templates}
 	\subsubsection{Fit Methode}
 	\section{Korrigierter Yield}
