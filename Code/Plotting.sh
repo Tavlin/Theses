@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "start Iter Temp Fit"
+echo "Starte Plotting Makro fuer die Bacherlor Arbeit"
 
 
 DIR="GammaCalo-All_503_normal_and_extra" # the directery where I am currently to make things a bit more

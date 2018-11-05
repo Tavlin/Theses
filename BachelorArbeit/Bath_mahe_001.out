@@ -1,22 +1,21 @@
-\BOOKMARK [1][-]{section.0}{Einleitung}{}% 1
-\BOOKMARK [1][-]{section.1}{Theorie}{}% 2
-\BOOKMARK [1][-]{section.2}{Experimenteller Aufbau}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{CERN}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{LHC}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{ALICE}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{elektromagnetische Kaloriemeter}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Analyse}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Daten}{section.3}% 9
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Datensatz}{subsection.3.1}% 10
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Trigger und Auswahlkriterien}{subsection.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.2}{Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{section.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Rekonstruktion}{subsection.3.2}% 13
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Absch\344tzung des unkorrelierten Untergrunds}{subsection.3.2}% 14
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Absch\344tzung des korrelierten Untergrunds}{subsection.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.3}{Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{section.3}% 16
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Templates}{subsection.3.3}% 17
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Fit Methode}{subsection.3.3}% 18
-\BOOKMARK [1][-]{section.4}{Korrigierter Yield}{}% 19
-\BOOKMARK [2][-]{subsection.4.1}{Korrekturen}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.2}{Variationen}{section.4}% 21
-\BOOKMARK [1][-]{section.5}{Zusammenfassung und Aussicht}{}% 22
+\BOOKMARK [1][-]{section.1}{Theorie}{}% 1
+\BOOKMARK [1][-]{section.2}{Experimenteller Aufbau}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{CERN}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{LHC}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{ALICE}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{elektromagnetische Kaloriemeter}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Analyse}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Daten}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Datensatz}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Trigger und Auswahlkriterien}{subsection.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Rekonstruktion neutraler Pionen}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Absch\344tzung des unkorrelierten Untergrunds}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Absch\344tzung des korrelierten Untergrunds}{subsection.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Templates}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Fit Methode}{subsection.3.3}% 17
+\BOOKMARK [1][-]{section.4}{Korrigierter Yield}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Korrekturen}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Variationen}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Zusammenfassung und Aussicht}{}% 21

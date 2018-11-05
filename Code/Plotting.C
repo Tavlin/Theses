@@ -5,23 +5,23 @@ void Plotting(std::string current_path){
 
   //////////////////////////////////////////////////////////////////////////////
   // setting up the canvas to draw on. Will later be changed for the chi2 pic
-  TCanvas* c1 = new TCanvas("c1","",1200,1200*0.822785);
+  TCanvas* c1 = new TCanvas("c1","",1540,1417);
   c1->cd();
-  c1->SetTopMargin(0.05);
-  c1->SetBottomMargin(0.16);
-  c1->SetRightMargin(0.17);
-  c1->SetLeftMargin(0.18);
+  c1->SetTopMargin(0.04);
+  c1->SetBottomMargin(0.08);
+  c1->SetRightMargin(0.10);
+  c1->SetLeftMargin(0.08);
   c1->SetTicky();
   c1->SetTickx();
   c1->SetLogz(1);
 
   //////////////////////////////////////////////////////////////////////////////
   // setting up the canvas to draw on. Will later be changed for the chi2 pic
-  TCanvas* c2 = new TCanvas("c2","",2000,1600);
-  c2->SetTopMargin(0.07);
-  c2->SetBottomMargin(0.14);
+  TCanvas* c2 = new TCanvas("c2","",1540,1417);
+  c2->SetTopMargin(0.04);
+  c2->SetBottomMargin(0.08);
   c2->SetRightMargin(0.05);
-  c2->SetLeftMargin(0.14);
+  c2->SetLeftMargin(0.08);
   c2->SetTicky();
   c2->SetTickx();
   c2->SetLogz(1);
@@ -80,9 +80,9 @@ void Plotting(std::string current_path){
   hTrueDoubleCounting_Pi0 = (TH2D*)  lTrue_MC->FindObject("ESD_TrueDoubleCountPi0_InvMass_Pt");
   //////////////////////////////////////////////////////////////////////////////
 
-  SetHistoStandardSettings2(hInvMass_pT_Signal, 1.1, 1., 42./(0.6), 43);
+  SetHistoStandardSettings2(hInvMass_pT_Signal, 1.1, 1., 40, 43);
   hInvMass_pT_Signal->GetXaxis()->SetNdivisions(505);
-  SetHistoStandardSettings2(hInvMass_pT_Bkg, 1.1, 1., 42./(0.6), 43);
+  SetHistoStandardSettings2(hInvMass_pT_Bkg, 1.1, 1., 40, 43);
   hInvMass_pT_Bkg->GetXaxis()->SetNdivisions(505);
 
   TLine* lPi0_mass = new TLine(0.135, 1.4, 0.135, 12.0);
@@ -91,7 +91,7 @@ void Plotting(std::string current_path){
 
   c1->cd();
   hInvMass_pT_Signal->GetXaxis()->SetRangeUser(0.0, 0.3);
-  hInvMass_pT_Signal->GetYaxis()->SetRangeUser(0.0, 16.0);
+  hInvMass_pT_Signal->GetYaxis()->SetRangeUser(0.0, 12.0);
   hInvMass_pT_Signal->SetXTitle(minv_str);
   hInvMass_pT_Signal->SetYTitle(pt_str);
 
@@ -99,18 +99,18 @@ void Plotting(std::string current_path){
   hInvMass_pT_Signal->DrawClone("SAME colz");
   lPi0_mass->Draw("SAME");
   c1->Update();
-  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.pdf"));
+  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.png"));
   c1->Clear();
 
   hInvMass_pT_Bkg->GetXaxis()->SetRangeUser(0.0, 0.3);
-  hInvMass_pT_Bkg->GetYaxis()->SetRangeUser(0.0, 16.0);
+  hInvMass_pT_Bkg->GetYaxis()->SetRangeUser(0.0, 12.0);
   hInvMass_pT_Bkg->SetXTitle(minv_str);
   hInvMass_pT_Bkg->SetYTitle(pt_str);
 
   hInvMass_pT_Bkg->Draw("AXIS");
   hInvMass_pT_Bkg->Draw("SAME colz");
   c1->Update();
-  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.pdf"));
+  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.png"));
   c1->Clear();
 
 
@@ -169,11 +169,11 @@ void Plotting(std::string current_path){
 
   c2->cd();
   TLegend* legSignalPlusBkg = new TLegend(0.6, 0.7, 0.9, 0.9);
-  SetLegendSettigns(legSignalPlusBkg,63, 43);
+  SetLegendSettigns(legSignalPlusBkg,40, 43);
   legSignalPlusBkg->AddEntry(hSignalPlusBkg, "Signal", "lp");
   legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
   legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
-  SetHistoStandardSettings(hSignalPlusBkg, 1.2, 1.2, 84, 43);
+  SetHistoStandardSettings(hSignalPlusBkg, 1.2, 1.2, 40, 43);
   hSignalPlusBkg->SetXTitle(minv_str);
   hSignalPlusBkg->SetYTitle("counts");
   hSignalPlusBkg->SetMarkerSize(2.5);
@@ -181,9 +181,9 @@ void Plotting(std::string current_path){
   hSignalPlusBkg->DrawCopy("AXIS");
   hSignalPlusBkg->DrawCopy("SAME");
   legSignalPlusBkg->Draw("SAME");
-  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 40, 43, str);
   c2->Update();
-  c2->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.pdf"));
+  c2->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.png"));
   c2->Clear();
 
   delete legSignalPlusBkg;
@@ -194,9 +194,9 @@ void Plotting(std::string current_path){
   hUncorrBkg->Rebin(4);
   c2->cd();
   TLegend* legUncorrBkg = new TLegend(0.5, 0.3, 0.8, 0.5);
-  SetLegendSettigns(legUncorrBkg,63, 43);
+  SetLegendSettigns(legUncorrBkg,40, 43);
   legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} Rekombinationen", "lp");
-  SetHistoStandardSettings(hUncorrBkg, 1.2, 1.2, 84, 43);
+  SetHistoStandardSettings(hUncorrBkg, 1.2, 1.2, 40, 43);
   hUncorrBkg->SetMarkerColor(kBlue+2);
   hUncorrBkg->SetLineColor(kBlue+2);
   hUncorrBkg->SetXTitle(minv_str);
@@ -206,23 +206,23 @@ void Plotting(std::string current_path){
   hUncorrBkg->DrawCopy("AXIS");
   hUncorrBkg->DrawCopy("SAME");
   legUncorrBkg->Draw("SAME");
-  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 40, 43, str);
   c2->Update();
-  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkg.pdf"));
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkg.png"));
   c2->Clear();
 
   delete legUncorrBkg;
 
   // scaled uncorrelated with Signal + both Backgrunds
   c2->cd();
-  TLegend* legUncorrBkgNorm = new TLegend(0.6, 0.7, 0.9, 0.9);
-  SetLegendSettigns(legUncorrBkgNorm,63, 43);
+  TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.7, 0.85, 0.9);
+  SetLegendSettigns(legUncorrBkgNorm, 40, 43);
   legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "lp");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
   legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "skalierte #it{mixed event}", "f");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "Rekombinationen", "");
-  SetHistoStandardSettings(hUncorrBkgNorm, 1.2, 1.2, 84, 43);
+  SetHistoStandardSettings(hUncorrBkgNorm, 1.2, 1.2, 40, 43);
   hUncorrBkgNorm->SetFillColor(kBlue+2);
   hUncorrBkgNorm->SetLineWidth(2);
   hUncorrBkgNorm->SetFillStyle(3344);
@@ -235,16 +235,16 @@ void Plotting(std::string current_path){
   hSignalPlusBkg->DrawCopy("AXIS");
   hSignalPlusBkg->DrawCopy("SAME");
   hUncorrBkgNorm->Draw("HIST SAME");
-  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 63, 43, str);
+  DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 40, 43, str);
   c2->Update();
   TLine* lBkgFitRange = new TLine(0.19, gPad->GetUymax()*0.995, 0.30, gPad->GetUymax()*0.995);
   lBkgFitRange->SetLineColor(kCyan+2);
-  lBkgFitRange->SetLineWidth(4);
-  legUncorrBkgNorm->AddEntry(lBkgFitRange, "Parametrisierungs Bereich", "l");
+  lBkgFitRange->SetLineWidth(5);
+  legUncorrBkgNorm->AddEntry(lBkgFitRange, "Parametrisierungsbereich", "l");
   legUncorrBkgNorm->Draw("SAME");
   lBkgFitRange->Draw("SAME");
 
-  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.pdf"));
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.png"));
   c2->Clear();
 
   delete legUncorrBkgNorm;
