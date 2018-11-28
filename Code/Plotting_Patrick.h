@@ -1,3 +1,6 @@
+#ifndef Plotting_Patrick
+#define Plotting_Patrick
+
 #include "TH1D.h"
 #include "TLatex.h"
 #include "TObjArray.h"
@@ -26,7 +29,7 @@ Double_t minYValue = 1e20;
 Double_t fPtPlotRange = 49.9;
 
 TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray = 0,const char *controlstring="", Short_t *colorArray = 0, Short_t *markerArray = 0);
-void SetHistogramProperties(TH1D* &h, TString YTitle, Int_t ColorIndex);
+void SetHistogramProperties(TH1D* &h, TString XTitle, TString YTitle, Int_t ColorIndex);
 
 Int_t GetNiceColor(Int_t i)
 {//
@@ -66,6 +69,8 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
         hist->GetXaxis()->SetTitle("#it{p}_{T} (GeV/#it{c})");
       }else if(xTitle.Contains("mcPt")){
         hist->GetXaxis()->SetTitle("#it{p}_{T}^{MC} (GeV/#it{c})");
+      }else if (xTitle.Contains("minv")  || xTitle.Contains("m_{inv} (GeV/c^2)")) {
+        hist->GetXaxis()->SetTitle("#it{m}_{inv} (GeV/#it{c}^{2})");
       }
 
 
@@ -176,7 +181,7 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       leghh->SetFillColor(kWhite);
       leghh->SetFillStyle(0);
       leghh->SetBorderSize(0);
-      leghh->Draw("same");
+      leghh->Draw("SAME");
     }else if (arraytoplot->At(hh)->InheritsFrom("TBox")){
       cout<<"| Drawing a TBox"<<endl;
       TBox *box = (TBox*) arraytoplot->At(hh);
@@ -638,7 +643,7 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     Double_t x2 = x1+scale;
     Double_t y2 = y1+scale;
 
-      Char_t* logopath = nullptr;
+    Char_t* logopath = nullptr;
     if(control.Contains("Unified") ||control.Contains("unified") ||control.Contains("UNIFIED")){logopath = "./graphics/einhorn.pdf";}
     if(control.Contains("Work") ||control.Contains("work") ||control.Contains("WORK")){logopath = "./graphics/wrkprgs.png";}
     TImage* logo = TImage::Open(logopath);
@@ -656,14 +661,15 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
   return newCanvas;
 }
 
-void SetHistogramProperties(TH1D* &h, TString YTitle, Int_t ColorIndex)
+void SetHistogramProperties(TH1D* &h, TString XTitle, TString YTitle,
+                            Int_t ColorIndex, Double_t XMin, Double_t XMax)
 {
   if(!h) {Printf("Can't read Histogram!"); return;}
   h->SetTitle("");
-  h->SetLineWidth(2);
+  h->SetLineWidth(3);
   h->SetTitleFont(43);
   h->SetTitleSize(0);
-  h->SetXTitle("#it{p}_{T} (GeV/#it{c})");
+  h->SetXTitle(XTitle);
   h->SetYTitle(YTitle);
   h->GetXaxis()->SetTitleOffset(1.3);
   h->GetYaxis()->SetTitleOffset(1.5);
@@ -677,7 +683,7 @@ void SetHistogramProperties(TH1D* &h, TString YTitle, Int_t ColorIndex)
   h->SetLabelSize(24, "Y");
   h->SetMarkerSize(1.5);
   h->SetStats(kFALSE);
-  h->GetXaxis()->SetRangeUser(minXValue, fPtPlotRange);
+  h->GetXaxis()->SetRangeUser(XMin, XMax);
   h->SetMarkerColor(GetNiceColor(ColorIndex));
   h->SetMarkerStyle(kFullCircle);
   h->SetLineColor(GetNiceColor(ColorIndex));
@@ -697,3 +703,5 @@ void SetHistogramProperties(TH1D* &h, TString YTitle, Int_t ColorIndex)
   if(minValue<minYValue) minYValue = minValue;
   if(maxValue>maxYValue) maxYValue = maxValue;
 }
+
+#endif

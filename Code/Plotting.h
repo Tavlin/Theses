@@ -1,12 +1,29 @@
 #include "CommonHeader.h"
 
-void Plot1DHistos(std::vector<TH1D*> vTH1D, std::vector<TString> vLegEntries,
-                  std::vector<TString> vLeglORp, TString orientation,
-                  std::vector<Int_t> vColor, std::vector<Int_t> vMarker,
-                  std::vector<TString> vAxisTitles, TString RangeStr){
+Int_t GetNiceColor(Int_t i)
+{//
+  Int_t niceColors[] = {kRed+1, kGreen-3, kBlue+1, kViolet-4, kOrange-3, kBlack, kCyan-2, kGray+2, kOrange+2, kBlack, kYellow+3};
+  return niceColors[i%11];
+}
 
-  int nHistos = vTH1D.size();
-  int nLegEntries = vLegEntries.size();
+Int_t GetNiceFilledMarker(Int_t i){
+  Int_t niceMarkers[] = {20 , 21, 22, 33, 34};
+  return niceColors[i%5];
+}
+
+Int_t GetNiceEmptyMarker(Int_t i){
+  Int_t niceMarkers[] = {24 , 25, 26, 27, 28};
+  return niceColors[i%5];
+}
+
+void Plot1DHistos(TObjArray* (TH1D*) histArray, TString* LegEntries,
+                  TString* LeglORp, TString option,
+                  TString* AxisTitles, TString RangeStr,
+                  TString safePath){
+
+  int nHistos = histArray.GetEntries();
+  int nLegEntries = sizeof(LegEntries);
+  nLegEntries /= sizeof(TString);
 
   if(nLegEntries < nHistos - 1 && nHistos != 1){
 
@@ -16,10 +33,10 @@ void Plot1DHistos(std::vector<TH1D*> vTH1D, std::vector<TString> vLegEntries,
 
   TCanvas* c1 = NULL;
 
-  if(orientation.contains("horizontal") ){
+  if(option.contains("horizontal") || option.contains("HORIZONTAL") || option.contains("Horizontal")){
     c1 = new TCanvas("c1", "",1000, 1200);
   }
-  else if(orientation.contains("vertical") ){
+  else if(option.contains("vertical") || option.contains("VERTICAL") || option.contains("Vertical")){
     c1 = new TCanvas("c1", "",1200, 1000);
   }
   else{
@@ -32,50 +49,51 @@ void Plot1DHistos(std::vector<TH1D*> vTH1D, std::vector<TString> vLegEntries,
   SetLegendSettings(leg, 40, 43);
   if(nLegEntries == nHistos){
     for (int i = 0; i < nLegEntries; i++) {
-      leg->AddEntry(vTH1D, vLegEntries, vLeglORp);
+      leg->AddEntry((TH1D*) histArray[i], LegEntries[i], LeglORp);
     }
   }
   else{
-    leg->SetHeader(vLegEntries[nLegEntries-1]);
+    leg->SetHeader(LegEntries[nLegEntries-1]);
     for (int i = 0; i < nLegEntries; i++){
-      leg->AddEntry(vTH1D, vLegEntries, vLeglORp);
+      leg->AddEntry((TH1D*) histArray[i], LegEntries[i], LeglORp);
     }
   }
 
-  vTH1D[0]->SetXTitle(vAxisTitles[0]);
-  vTH1D[0]->SetYTitle(vAxisTitles[1]);
-  if(vAxisTitles.size() == 2){
-    vTH1D[0]->SetZTitle("");
+  (TH1D*) histArray[0]->SetXTitle(AxisTitles[0]);
+  (TH1D*) histArray[0]->SetYTitle(AxisTitles[1]);
+  if(AxisTitles.size() == 2){
+    (TH1D*) histArray[0]->SetZTitle("");
   }
   else{
-    vTH1D[0]->SetZTitle(vAxisTitles[2]);
+    (TH1D*) histArray[0]->SetZTitle(AxisTitles[2]);
   }
 
-  if(orientation.contains("horizontal") ){
+  if(option.contains("horizontal") || option.contains("HORIZONTAL") || option.contains("Horizontal")){
     for (int i = 0; i < nHistos; i++) {
-      SetHistoSettings(vTH1D[i], 1.2, 1., 40, 43, (Int_t) vColor[i], vMarker[i], 3);
+      SetHistoSettings((TH1D*) histArray[i], 1.2, 1., 40, 43, (Int_t) GetNiceColor(i), GetNiceFilledMarker(i), 3);
     }
   }
-  else if(orientation.contains("vertical") ){
+  else if(option.contains("vertical") || option.contains("VERTICAL") || option.contains("Vertical")){
     for (int i = 0; i < nHistos; i++) {
-      SetHistoSettings(vTH1D[i], 1.2, 1., 40, 43, (Int_t) vColor[i], vMarker[i], 3);
+      SetHistoSettings((TH1D*) histArray[i], 1.2, 1., 40, 43, (Int_t) GetNiceColor(i), GetNiceFilledMarker(i), 3);
     }
   }
   else{
     for (int i = 0; i < nHistos; i++) {
-      SetHistoSettings(vTH1D[i], 1.2, 1., 40, 43, (Int_t) vColor[i], vMarker[i], 3);
+      SetHistoSettings((TH1D*) histArray[i], 1.2, 1., 40, 43, (Int_t) GetNiceColor(i), GetNiceFilledMarker(i), 3);
     }
   }
 
-  vTH1D[i]->Draw("AXIS");
+  (TH1D*) histArray[i]->Draw("AXIS");
   for (int i = 0; i < nHistos; i++) {
-    vTH1D[i]->DrawCopy("SAME" + vLeglORp);
+    (TH1D*) histArray[i]->DrawCopy("SAME" + LeglORp);
   }
   leg->Draw("SAME");
   DrawLabelALICE(0.6, 0.9, 0.02, 40, RangeStr);
 
   c1->Update();
   c1->SaveAs("Bild.png");
+  // c1->SaveAs(safePath + ".png");
   c1->Clear();
 
   delete leg;

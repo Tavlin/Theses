@@ -1,3 +1,4 @@
+#include "Plotting_Patrick.h"
 #include "CommonHeader.h"
 
 // Start of the Main
@@ -56,7 +57,7 @@ void Plotting(std::string current_path){
   TH1D*  hTrueMesonInvMassMC      = NULL;
   TH1D*  hSignalPlusBkg           = NULL;
   TH1D*  hCorrBckMC               = NULL;
-  TH1D*  hUncorrBkgNorm               = NULL;
+  TH1D*  hUncorrBkgNorm           = NULL;
 
   TFile* ESDFile_MC       = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/Daten/" + current_path + ".root");
   if (ESDFile_MC->IsOpen() ) printf("ESDFile_MC opened successfully\n");
@@ -94,6 +95,7 @@ void Plotting(std::string current_path){
   hInvMass_pT_Signal->GetYaxis()->SetRangeUser(0.0, 12.0);
   hInvMass_pT_Signal->SetXTitle(minv_str);
   hInvMass_pT_Signal->SetYTitle(pt_str);
+
 
   hInvMass_pT_Signal->Draw("AXIS");
   hInvMass_pT_Signal->DrawClone("SAME colz");
@@ -213,6 +215,17 @@ void Plotting(std::string current_path){
 
   delete legUncorrBkg;
 
+  TObjArray* histArray = new TObjArray(2);
+  histArray->Add(hSignalPlusBkg);
+  histArray->Add(hUncorrBkgNorm);
+
+  TObjArray* ratioArray = NULL;
+
+  const char* controlstring = "ThickHorizontal";
+  Short_t* colorArray = NULL;
+  Short_t* markerArray = NULL;
+  TCanvas* cPatrick = makeCanvas(histArray, ratioArray,controlstring, colorArray, markerArray);
+  cPatrick->SaveAs("../BachelorArbeit/Patrick.png");
   // scaled uncorrelated with Signal + both Backgrunds
   c2->cd();
   TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.7, 0.85, 0.9);
