@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.8.17)  22 OCT 2018 12:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  5 DEC 2018 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Bath_mahe_001.tex
 (./Bath_mahe_001.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, uk
+rainian, russian, bulgarian, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -691,78 +691,78 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `Bath_mahe_001.toc'.
 
  [2]
-<hInvMass_pT_Signal.pdf, id=127, 569.12625pt x 456.70625pt>
+<hInvMass_pT_Signal.pdf, id=127, 569.12625pt x 514.92375pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Signal.pdf>
-Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 70.
-(pdftex.def)             Requested size: 195.96773pt x 157.25719pt.
+Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 65.
+(pdftex.def)             Requested size: 195.96773pt x 177.30316pt.
 
-<hInvMass_pT_Bkg.pdf, id=128, 569.12625pt x 456.70625pt>
+<hInvMass_pT_Bkg.pdf, id=128, 569.12625pt x 514.92375pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Bkg.pdf>
-Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 76.
-(pdftex.def)             Requested size: 195.96773pt x 157.25719pt.
+Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 71.
+(pdftex.def)             Requested size: 195.96773pt x 177.30316pt.
  [3]
-<hSignalPlusBkg.pdf, id=150, 569.12625pt x 447.6725pt>
+<hSignalPlusBkg.pdf, id=150, 569.12625pt x 514.92375pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 
 <use hSignalPlusBkg.pdf>
-Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 88.
-(pdftex.def)             Requested size: 288.79422pt x 227.17601pt.
+Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 81.
+(pdftex.def)             Requested size: 288.79422pt x 261.30336pt.
 
-Overfull \hbox (22.70613pt too wide) in paragraph at lines 93--94
+Overfull \hbox (22.70613pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10.95 Um $\OML/cmm/m/it/10.95 ^^Y[]$\OT1/cmr/m/n/10.95 s in einz
 el-nen $\OML/cmm/m/it/10.95 p[]$\OT1/cmr/m/n/10.95 -Intervallen z[]ahlen zu k[]
 onnen wird die Verteilung in entsprechende
  []
 
 
-Overfull \hbox (6.67683pt too wide) in paragraph at lines 93--94
+Overfull \hbox (6.67683pt too wide) in paragraph at lines 86--87
 \OT1/cmr/m/n/10.95 Ab-st[]anden auf die Y-Achse pro-jiziert. Die In-ter-valle w
 er-den so gew[]ahlt, dass sie m[]oglichst
  []
 
-<hUncorrBkg.pdf, id=154, 569.12625pt x 447.6725pt>
+<hUncorrBkg.pdf, id=154, 569.12625pt x 514.92375pt>
 File: hUncorrBkg.pdf Graphic file (type pdf)
  <use hUncorrBkg.pdf>
-Package pdftex.def Info: hUncorrBkg.pdf used on input line 100.
-(pdftex.def)             Requested size: 288.79422pt x 227.17601pt.
+Package pdftex.def Info: hUncorrBkg.pdf used on input line 93.
+(pdftex.def)             Requested size: 288.79422pt x 261.30336pt.
 
 [4 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees> <./hInvMass_pT_Bkg.pd
 f, page is rotated 90 degrees>] [5 <./hSignalPlusBkg.pdf, page is rotated 90 de
 grees> <./hUncorrBkg.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-<hUncorrBkgNorm.pdf, id=341, 569.12625pt x 447.6725pt>
+<hUncorrBkgNorm.pdf, id=341, 569.12625pt x 514.92375pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 
 <use hUncorrBkgNorm.pdf>
-Package pdftex.def Info: hUncorrBkgNorm.pdf used on input line 116.
-(pdftex.def)             Requested size: 288.79422pt x 227.17601pt.
+Package pdftex.def Info: hUncorrBkgNorm.pdf used on input line 109.
+(pdftex.def)             Requested size: 288.79422pt x 261.30336pt.
  
 AED: lastpage setting LastPage
 [6 <./hUncorrBkgNorm.pdf, page is rotated 90 degrees>] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (./Bath_mahe_001.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
-(rerunfilecheck)             Checksum: A79C358310DA06FC20EDDB6DC18BDCDB;1494.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+(rerunfilecheck)             Checksum: 6092DFF811DD18DBE6D92C1DE5396907;1501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 8301 strings out of 495063
- 121882 string characters out of 3182201
- 218697 words of memory out of 3000000
- 11315 multiletter control sequences out of 15000+200000
+ 8301 strings out of 494820
+ 121882 string characters out of 3178049
+ 218608 words of memory out of 3000000
+ 11322 multiletter control sequences out of 15000+200000
  14407 words of font info for 54 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 42i,12n,43p,1033b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 198 hyphenation exceptions out of 8191
+ 42i,12n,43p,1011b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -778,7 +778,7 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Bath_mahe_001.pdf (7 pages, 507916 bytes).
+Output written on Bath_mahe_001.pdf (7 pages, 483830 bytes).
 PDF statistics:
  469 PDF objects out of 1000 (max. 8388607)
  306 compressed objects within 4 object streams

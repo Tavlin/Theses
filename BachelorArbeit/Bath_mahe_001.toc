@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {3}Analyse}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Daten}{3}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{3}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Trigger und Auswahlkriterien}{3}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Trigger und Clusterauswahlkriterien}{3}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{3}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Rekonstruktion neutraler Pionen}{3}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{4}{subsubsection.3.2.2}

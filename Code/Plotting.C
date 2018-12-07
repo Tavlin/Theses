@@ -101,7 +101,7 @@ void Plotting(std::string current_path){
   hInvMass_pT_Signal->DrawClone("SAME colz");
   lPi0_mass->Draw("SAME");
   c1->Update();
-  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.png"));
+  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.pdf"));
   c1->Clear();
 
   hInvMass_pT_Bkg->GetXaxis()->SetRangeUser(0.0, 0.3);
@@ -112,7 +112,7 @@ void Plotting(std::string current_path){
   hInvMass_pT_Bkg->Draw("AXIS");
   hInvMass_pT_Bkg->Draw("SAME colz");
   c1->Update();
-  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.png"));
+  c1->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.pdf"));
   c1->Clear();
 
 
@@ -185,7 +185,7 @@ void Plotting(std::string current_path){
   legSignalPlusBkg->Draw("SAME");
   DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 40, 43, str);
   c2->Update();
-  c2->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.png"));
+  c2->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.pdf"));
   c2->Clear();
 
   delete legSignalPlusBkg;
@@ -210,7 +210,7 @@ void Plotting(std::string current_path){
   legUncorrBkg->Draw("SAME");
   DrawLabelALICEwoTemp(0.18, 0.85, 0.03, 40, 43, str);
   c2->Update();
-  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkg.png"));
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkg.pdf"));
   c2->Clear();
 
   delete legUncorrBkg;
@@ -225,7 +225,7 @@ void Plotting(std::string current_path){
   Short_t* colorArray = NULL;
   Short_t* markerArray = NULL;
   TCanvas* cPatrick = makeCanvas(histArray, ratioArray,controlstring, colorArray, markerArray);
-  cPatrick->SaveAs("../BachelorArbeit/Patrick.png");
+  cPatrick->SaveAs("../BachelorArbeit/Patrick.pdf");
   // scaled uncorrelated with Signal + both Backgrunds
   c2->cd();
   TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.7, 0.85, 0.9);
@@ -257,7 +257,7 @@ void Plotting(std::string current_path){
   legUncorrBkgNorm->Draw("SAME");
   lBkgFitRange->Draw("SAME");
 
-  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.png"));
+  c2->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.pdf"));
   c2->Clear();
 
   delete legUncorrBkgNorm;
