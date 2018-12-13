@@ -1,0 +1,37 @@
+Messungen mit dem EMCal liefern Information {\"u}ber Ort und Energie von unter anderem Photonenkandidaten. Mit diesen Informationen k{\"o}nnen ${\it \pi^{0}}$ rekonstruiert werden, da ein ${\it \pi^{0}}$ zu $\left( 98,823\pm0,034\right)\%$ [QUELLE PDG] in zwei Photonen zerf{\"a}llt. Ein ${\it \pi^{0}}$ zerf{\"a}llt nach einer mittleren Wegl{\"a}nge von ${\it c\tau} = 25,5$nm vom prim{\"a}ren Vertex. Der prim{\"a}re Vertex wird mit Hilfe des ITS bestimmt. \\
+Mit dem Wissen, wo sich der prim{\"a}ren Vertex befindet, sowie der Ortsmessung des EMCals, kann der Zerfallswinkel $\theta_{\gamma\gamma}$ zwischen zwei Photonenkandidaten, die mit dem EMCal detektiert wurden, bestimmt werden. \\ 
+Um die invariante Masse $m_{\text{inv}}$ zu berechnen, sind die Energien $E_{\gamma1}$ und $E_{\gamma2}$ der beiden Photonenkandidaten, sowie der Zerfallswinkel $\theta_{\gamma\gamma}$ erforderlich. \\
+Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen. Die Indizes x und y beziehen sich auf die Raumrichtungen. F{\"u}r diese gilt:
+\begin{align}
+m_{\text{inv}} &= \sqrt{2E_{\gamma\it{1}}E_{\gamma\it{2}}(1-\cos\left( \theta_{\gamma\gamma}\right) )} \label{eq_invmass}
+\end{align}
+Au{\ss}erdem kann die Aufteilung des Impulses der Photonenkandidaten bestimmt werden, die wiederum notwendig ist, um den Transversalimpuls $p_{T}$ des $\pi^{0}$ zu Berechnen. Es gilt:
+\begin{align}
+p_{T\pi^{0}} &= \sqrt{\left(p_{x1}+p_{x2}\right)^{2} +\left(p_{y1}+p_{y2}\right)^{2}} \label{eq_pt}
+\end{align}
+\begin{figure}[tbp] \label{figInvMassPt}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{hInvMass_pT_Signal.pdf}
+		\caption{}
+		\label{figInvMassPt_a}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.95\linewidth]{hInvMass_pT_Bkg.pdf}
+		\caption{}
+		\label{figInvMassPt_b}
+	\end{subfigure}
+	\caption{\newline{\bf (a)}: $p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus der gleichen Kollision. Die schwarze Linie liegt bei $m_{\text{inv}}=0,135\text{ GeV/}c^{2}$, was der $\pi^{0}$ Masse entspricht, wo eine deutliche Peakstruktur zu Erkennen ist.\newline{\bf (b)}: $p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus unterschiedlichen Kollision.}
+\end{figure}
+Aus dem in Abschnitt \ref{s3s1s1} erw{\"a}hnten Datensatz werden alle m{\"o}glichen Kombinationen von zwei Photonenkandidaten aus der gleichen Kollision benutzt, um $m_{\text{inv}}$ nach Gleichung \ref{eq_invmass} zu berechnen. Diese Methode wird auch als {\it same event} bezeichnet. Au{\ss}erdem wird $p_{T,\pi^{0}}$ nach Gleichung \ref{eq_pt} berechnet um aus den $m_{\text{inv}}$ und $p_{T,\pi^{0}}$ Wertepaaren eine invariante Massenverteilung zu erhalten. In Abbildung \ref{figInvMassPt_a}) ist die invariante Massenverteilung des Datensatzes zu sehen. In dieser Verteilung sticht eine h{\"a}ufung der Datenpunkte bei $m_{\text{inv}}\approx 0,135\text{GeV/}c^{2}$ heraus. Abbildung \ref{figInvMassPt_b} zeigt die invariante Massenverteilung bei der Photonenkandidaten aus unterschiedlichen Kollisionen miteinander kombiniert werden. Diese Methode wird als {\it mixed event} bezeichnet. Auf die Verteilung wird in Kapitel \ref{s3s3} genauer eingegangen.
+
+	\begin{figure}[tbp]
+		\centering
+		\includegraphics[width=.7\linewidth]{hSignalPlusBkg.pdf}
+		\caption{Projektion von Abbildung \ref{figInvMassPt_a} im $p_{\text{T}}$-Intervall (3.2 - 3.4) $(\text{GeV/}c)$. Es ist ein deutlicher Peak um $m_{\pi^{0}} \approx 0,135\text{GeV/}c^{2}$ zu erkennen, aber auch Untergrund, da das Signal zu h{\"o}heren Massen gau{\ss}f{\"o}rmig abklingen sollte. Bei $m_{\text{inv}} < m_{\pi^{0}}$ kann Signal vorliegen, das aus konvertierten Photonen besteht, weshalb eine Aussage {\"u}ber die Form, bzw. den Untergrund dort schwer m{\"o}glich ist.}
+		\label{figSignalPlusBkg}
+	\end{figure}
+
+	Um $\pi^{0}$s in einzelnen $p_{T}$-Intervallen z{\"a}hlen zu k{\"o}nnen wird die Verteilung in entsprechende Abst{\"a}nden auf die Y-Achse projiziert. Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden. Man erh{\"a}lt Verteilungen der invarianten Masse, die aus Signal, sowie korreliertem und unkorreliertem Untergrund bestehen (vgl. Abbildung \ref{figSignalPlusBkg}). Dennoch ist ein deutlicher Peak im Bereich der Pionenmasse von ca. 135MeV/$c^{2}$ zu erkennen. Um das Signal zu extrahieren werden im Folgende die beiden Komponenten des Untergrunds pr{\"a}sumiert.
