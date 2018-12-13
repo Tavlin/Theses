@@ -1,22 +1,25 @@
-\select@language {german}
-\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
-\contentsline {section}{\numberline {2}Experimenteller Aufbau}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}CERN}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}LHC}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}ALICE}{3}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}elektromagnetische Kaloriemeter}{3}{subsection.2.4}
-\contentsline {section}{\numberline {3}Analyse}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Daten}{3}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{3}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Trigger und Clusterauswahlkriterien}{3}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{3}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Rekonstruktion neutraler Pionen}{3}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{4}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Absch{\"a}tzung des korrelierten Untergrunds}{7}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{7}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Templates}{7}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Fit Methode}{7}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Korrekturen}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Variationen}{7}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Aussicht}{7}{section.5}
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Das Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Messung neutraler Mesonen}{5}{subsection.1.3}
+\contentsline {section}{\numberline {2}Experimenteller Aufbau}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}CERN}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}LHC}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}ALICE}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Das elektromagnetische Kaloriemeter}{5}{subsection.2.4}
+\contentsline {section}{\numberline {3}Analyse}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Daten}{5}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{5}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Trigger und Clusterauswahlkriterien}{5}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Rekonstruktion neutraler Pionen}{5}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Absch{\"a}tzung des unkorrelierten Untergrunds}{7}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Absch{\"a}tzung des korrelierten Untergrunds}{8}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{8}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Templates}{8}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Fit Methode}{8}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Variationen}{8}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Aussicht}{8}{section.5}
