@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  13 DEC 2018 17:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  14 DEC 2018 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,17 +695,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<IKF-Logokl.jpg, id=100, 163.61125pt x 68.255pt>
-File: IKF-Logokl.jpg Graphic file (type jpg)
- <use IKF-Logokl.jpg>
-Package pdftex.def Info: IKF-Logokl.jpg used on input line 18.
-(pdftex.def)             Requested size: 187.78532pt x 78.34056pt.
-) [1
+)) [1
 
-{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IKF-Logokl.jpg
->]
-(./Bath_mahe_001.toc)
+{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Bath_mahe_001
+.toc)
 \tf@toc=\write4
 \openout4 = `Bath_mahe_001.toc'.
 
@@ -721,81 +714,80 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.45 \newpage
-              [1] (./s1s1.tex [2]) (./s1s2.tex [3]) (./s3s2.tex
+              [1] (./s1s1.tex [2]) (./s1s2.tex [3]) [4] (./s3s2.tex
 Overfull \hbox (32.93153pt too wide) in paragraph at lines 1--5
 \OT1/cmr/m/n/10.95 nenkan-di-dat-en. Mit diesen In-for-ma-tio-nen k[]onnen $[]$
  rekon-stru-iert wer-den, da ein $[]$ zu $[] %$
  []
 
-[4]
+
 Overfull \hbox (6.46092pt too wide) in paragraph at lines 7--9
 \OT1/cmr/m/n/10.95 Au^^Yerdem kann die Aufteilung des Im-puls-es der Pho-to-nen
 kan-di-dat-en bes-timmt wer-den, die wiederum
  []
 
-<hInvMass_pT_Signal.pdf, id=164, 569.12625pt x 514.92375pt>
+[5] <hInvMass_pT_Signal.pdf, id=177, 569.12625pt x 514.92375pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Signal.pdf>
 Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 16.
 (pdftex.def)             Requested size: 222.99776pt x 201.7623pt.
 
-<hInvMass_pT_Bkg.pdf, id=165, 569.12625pt x 514.92375pt>
+<hInvMass_pT_Bkg.pdf, id=178, 569.12625pt x 514.92375pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Bkg.pdf>
 Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 22.
 (pdftex.def)             Requested size: 222.99776pt x 201.7623pt.
- [5]
-<hSignalPlusBkg.pdf, id=182, 569.12625pt x 514.92375pt>
+
+<hSignalPlusBkg.pdf, id=185, 569.12625pt x 514.92375pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 
 <use hSignalPlusBkg.pdf>
 Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 32.
 (pdftex.def)             Requested size: 328.62791pt x 297.34384pt.
-) (./s3s3.tex
-<hUncorrBkg.pdf, id=186, 569.12625pt x 514.92375pt>
+) [6 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees> <./hInvMass_pT_Bkg.
+pdf, page is rotated 90 degrees>] [7 <./hSignalPlusBkg.pdf, page is rotated 90 
+degrees>] (./s3s3.tex
+<hUncorrBkg.pdf, id=331, 569.12625pt x 514.92375pt>
 File: hUncorrBkg.pdf Graphic file (type pdf)
  <use hUncorrBkg.pdf>
 Package pdftex.def Info: hUncorrBkg.pdf used on input line 3.
 (pdftex.def)             Requested size: 328.62791pt x 297.34384pt.
 
-[6 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees> <./hInvMass_pT_Bkg.pd
-f, page is rotated 90 degrees>] [7 <./hSignalPlusBkg.pdf, page is rotated 90 de
-grees>]
 Overfull \hbox (1.1075pt too wide) in paragraph at lines 8--9
 \OT1/cmr/m/n/10.95 aus nicht ko-r-re-liert Paaren, da die bei-den Pho-to-nenkan
 -di-dat-en nicht zusam-menh[]angen []uber beispiel-
  []
 
-<hUncorrBkgNorm.pdf, id=330, 569.12625pt x 514.92375pt>
+[8 <./hUncorrBkg.pdf, page is rotated 90 degrees>]
+<hUncorrBkgNorm.pdf, id=384, 569.12625pt x 514.92375pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 
 <use hUncorrBkgNorm.pdf>
 Package pdftex.def Info: hUncorrBkgNorm.pdf used on input line 18.
 (pdftex.def)             Requested size: 328.62791pt x 297.34384pt.
-) [8 <./hUncorrBkg.pdf, page is rotated 90 degrees>]
-
+) 
 AED: lastpage setting LastPage
 [9 <./hUncorrBkgNorm.pdf, page is rotated 90 degrees>] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
 
 (./Bath_mahe_001.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
-(rerunfilecheck)             Checksum: 89C9A9D9C24285B025C765AE66A5098C;1915.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+(rerunfilecheck)             Checksum: F10847A4F2BA641BF7396493032A4F2B;1998.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 8411 strings out of 494820
- 123225 string characters out of 3178049
- 220212 words of memory out of 3000000
- 11382 multiletter control sequences out of 15000+200000
+ 8387 strings out of 494820
+ 122954 string characters out of 3178049
+ 220323 words of memory out of 3000000
+ 11380 multiletter control sequences out of 15000+200000
  15806 words of font info for 59 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
- 42i,15n,43p,1014b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,43p,1040b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -810,10 +802,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Bath_mahe_001.pdf (11 pages, 1079601 bytes).
+Output written on Bath_mahe_001.pdf (11 pages, 492330 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 47 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
