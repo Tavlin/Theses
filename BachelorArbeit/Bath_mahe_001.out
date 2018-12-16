@@ -1,25 +1,24 @@
 \BOOKMARK [1][-]{section.1}{Theoretische Grundlagen}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Standardmodell der Elementarteilchenphysik}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Starke Wechselwirkung und das Quark-Gluon-Plasma}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Elektromagentische Wechselwirkung}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{Experimenteller Aufbau}{}% 6
-\BOOKMARK [2][-]{subsection.2.1}{ALICE}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.2}{elektromagnetische Kaloriemeter EMCal}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Analyse}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{Datenauswahl}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Datensatz}{subsection.3.1}% 11
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Clusterauswahlkriterien}{subsection.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.2}{Rekonstruktion neutraler Pionen}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.3}{Absch\344tzung des unkorrelierten Untergrunds}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.4}{Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Absch\344tzung des korrelierten Untergrunds}{subsection.3.4}% 16
-\BOOKMARK [2][-]{subsection.3.5}{Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{section.3}% 17
-\BOOKMARK [3][-]{subsubsection.3.5.1}{Template des Signals}{subsection.3.5}% 18
-\BOOKMARK [3][-]{subsubsection.3.5.2}{Template des korrelierten Untergrunds}{subsection.3.5}% 19
-\BOOKMARK [3][-]{subsubsection.3.5.3}{Parametriesierungsmethode}{subsection.3.5}% 20
-\BOOKMARK [3][-]{subsubsection.3.5.4}{Abzug des korrelierten Untergrunds und Integration des Signals}{subsection.3.5}% 21
-\BOOKMARK [1][-]{section.4}{Korrigierter Yield}{}% 22
-\BOOKMARK [2][-]{subsection.4.1}{Korrekturen}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.2}{Systematische Unsicherheit}{section.4}% 24
-\BOOKMARK [1][-]{section.5}{Zusammenfassung und Ausblick}{}% 25
+\BOOKMARK [2][-]{subsection.1.3}{Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Experimenteller Aufbau}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{ALICE}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{elektromagnetische Kaloriemeter EMCal}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Analyse}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Datenauswahl}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Datensatz}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Clusterauswahlkriterien}{subsection.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Rekonstruktion neutraler Pionen}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Absch\344tzung des unkorrelierten Untergrunds}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Absch\344tzung des korrelierten Untergrunds}{subsection.3.4}% 15
+\BOOKMARK [2][-]{subsection.3.5}{Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Template des Signals}{subsection.3.5}% 17
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Template des korrelierten Untergrunds}{subsection.3.5}% 18
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Parametriesierungsmethode}{subsection.3.5}% 19
+\BOOKMARK [3][-]{subsubsection.3.5.4}{Abzug des korrelierten Untergrunds und Integration des Signals}{subsection.3.5}% 20
+\BOOKMARK [1][-]{section.4}{Korrigierter Yield}{}% 21
+\BOOKMARK [2][-]{subsection.4.1}{Korrekturen}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.2}{Systematische Unsicherheit}{section.4}% 23
+\BOOKMARK [1][-]{section.5}{Zusammenfassung und Ausblick}{}% 24
