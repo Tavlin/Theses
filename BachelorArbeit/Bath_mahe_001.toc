@@ -6,20 +6,20 @@
 \contentsline {section}{\numberline {2}Experimenteller Aufbau}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}ALICE}{7}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}elektromagnetische Kaloriemeter EMCal}{7}{subsection.2.2}
-\contentsline {section}{\numberline {3}Analyse}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}Datenauswahl}{8}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{8}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Clusterauswahlkriterien}{8}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Rekonstruktion neutraler Pionen}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{8}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Absch{\"a}tzung des korrelierten Untergrunds}{8}{subsubsection.3.4.1}
-\contentsline {subsection}{\numberline {3.5}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{8}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{8}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{8}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{8}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{8}{subsubsection.3.5.4}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}Korrekturen}{8}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{8}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{8}{section.5}
+\contentsline {section}{\numberline {3}Analyse}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Datenauswahl}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{11}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Clusterauswahlkriterien}{11}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Rekonstruktion neutraler Pionen}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{11}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Absch{\"a}tzung des korrelierten Untergrunds}{11}{subsubsection.3.4.1}
+\contentsline {subsection}{\numberline {3.5}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{11}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{11}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{11}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{11}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{11}{subsubsection.3.5.4}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{11}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{11}{section.5}

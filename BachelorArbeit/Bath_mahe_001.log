@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  2 JAN 2019 14:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  3 JAN 2019 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,24 +734,35 @@ Overfull \hbox (6.12936pt too wide) in paragraph at lines 35--46
 File: QGPPhaseDiagram.png Graphic file (type png)
 
 <use QGPPhaseDiagram.png>
-Package pdftex.def Info: QGPPhaseDiagram.png used on input line 5.
+Package pdftex.def Info: QGPPhaseDiagram.png used on input line 4.
 (pdftex.def)             Requested size: 328.62791pt x 200.30916pt.
 
-Overfull \hbox (12.09392pt too wide) in paragraph at lines 1--18
-\OT1/cmr/m/n/10.95 Phasendi-a-gramm stark wech-sel-wirk-ender Ma-terie eine wic
-htige Rolle. \Wie sieht der Phasenu[]ubergang
+Overfull \hbox (4.6723pt too wide) in paragraph at lines 1--14
+\OT1/cmr/m/n/10.95 spielt das Phasendi-a-gramm stark wech-sel-wirk-ender Ma-ter
+ie eine wichtige Rolle. Abbildung []1[] skizziert
  []
 
+[6 <./QGPPhaseDiagram.png>])
+Overfull \hbox (13.02786pt too wide) in paragraph at lines 25--62
+[]\OT1/cmr/m/n/10.95 Um die ben[]otigten Scher-punk-t-sen-ergieen er-re-ichen z
+u k[]onnen, m[]ussen die Teilchen beziehungsweise
+ []
+
+(./s2s1.tex <ALICE.jpg, id=180, 767.0256pt x 521.3076pt>
+File: ALICE.jpg Graphic file (type jpg)
+ <use ALICE.jpg>
+Package pdftex.def Info: ALICE.jpg used on input line 5.
+(pdftex.def)             Requested size: 422.52058pt x 287.17346pt.
 )
-Overfull \hbox (2.86743pt too wide) in paragraph at lines 19--62
-[]\OT1/cmr/m/n/10.95 Bevor hoch-en-er-getis-che Kerne oder Teilchen zum Kol-li-
-dieren ge-bracht wer-den m^^?ssen die zun[]achst
- []
-
-[6 <./QGPPhaseDiagram.png>] (./s2s1.tex) (./s2s2.tex)
-
+(./s2s2.tex [7] [8 <./ALICE.jpg>]
+<m02&m20.png, id=190, 336.25626pt x 211.79124pt>
+File: m02&m20.png Graphic file (type png)
+ <use m02&m20.png>
+Package pdftex.def Info: m02&m20.png used on input line 30.
+(pdftex.def)             Requested size: 164.31754pt x 103.49422pt.
+ [9 <./m02&m20.png>]) 
 AED: lastpage setting LastPage
-[7] [8]
+[10] [11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./Bath_mahe_001.aux)
@@ -769,29 +780,30 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 8349 strings out of 494820
- 122143 string characters out of 3178049
- 218044 words of memory out of 3000000
- 11345 multiletter control sequences out of 15000+200000
+ 8370 strings out of 494820
+ 122391 string characters out of 3178049
+ 218629 words of memory out of 3000000
+ 11356 multiletter control sequences out of 15000+200000
  15806 words of font info for 59 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
- 42i,15n,43p,445b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,43p,445b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Bath_mahe_001.pdf (9 pages, 294004 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Bath_mahe_001.pdf (12 pages, 2845373 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
