@@ -1,0 +1,33 @@
+\begin{thebibliography}{}
+
+\bibitem[Alme et~al., 2010]{PAPER:2}
+Alme, J. et~al. (2010).
+\newblock The alice tpc, a large 3-dimensional tracking device with fast
+  readout for ultra-high multiplicity events.
+\newblock \url{https://arxiv.org/abs/1001.1950}.
+\newblock Letzter Zugriff am 05.01.2019.
+
+\bibitem[Critelli, 2016]{PAPER:1}
+Critelli, R. (2016).
+\newblock Strongly coupled non-abelian plasmas in a magnetic field.
+\newblock \url{https://arxiv.org/abs/1609.03104}.
+\newblock Letzter Zugriff am 30.12.2018.
+
+\bibitem[Fritzsch, 2012]{article:1}
+Fritzsch, H. (2012).
+\newblock The history of qcd.
+\newblock {\em CERN COURIER}.
+
+\bibitem[Tanabashi et~al., 2018]{webpage:pdg}
+Tanabashi, M. et~al. (2018).
+\newblock Mesons summary tables.
+\newblock \url{http://pdg.lbl.gov/2018/tables/contents_tables_mesons.html}.
+\newblock Letzter Zugriff am 06.01.2019.
+
+\bibitem[Wikipedia, 2018]{WEBSITE:1}
+Wikipedia (2018).
+\newblock Alice experiment.
+\newblock \url{https://en.wikipedia.org/wiki/ALICE_experiment}.
+\newblock Letzter Zugriff am 02.01.2019.
+
+\end{thebibliography}

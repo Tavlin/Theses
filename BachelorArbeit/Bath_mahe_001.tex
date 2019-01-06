@@ -15,8 +15,7 @@
 \usepackage{amssymb}
 \usepackage{hyperref}
 %\usepackage{physics}
-\usepackage[doublespacing]{setspace} %fuer Korrektur
-
+\usepackage[doublespacing]{setspace} %fuer Korrektur doublespacing
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -61,8 +60,10 @@
 \input{s2.tex}
 \subsection{ALICE} \label{s2s1}
 \input{s2s1.tex}
-\subsection{elektromagnetische Kaloriemeter EMCal} \label{s2s2}
+\subsection{Elektromagnetische Kaloriemeter EMCal} \label{s2s2}
 \input{s2s2.tex}
+\subsubsection{Messung neutraler Pionen mit Hilfe des EMCal}
+\input{s2s2s1.tex}
 
 \section{Analyse} \label{s3}
 
@@ -99,5 +100,8 @@
 
 \section{Zusammenfassung und Ausblick} \label{s5}
 
+\newpage
+\bibliography{bib_bath_mahe} 
+\bibliographystyle{Apalike}
 
 \end{document}
