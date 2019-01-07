@@ -1,6 +1,8 @@
 #ifndef Plotting_Patrick
 #define Plotting_Patrick
 
+#include "CommonHeader.h"
+
 #include "TH1D.h"
 #include "TLatex.h"
 #include "TObjArray.h"
@@ -30,6 +32,8 @@ Double_t fPtPlotRange = 49.9;
 
 TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray = 0,const char *controlstring="", Short_t *colorArray = 0, Short_t *markerArray = 0);
 void SetHistogramProperties(TH1D* &h, TString XTitle, TString YTitle, Int_t ColorIndex);
+
+void SetRatioRange(TObjArray *ratioArray = 0);
 
 Int_t GetNiceColor(Int_t i)
 {//
@@ -75,7 +79,7 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
 
 
 
-      // hist->SetMarkerStyle(markerArray[hh]);
+      hist->SetMarkerStyle(markerArray[hh]);
       // hist->SetMarkerColor(colorArray[hh]);
       // hist->SetLineColor(colorArray[hh]);
 
@@ -106,10 +110,43 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
         hist->SetLineWidth(0);
       }
       if(control.Contains("Lines")||control.Contains("lines")){
+        cout<<"|         - Lines With errors"<<endl;
+        if(markerArray){ hist->SetLineStyle(1);}
+        if(hh==0) {
+          hist->SetMarkerStyle(1);
+          hist->SetMarkerSize(1);
+          hist->DrawCopy("AXIS");
+          // hist->DrawCopy("SAME EP");
+          hist->DrawCopy("SAME HIST");
+          hist->SetMarkerSize(1.5);
+          hist->SetMarkerStyle(20);
+        }
+        else{
+          hist->SetMarkerStyle(1);
+          hist->SetMarkerSize(1);
+          // hist->DrawCopy("SAME EP");
+          hist->DrawCopy("SAME HIST");
+          hist->SetMarkerStyle(20);
+          hist->SetMarkerSize(1.5);
+        }
+      }else if(control.Contains("Hist")||control.Contains("hist")){
         cout<<"|         - Lines No errors"<<endl;
-        if(markerArray){ hist->SetLineStyle(markerArray[hh]);}
-        if(hh==0) { hist->Draw("hist");}
-        else{hist->Draw("Same hist"); }
+        if(markerArray){ hist->SetLineStyle(1);}
+        if(hh==0) {
+          hist->SetMarkerStyle(1);
+          hist->SetMarkerSize(1);
+          hist->DrawCopy("EP");
+          hist->SetMarkerSize(1.5);
+          hist->SetMarkerStyle(20);
+        }
+        else{
+          hist->SetMarkerStyle(1);
+          hist->SetMarkerSize(1);
+          hist->DrawCopy("SAME HIST");
+          hist->DrawCopy("SAME EP");
+          hist->SetMarkerStyle(20);
+          hist->SetMarkerSize(1.5);
+        }
       }else if(markerArray[hh]==999){
         hist->SetFillColor(kGray);
         hist->SetMarkerSize(0);
@@ -137,7 +174,7 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       hist2->SetTitle("");
 
       hist2->SetAxisRange(xMin,xMax,"X");
-      hist2->SetAxisRange(yMin,yMax,"Y");
+      // hist2->SetAxisRange(yMin,yMax,"Y");
 
 
       TString xTitle(hist2->GetXaxis()->GetTitle());
@@ -145,6 +182,8 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
         hist2->GetXaxis()->SetTitle("#it{p}_{T} (GeV/#it{c})");
       }else if(xTitle.Contains("mcPt")){
         hist2->GetXaxis()->SetTitle("#it{p}_{T}^{MC} (GeV/#it{c})");
+      }else if (xTitle.Contains("minv")  || xTitle.Contains("m_{inv} (GeV/c^2)")) {
+        hist2->GetXaxis()->SetTitle("#it{m}_{inv} (GeV/#it{c}^{2})");
       }
 
 
@@ -331,6 +370,7 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
   Int_t mrkMCO  = 25;
 
   gStyle->SetTextFont(43);
+  if(ratioArray){SetRatioRange(ratioArray);}
   TString control(controlstring);
 
   //   Short_t colorArray[]={kRed,kOrange-3,kGreen-3,kGreen+3,kCyan+3,kBlue};
@@ -370,7 +410,8 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
   Float_t padFraction;
   Float_t titleOffsetY;
   Float_t titleOffsetX;
-  Float_t sideMargin;
+  Float_t leftMargin;
+  Float_t rightMargin;
   Float_t topMargin;
   Float_t lowMargin;
 
@@ -381,14 +422,16 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     padFraction = 0.5;
     titleOffsetY=1.4;
     titleOffsetX=1.5;
-    sideMargin=0.12;
-    topMargin=sideMargin-0.05;
-    lowMargin=sideMargin+0.05;
+    leftMargin=0.12;
+    rightMargin = leftMargin;
+    topMargin=leftMargin-0.05;
+    lowMargin=leftMargin+0.05;
     if(ratioArray){
       textSizeFactor =0.5 * 12000;
-      sideMargin=0.13;
-      topMargin = sideMargin/(padFraction)-0.05;
-      lowMargin = sideMargin/(padFraction)+0.05;
+      leftMargin=0.13;
+      rightMargin = leftMargin;
+      topMargin = leftMargin/(padFraction)-0.05;
+      lowMargin = leftMargin/(padFraction)+0.05;
       titleOffsetY=1.4;
       titleOffsetX=2.8;
     }
@@ -399,7 +442,8 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     padFraction = 0.5;
     titleOffsetY=1.05;
     titleOffsetX=1.02;
-    sideMargin = 0.09*1.414213562;
+    leftMargin = 0.09*1.414213562;
+    rightMargin = 0.05;
     topMargin=0.06;
     lowMargin=0.12;
     if (control.Contains("BinLabels")){
@@ -416,9 +460,10 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     padFraction = 0.25;
     titleOffsetY=1.4;
     titleOffsetX=1.4;
-    sideMargin = 0.11;
-    topMargin=sideMargin * 1.414213562 - 0.05;
-    lowMargin=sideMargin * 1.414213562 + 0.05;
+    leftMargin = 0.11;
+    rightMargin = leftMargin;
+    topMargin=leftMargin * 1.414213562 - 0.05;
+    lowMargin=leftMargin * 1.414213562 + 0.05;
     if(ratioArray){
     }
   }else if (control.Contains("OldAspect")||control.Contains("oldaspect")){
@@ -428,7 +473,8 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     padFraction = 0.28;
     titleOffsetY=1.7;
     titleOffsetX=3.5;
-    sideMargin=0.12;
+    leftMargin=0.12;
+    rightMargin = leftMargin;
     topMargin=0.11;
     lowMargin=0.13;
     if(ratioArray){
@@ -442,17 +488,24 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     textSizeFactor =1.8 * 12000;
     canvasWidth=800;
     canvasHeight=800*1.41421356;
-    padFraction = 0.25;
+    padFraction = 0.33;                   //0.25
     titleOffsetY=2;
     titleOffsetX=4.5;
-    sideMargin = 0.14;
+    leftMargin = 0.16;
+    rightMargin = 0.05;
     topMargin = 0.12 * 1.414213562/2;
     lowMargin = 0.12 * 1.414213562/2;
     if(ratioArray){
       titleOffsetY=2;
-      titleOffsetX=4.5;
-      topMargin = (0.12 * 1.414213562/2)/(1-padFraction);
-      lowMargin = (0.12 * 1.414213562/2)/(padFraction);
+      titleOffsetX=3.5;
+      topMargin = (0.06 * 1.414213562/2)/(1-padFraction);
+      lowMargin = (0.13 * 1.414213562/2)/(padFraction);
+    }
+    TH1D *hist = (TH1D*) histArray->At(0);
+    TString yTitle(hist->GetYaxis()->GetTitle());
+    if (yTitle.Contains("#frac")){
+      titleOffsetY = 2.6;
+      leftMargin = 0.23;
     }
   }
 
@@ -468,10 +521,24 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     if(!histArray->At(0)) return nullptr;
     if (!histArray->At(0)->InheritsFrom("TH1")){cout<<"|ERROR: First entry has to be an Histogram"<<endl; return nullptr;}
     TH1D *hist0 = (TH1D*) histArray->At(0);
-    if(!hist0){cout<<"| ERROR: Histogram empty"<<endl; return nullptr;}
 
+    if(!hist0){cout<<"| ERROR: Histogram empty"<<endl; return nullptr;}
     Double_t xMin = hist0->GetXaxis()->GetBinLowEdge(hist0->GetXaxis()->GetFirst())+0.0000001;
     Double_t xMax = hist0->GetXaxis()->GetBinUpEdge(hist0->GetXaxis()->GetLast())-0.0000001;
+
+        for(int iHisto = 1; iHisto < nHist; iHisto++){
+          if(histArray->At(iHisto)->InheritsFrom("TH1")){
+            TH1D *histI = (TH1D*) histArray->At(iHisto);
+            if(xMin > histI->GetXaxis()->GetBinLowEdge(histI->GetXaxis()->GetFirst())+0.0000001){
+              xMin = histI->GetXaxis()->GetBinLowEdge(histI->GetXaxis()->GetFirst())+0.0000001;
+            }
+            if(xMax < histI->GetXaxis()->GetBinUpEdge(histI->GetXaxis()->GetLast())-0.0000001){
+              xMax = histI->GetXaxis()->GetBinUpEdge(histI->GetXaxis()->GetLast())-0.0000001;
+            }
+            else {/*do nothing*/}
+          }
+          else{/*do nothing*/}
+        }
     cout<<"| - Axis range: "<<xMin<<"-"<<xMax<<endl;
     hist0->GetYaxis()->CenterTitle(0);
     if(control.Contains("CenterTitle")||control.Contains("centertitle")) hist0->GetYaxis()->CenterTitle(1);
@@ -523,8 +590,8 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
 
     upperPad->SetFillStyle(4000);
     upperPad->SetTopMargin(topMargin);
-    upperPad->SetLeftMargin(sideMargin);
-    upperPad->SetRightMargin(sideMargin);
+    upperPad->SetLeftMargin(leftMargin);
+    upperPad->SetRightMargin(rightMargin);
     upperPad->SetBottomMargin(0.0);
     upperPad->SetTickx(1);
     upperPad->SetTicky(1);
@@ -532,12 +599,12 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
 
     lowerPad->SetFillStyle(4000);
     lowerPad->SetTopMargin(0.0);
-    lowerPad->SetLeftMargin(sideMargin);
-    lowerPad->SetRightMargin(sideMargin);
+    lowerPad->SetLeftMargin(leftMargin);
+    lowerPad->SetRightMargin(rightMargin);
     lowerPad->SetBottomMargin(lowMargin);
     lowerPad->SetTickx(1);
     lowerPad->SetTicky(1);
-    lowerPad->Draw();
+    lowerPad->Draw("SAME");
 
 
     if(control.Contains("logX")||control.Contains("logx")||control.Contains("LogX")||control.Contains("LOGX")){
@@ -563,23 +630,23 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     relativeTextSize = textSizeFactor * relativeTextSize;
 
     /// Use the standardtised PlotArray function to loop over the histogram an to draw the elements.
-    if(!markerArray && !colorArray){PlotArray(histArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!markerArray){PlotArray(histArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!colorArray){ PlotArray(histArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else{PlotArray(histArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
+    if(!markerArray && !colorArray){PlotArray(histArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!markerArray){PlotArray(histArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!colorArray){ PlotArray(histArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else{PlotArray(histArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
 
     /// Go to the ratio pad and repeat the procedure
     lowerPad->cd();
-    if(!markerArray && !colorArray){PlotArray(ratioArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!markerArray){PlotArray(ratioArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!colorArray){PlotArray(ratioArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else{PlotArray(ratioArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
+    if(!markerArray && !colorArray){PlotArray(ratioArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!markerArray){PlotArray(ratioArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!colorArray){PlotArray(ratioArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else{PlotArray(ratioArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
     upperPad->cd();
 
   }else{// If no ratios are given:
 
-    newCanvas->SetLeftMargin(sideMargin);
-    newCanvas->SetRightMargin(sideMargin);
+    newCanvas->SetLeftMargin(leftMargin);
+    newCanvas->SetRightMargin(rightMargin);
     newCanvas->SetTopMargin(topMargin);
     newCanvas->SetBottomMargin(lowMargin);
 
@@ -603,10 +670,10 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     else{relativeTextSize = 1/pad_height;}
     relativeTextSize = textSizeFactor * relativeTextSize;
 
-    if(!markerArray && !colorArray){PlotArray(histArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!markerArray){PlotArray(histArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else if(!colorArray){PlotArray(histArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
-    else{PlotArray(histArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, sideMargin, xMin,xMax);}
+    if(!markerArray && !colorArray){PlotArray(histArray,controlstring,defaultColorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!markerArray){PlotArray(histArray,controlstring,colorArray,defaultMarkerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else if(!colorArray){PlotArray(histArray,controlstring,defaultColorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
+    else{PlotArray(histArray,controlstring,colorArray,markerArray,relativeTextSize,lableSize, titleSize, lableFont, titleFont, titleOffsetY, titleOffsetX, leftMargin, xMin,xMax);}
   }
 
   /// Draw extras
@@ -654,6 +721,9 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     pad_logo->cd();
     logo->Draw();
   }
+  if(control.Contains("Label") ||control.Contains("label") ||control.Contains("LABEL")){
+    DrawLabelALICE(0.6, 0.9, 0.02, 20);
+  }
 
   if(ratioArray && upperPad){upperPad->cd();}
   cout<<"|_____________________________________________________________________________"<<endl;
@@ -690,18 +760,52 @@ void SetHistogramProperties(TH1D* &h, TString XTitle, TString YTitle,
   Double_t minValue = 1e10;
   Double_t maxValue = -1;
 
-  for(Int_t bin=1; bin<h->GetNbinsX()+1; bin++)
-  {
-    Double_t binContent = h->GetBinContent(bin);
-    if(binContent<=0) continue; /// reject empty bins
-    if(h->GetBinLowEdge(bin)<minXValue) continue; /// only in visable area
-    if(h->GetBinLowEdge(bin)+h->GetBinWidth(bin)>maxXValue) continue;
-    if(binContent>maxValue) maxValue = binContent;
-    if(binContent<minValue) minValue = binContent;
-  }
-  h->GetYaxis()->SetRangeUser(0.95*minValue, 1.05*maxValue);
-  if(minValue<minYValue) minYValue = minValue;
-  if(maxValue>maxYValue) maxYValue = maxValue;
+  // for(Int_t bin=1; bin<h->GetNbinsX()+1; bin++)
+  // {
+  //   Double_t binContent = h->GetBinContent(bin);
+  //   if(binContent<=0) continue; /// reject empty bins
+  //   if(h->GetBinLowEdge(bin)<minXValue) continue; /// only in visable area
+  //   if(h->GetBinLowEdge(bin)+h->GetBinWidth(bin)>maxXValue) continue;
+  //   if(binContent>maxValue) maxValue = binContent;
+  //   if(binContent<minValue) minValue = binContent;
+  // }
+  // h->GetYaxis()->SetRangeUser(0.95*minValue, 1.05*maxValue);
+  // if(minValue<minYValue) minYValue = minValue;
+  // if(maxValue>maxYValue) maxYValue = maxValue;
 }
+void SetRatioRange(TObjArray *ratioArray)
+{
+  Int_t nbrEntries = ratioArray->GetEntries();
+  Double_t min      = 1;
+  Double_t max      = 0;
+  Double_t min_temp = 1;
+  Double_t max_temp = 0;
+  std::cout << "I was here" << '\n';
 
+  if(ratioArray){
+    for (Int_t i = nbrEntries-1; i > -1; i--) {
+      if(ratioArray->At(i)){
+        if (ratioArray->At(i)->InheritsFrom("TH1")){
+          TH1D *ratio = (TH1D*) ratioArray->At(i);
+          if(!ratio){cout<<"| ERROR: Histogram empty"<<endl;}
+          else{
+            if(ratio->GetMaximum()> max_temp) {max_temp = ratio->GetMaximum();}
+            if(ratio->GetMinimum()< min_temp) {min_temp = ratio->GetMinimum();}
+            if(i == 0){
+              if(min_temp < 0) {min = 1.05* min_temp;}
+              else             {min = 0.95* min_temp;}
+              if(max_temp < 0) {max = 0.95* max_temp;}
+              else             {max = 1.05* max_temp;}
+              ratio->GetYaxis()->SetRangeUser(min, max);
+            }
+          }
+        }
+        else{std::cout << "ERROR: Object does not inherit from TH1" << '\n';}
+      }
+    }
+  }
+  else{
+    std::cout << "WARNING: RatioArray = 0" << '\n';
+  }
+}
 #endif

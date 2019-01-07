@@ -1,3 +1,49 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Bath_mahe_001.aux
-The style file: Apalike.bst
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Bath_mahe_001.aux
+The style file: alpha.bst
 Database file #1: bib_bath_mahe.bib
+Warning--string name "september" is undefined
+--line 42 of file bib_bath_mahe.bib
+You've used 5 entries,
+            2543 wiz_defined-function locations,
+            591 strings with 5171 characters,
+and the built_in function-call counts, 1516 in all, are:
+= -- 150
+> -- 62
+< -- 3
++ -- 20
+- -- 18
+* -- 77
+:= -- 260
+add.period$ -- 19
+call.type$ -- 5
+change.case$ -- 25
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 56
+empty$ -- 121
+format.name$ -- 24
+if$ -- 312
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 33
+num.names$ -- 15
+pop$ -- 39
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 57
+stack$ -- 0
+substring$ -- 37
+swap$ -- 5
+text.length$ -- 3
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 40
+warning$ -- 0
+while$ -- 12
+width$ -- 6
+write$ -- 71
+(There was 1 warning)
