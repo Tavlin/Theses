@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  10 JAN 2019 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  10 JAN 2019 16:23
 entering extended mode
 **./Bath_mahe_001.tex
 (Bath_mahe_001.tex
@@ -1164,6 +1164,19 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 67.
  [7]
 Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 67.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 67.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 67.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 67.
+ [8]
+Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 69.
@@ -1177,7 +1190,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 71.
  (s2s1.tex
-<ALICE.jpg, id=198, 767.0256pt x 521.3076pt>
+<ALICE.jpg, id=203, 767.0256pt x 521.3076pt>
 File: ALICE.jpg Graphic file (type jpg)
 <use ALICE.jpg>
 Package pdftex.def Info: ALICE.jpg  used on input line 5.
@@ -1196,7 +1209,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 73.
 
-[8 <./ALICE.jpg>]
+[9 <./ALICE.jpg>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "|
@@ -1216,8 +1229,8 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 27.
- [9]
-<m02&m20.png, id=212, 336.25626pt x 211.79124pt>
+ [10]
+<m02&m20.png, id=217, 336.25626pt x 211.79124pt>
 File: m02&m20.png Graphic file (type png)
 <use m02&m20.png>
 Package pdftex.def Info: m02&m20.png  used on input line 30.
@@ -1234,7 +1247,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 43.
- [10])
+ [11])
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 75.
 Package babel Info: Redefining german shorthand "|
@@ -1247,7 +1260,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 75.
- [11 <./m02&m20.png>]
+ [12 <./m02&m20.png>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 76.
 Package babel Info: Redefining german shorthand "|
@@ -1279,17 +1292,17 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 84.
  (s3s2.tex
-<hInvMass_pT_Signal.pdf, id=227, 569.12625pt x 550.055pt>
+<hInvMass_pT_Signal.pdf, id=232, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 <use hInvMass_pT_Signal.pdf>
 Package pdftex.def Info: hInvMass_pT_Signal.pdf  used on input line 21.
 (pdftex.def)             Requested size: 222.99776pt x 215.52776pt.
-<hInvMass_pT_Bkg.pdf, id=228, 569.12625pt x 550.055pt>
+<hInvMass_pT_Bkg.pdf, id=233, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 <use hInvMass_pT_Bkg.pdf>
 Package pdftex.def Info: hInvMass_pT_Bkg.pdf  used on input line 27.
 (pdftex.def)             Requested size: 222.99776pt x 215.52776pt.
-<hSignalPlusBkg.pdf, id=234, 569.12625pt x 387.4475pt>
+<hSignalPlusBkg.pdf, id=239, 569.12625pt x 387.4475pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 <use hSignalPlusBkg.pdf>
 Package pdftex.def Info: hSignalPlusBkg.pdf  used on input line 46.
@@ -1313,7 +1326,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 86.
-[12]
+[13]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 86.
 Package babel Info: Redefining german shorthand "|
@@ -1326,7 +1339,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 86.
- [13 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees> <./hInvMass_pT_Bkg.
+ [14 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees> <./hInvMass_pT_Bkg.
 pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 86.
@@ -1336,9 +1349,9 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 86.
  (s3s3.tex
 
-LaTeX Warning: Reference `s2s2s1' on page 14 undefined on input line 1.
+LaTeX Warning: Reference `s2s2s1' on page 15 undefined on input line 1.
 
-<hUncorrBkg.pdf, id=337, 569.12625pt x 387.4475pt>
+<hUncorrBkg.pdf, id=342, 569.12625pt x 387.4475pt>
 File: hUncorrBkg.pdf Graphic file (type pdf)
 <use hUncorrBkg.pdf>
 Package pdftex.def Info: hUncorrBkg.pdf  used on input line 7.
@@ -1355,13 +1368,13 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 19.
-[14 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>]
-<hUncorrBkgNorm.pdf, id=387, 569.12625pt x 387.4475pt>
+[15 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>]
+<hUncorrBkgNorm.pdf, id=392, 569.12625pt x 387.4475pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 <use hUncorrBkgNorm.pdf>
 Package pdftex.def Info: hUncorrBkgNorm.pdf  used on input line 23.
 (pdftex.def)             Requested size: 281.68517pt x 191.77232pt.
-<hInvMass_Data.pdf, id=395, 569.12625pt x 387.4475pt>
+<hInvMass_Data.pdf, id=400, 569.12625pt x 387.4475pt>
 File: hInvMass_Data.pdf Graphic file (type pdf)
 <use hInvMass_Data.pdf>
 Package pdftex.def Info: hInvMass_Data.pdf  used on input line 32.
@@ -1379,7 +1392,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 88.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 88.
- [15 <./hUncorrBkg.pdf, page is rotated 90 degrees> <./hUncorrBkgNorm.pdf, page
+ [16 <./hUncorrBkg.pdf, page is rotated 90 degrees> <./hUncorrBkgNorm.pdf, page
  is rotated 90 degrees>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 88.
@@ -1435,7 +1448,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 101.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 101.
- [16 <./hInvMass_Data.pdf, page is rotated 90 degrees>]
+ [17 <./hInvMass_Data.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 102.
 Package babel Info: Redefining german shorthand "|
@@ -1472,7 +1485,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 110.
- [17]
+ [18]
 (Bath_mahe_001.bbl) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining german shorthand "f
@@ -1487,7 +1500,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 114.
-[18]
+[19]
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "|
@@ -1511,9 +1524,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 18583 strings out of 493303
- 314791 string characters out of 3142328
- 398772 words of memory out of 3000000
+ 18584 strings out of 493303
+ 314798 string characters out of 3142328
+ 398773 words of memory out of 3000000
  21855 multiletter control sequences out of 15000+200000
  544672 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1531,9 +1544,9 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/Program
 me/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (20 pages, 3203627 bytes).
+Output written on Bath_mahe_001.pdf (21 pages, 3205566 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

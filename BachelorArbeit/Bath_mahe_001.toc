@@ -3,23 +3,23 @@
 \contentsline {subsection}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{4}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{7}{subsection.1.3}
-\contentsline {section}{\numberline {2}Experimenteller Aufbau}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1}ALICE}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Elektromagnetische Kaloriemeter EMCal}{9}{subsection.2.2}
-\contentsline {section}{\numberline {3}Messung neutraler Pionen mit Hilfe des EMCal}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Datenauswahl}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{12}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Clusterauswahlkriterien}{12}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Clusterrekombination}{12}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{14}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{16}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Absch{\"a}tzung des korrelierten Untergrunds}{16}{subsubsection.3.4.1}
-\contentsline {subsection}{\numberline {3.5}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{16}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{16}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{16}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{16}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{16}{subsubsection.3.5.4}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{17}{section.4}
-\contentsline {subsection}{\numberline {4.1}Korrekturen}{17}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{17}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{17}{section.5}
+\contentsline {section}{\numberline {2}Experimenteller Aufbau}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}ALICE}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Elektromagnetische Kaloriemeter EMCal}{10}{subsection.2.2}
+\contentsline {section}{\numberline {3}Messung neutraler Pionen mit Hilfe des EMCal}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Datenauswahl}{13}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{13}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Clusterauswahlkriterien}{13}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Clusterrekombination}{13}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{15}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Peak Extraktion mit Hilfe von Parametrisierungen von Funktionen}{17}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Absch{\"a}tzung des korrelierten Untergrunds}{17}{subsubsection.3.4.1}
+\contentsline {subsection}{\numberline {3.5}Peak Extraktion mit Hilfe von Parametrisierungen von Templates}{17}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{17}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{17}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{17}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{17}{subsubsection.3.5.4}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{18}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{18}{section.5}
