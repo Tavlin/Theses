@@ -65,7 +65,7 @@ void Plotting(std::string current_path){
   hInvMass_pT_Signal->GetXaxis()->SetNdivisions(505);
   hInvMass_pT_Bkg->GetXaxis()->SetNdivisions(505);
 
-  TLine* lPi0_mass = new TLine(0.135, 1.4, 0.135, 12.0);
+  TLine* lPi0_mass = new TLine(0.134977, 1.4, 0.134977, 12.0);
   lPi0_mass->SetLineWidth(3);
   lPi0_mass->SetLineColor(kBlack);
 

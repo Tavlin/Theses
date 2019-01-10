@@ -1,38 +1,59 @@
-Durch das kombinieren aller Photonenkandidaten, wie es in Abschnitt \ref{s2s2s1} gezeigt wurde, ist ein gro{\ss}er Anteil der rekonstruierten Massen aus nicht korreliert Paaren.
-Das hei{\ss}t, dass die beiden Photonenkandidaten nicht zusammenh{"a}ngen {\"u}ber beispielsweise einen Zerfall.
-Um diesen unkorrelierten Untergrund abzusch{\"a}tzen werden im sogenannten Eventmixing Photonenkandidaten aus unterschiedlichen Events zusammen kombiniert, da so sicher keine Verbindung zwischen den beiden Photonenkandidaten besteht.
-Abbildung \ref{figUncorrBkg} zeigt das Ergebnis des Eventmixings f{\"u}r einen gew{\"a}hlten $p_{\rm{T}}$-Bereich.
-\begin{figure}[thp]
-\centering
-\includegraphics[width=.6\linewidth]{hUncorrBkg.pdf}
-\caption{Kombinationen von Photonenkandidaten aus unterschiedlichen Kollisionen, die keine Korrelationen zueinander haben, weshalb auch kein Peak im Bereich der $\pi^{0}$-Masse zu sehen ist. Dies dient als Grundlage zur Bestimmung des unkorrelierten Untergrunds.}
-\label{figUncorrBkg}
-\end{figure}
+Ein ${\it \pi^{0}}$ zerf{\"a}llt zu $\left( 98,823\pm0,034\right)\%$ nach einer mittleren Wegl\"ange von ${\it c\tau} = 25,5$nm \cite{book:pdg} in zwei Photonen.
+Als sogenannte prim\"are $\pi^{0}$ werden solche $\pi^{0}$ bezeichnet die in direkt Nukleon-Nukleon Kollisionen produziert werden.
+Da der Abstand vom prim\"aren Vertex zum EMCal relativ gesehen sehr gro{\ss} ist im Vergleich zur mittleren Wegl\"ange des $\pi^{0}$, wird angenommen, dass prim\"are $\pi^{0}$ im prim\"aren Vertex zerfallen.
+Der prim\"are Vertex wird mit Hilfe des ITS bestimmt, w\"ahrend Informationen \"uber Ort und Energie von Photonenkandidaten von Messungen des EMCals kommen. 
+Mit diesen Informationen k{\"o}nnen prim\"are ${\pi^{0}}$ rekonstruiert werden.
+\newline 
+Um die invariante Masse $m_{\text{inv}}$ zu berechnen, sind die Energien $E_{\gamma1}$ und $E_{\gamma2}$ der beiden Photonenkandidaten, sowie der Zerfallswinkel $\theta_{\gamma\gamma}$ erforderlich.
 \newline
-Abbildung \ref{figUncorrBkg} zeigt die invariante Massenverteilung f\"ur \textit{mixed events} in einem ausgew{\"a}hlten $p_{\rm{T}}$-Bereich..
-Diese Verteilung weist keinen Peak auf und hat eine gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge, als die Verteilung aus dem selben Events.
-Aufgrund der gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge muss die \textit{mixed event} Verteilung an die der \textit{same events} skaliert werden.
-Die Skalierung erfolgt im rechten Bereich au{\ss}erhalb des $\pi^{0}$-Peaks und es ergibt sich f{\"u}r den Skalierungsfaktor:
+Die Zahlen in den Indizes beziehen sich dabei auf die Nummerierung der beiden Photonen. Die Indizes x und y beziehen sich auf die Raumrichtungen. F{\"u}r diese gilt:
 \begin{align}
-\label{eqBackSkalierung}
-\alpha &= \frac{\sum_{i \neq j}\sum_{n}m_{\text{inv}}\left( \gamma^{(n)}_{i},\gamma^{(n)}_{j}\right) }{\sum_{i,j}\sum_{n \neq m}m_{\text{inv}}\left( \gamma^{(n)}_{i},\gamma^{(m)}_{j}\right) }
+m_{\text{inv}} &= \sqrt{2E_{\gamma\it{1}}E_{\gamma\it{2}}(1-\cos\left( \theta_{\gamma\gamma}\right) )} \label{eq_invmass}
 \end{align}
-Die oberen Indizes stehen hierbei f{\"u}r das Event, aus dem ein Photon kommt.\newline
-\begin{figure}[thp]
+Au{\ss}erdem kann die Aufteilung des Impulses der Photonenkandidaten bestimmt werden, die wiederum notwendig ist, um den Transversalimpuls $p_\text{T}$ des $\pi^{0}$ zu Berechnen. Es gilt:
+\begin{align}
+p_{T\pi^{0}} &= \sqrt{\left(p_{x1}+p_{x2}\right)^{2} +\left(p_{y1}+p_{y2}\right)^{2}} \label{eq_pt}
+\end{align}
+\begin{figure}[tbp] \label{figInvMassPt}
 \centering
-\includegraphics[width=.6\linewidth]{hUncorrBkgNorm.pdf}
-\caption{Nach Gleichung \ref{eqBackSkalierung} skalierte {\it mixed event} Rekombinationen aus Abbildung \ref{figUncorrBkg} als Absch{\"a}tzung des unkorrelierten Untergrunds zusammen aufgetragen mit Signal zuz{\"u}glich beiden Untergrundkomponenten wie in Abbildung \ref{figSignalPlusBkg}.}
-\label{figUncorrBkgNorm}
+\begin{subfigure}{.5\textwidth}
+	\centering
+	\includegraphics[width=.95\linewidth]{hInvMass_pT_Signal.pdf}
+	\caption{}
+	\label{figInvMassPt_a}
+\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	\centering
+	\includegraphics[width=.95\linewidth]{hInvMass_pT_Bkg.pdf}
+	\caption{}
+	\label{figInvMassPt_b}
+\end{subfigure}
+\caption{\newline{\bf (a)}: $p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus der gleichen Kollision.
+Die schwarze Linie liegt bei $m_{\text{inv}}=0,135\text{ GeV/}c^{2}$, was der $\pi^{0}$ Masse entspricht, wo eine deutliche Peakstruktur zu Erkennen ist.
+\newline
+{\bf (b)}: $p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus unterschiedlichen Kollision.}
 \end{figure}
 \newline
-Das Resultat der Skalierung ist in Abbildung \ref{figUncorrBkgNorm} zu sehen, wo zus{\"a}tzlich noch das Signal inklusiver beider Untergr{\"u}nde eingezeichnet ist, um besser erkennen zu k{\"o}nnen, wie sich der abgesch{\"a}tzte korrelierte Untergrund relativ zum gesamten Signal verh{\"a}lt.
-Das es sich hierbei nur um eine Absch{\"a}tzung handelt kann daran ausgemacht werden, dass um $m_{\text{inv}} = 0,3 (\text{GeV/}c)$ der unkorrelierte Untergrund gr{\"o}{\ss}er ist, als das Signal mit beiden Untergrundkomponenten, was bedeutet, dass nach Abzug des unkorrelierten Untergrunds das Signal mit korreliertem Untergrund dort negativ w{\"a}re, was physikalisch nicht sinnvoll ist.
+Aus dem im kommenden Abschnitt \ref{s3s1s1} gew\"ahlten Datensatz werden alle m{\"o}glichen Kombinationen von zwei Photonenkandidaten aus der gleichen Kollision benutzt, um $m_{\text{inv}}$ nach Gleichung \ref{eq_invmass} zu berechnen.
+Diese Methode wird auch als {\it same event} bezeichnet.
+Au{\ss}erdem wird $p_{T,\pi^{0}}$ nach Gleichung \ref{eq_pt} berechnet um aus den $m_{\text{inv}}$ und $p_{T,\pi^{0}}$ Wertepaaren eine invariante Massenverteilung zu erhalten.
+In Abbildung \ref{figInvMassPt_a} ist eine solche invariante Massenverteilung des Datensatzes zu sehen.
+In dieser Verteilung sticht eine h{\"a}ufung der Datenpunkte bei $m_{\text{inv}}\approx 0,135\text{GeV/}c^{2}$ heraus.
+Abbildung \ref{figInvMassPt_b} zeigt die invariante Massenverteilung bei der Photonenkandidaten aus unterschiedlichen Kollisionen miteinander kombiniert werden.
+Diese Methode wird als {\it mixed event} bezeichnet.
 \begin{figure}[tbp]
 \centering
-\includegraphics[width=.6\linewidth]{hInvMass_Data.pdf}
-\caption{Signal nach Abzug des unkorrelierten Untergrunds.}
-\label{figInvMass_Data}
+\includegraphics[width=.6\linewidth]{hSignalPlusBkg.pdf}
+\caption{Projektion von Abbildung \ref{figInvMassPt_a} im $p_{\text{T}}$-Intervall (3.2 - 3.4) $(\text{GeV/}c)$. Es ist ein deutlicher Peak um $m_{\pi^{0}} \approx 0,135\text{GeV/}c^{2}$ zu erkennen, aber auch Untergrund, da das Signal zu h{\"o}heren Massen gau{\ss}f{\"o}rmig abklingen sollte. Bei $m_{\text{inv}} < m_{\pi^{0}}$ kann Signal vorliegen, das aus konvertierten Photonen besteht, weshalb eine Aussage {\"u}ber die Form, bzw. den Untergrund dort schwer m{\"o}glich ist.}
+\label{figSignalPlusBkg}
 \end{figure}
 \newline
-Abbildung \ref{figInvMass_Data} zeigt das Signal mit korreliertem Untergrund, nachdem also der unkorrelierte Untergrund abgezogen wurde.
-Die Absch\"atzung des korrelierten Untergrunds wird in den folgenden Abschnitten f\"r die beiden zuvor erw\"ahnte Methoden durchgef\"uhrt.
+Um $\pi^{0}$s in einzelnen $p_{T}$-Intervallen z{\"a}hlen zu k{\"o}nnen wird die Verteilung in entsprechende Abst{\"a}nden auf die Y-Achse projiziert.
+Die Intervalle werden so gew{\"a}hlt, dass sie m{\"o}glichst klein sind, w{\"a}hrend die statistischen Unsicherheiten nicht zu gro{\ss} werden.
+Abbildung \ref{figSignalPlusBkg} zeigt eine Verteilungen der invarianten Masse, die aus Signal, sowie sogenanntem korrelierten und unkorrelierten Untergrund besteht.
+Trotz der Untergr\"unde ist ein deutlicher Peak im Bereich der Pionenmasse von ca. 135MeV/$c^{2}$ zu erkennen.
+Die Bestimmung der beiden Untergr\"unde, vor allem des korrelierten Untergrunds, ist eine wichtige Aufgabe in der Analyse von neutralen Pionen.
+Das Parametrisieren einer Funktion hat sich als g\"angie Methode zur Bestimmung des korrelierten Untegr\"unds entwickelt und wird im folgenden als Standardmethode bezeichnet.
+In dieser Arbeit wird der korrelierte Untergr\"und sowie das reine $\pi^{0}$-Signal mit Hilfe von sogenannten \textit{Monte Carlo Templates} bestimmt.
+Die Ergebnisse der Analyse mit Hilfe von Monte Carlo Templates, sowie mit der Standardmethode werden miteinander vergleichen, um eine Aussage \"uber den m\"oglichen Nutzen von Analysen mit Hilfe von Monte Carlo Templates treffen zu k\"onnen.
+Im folgenden Abschnitt wird sowohl die Standardmethode kurz, als auch die Methode mit Hilfe von Monte Carlo Templates n\"aher erl\"autert.

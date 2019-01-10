@@ -1,12 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{T{\etalchar{+}}18b}
-
-\bibitem[A{\etalchar{+}}10]{PAPER:2}
-J.~Alme et~al.
-\newblock The alice tpc, a large 3-dimensional tracking device with fast
-  readout for ultra-high multiplicity events.
-\newblock \url{https://arxiv.org/abs/1001.1950}, 01 2010.
-\newblock Letzter Zugriff am 05.01.2019.
+\begin{thebibliography}{Wik18}
 
 \bibitem[Cri16]{PAPER:1}
 Renato Critelli.
@@ -14,19 +7,7 @@ Renato Critelli.
 \newblock \url{https://arxiv.org/abs/1609.03104}, 09 2016.
 \newblock Letzter Zugriff am 30.12.2018.
 
-\bibitem[Fri12]{article:1}
-Harald Fritzsch.
-\newblock The history of qcd.
-\newblock {\em CERN COURIER}, 09 2012.
-
-\bibitem[T{\etalchar{+}}18a]{webpage:pdg}
-M.~Tanabashi et~al.
-\newblock Mesons summary tables.
-\newblock \url{http://pdg.lbl.gov/2018/tables/contents_tables_mesons.html}, 01
-  2018.
-\newblock Letzter Zugriff am 06.01.2019.
-
-\bibitem[T{\etalchar{+}}18b]{book:pdg}
+\bibitem[T{\etalchar{+}}18]{book:pdg}
 M.~Tanabashi et~al.
 \newblock {\em Physical Review D}, volume~98 of {\em 3}.
 \newblock American Physical Society, 3 edition, 08 2018.
