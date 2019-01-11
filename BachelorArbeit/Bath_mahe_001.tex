@@ -14,7 +14,13 @@
 \usepackage{amsbsy}
 \usepackage{amssymb}
 \usepackage{hyperref}
-\usepackage{physics}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter\bra{\langle}{\rvert}
+\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1 \delimsize\vert #2}
+%\usepackage{physics}
+
 \usepackage[doublespacing]{setspace} %fuer Korrektur doublespacing
 
 \pagestyle{fancy}

@@ -69,6 +69,9 @@ void Plotting(std::string current_path){
   lPi0_mass->SetLineWidth(3);
   lPi0_mass->SetLineColor(kBlack);
 
+  hInvMass_pT_Signal->SetTitle("#sqrt{#it{s}}=13TeV");
+  hInvMass_pT_Bkg->SetTitle("#sqrt{#it{s}}=13TeV");
+
   hInvMass_pT_Signal->GetXaxis()->SetRangeUser(0.0, 0.3);
   hInvMass_pT_Signal->GetYaxis()->SetRangeUser(0.0, 12.0);
   hInvMass_pT_Signal->SetXTitle(minv_str);

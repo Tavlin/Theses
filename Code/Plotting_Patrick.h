@@ -171,7 +171,7 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       hist2->GetYaxis()->SetLabelFont(lableFont);
       hist2->GetYaxis()->SetTitleFont(titleFont);
       hist2->GetYaxis()->SetTitleOffset(titleOffsetY);
-      hist2->SetTitle("");
+      // hist2->SetTitle("");
 
       hist2->SetAxisRange(xMin,xMax,"X");
       // hist2->SetAxisRange(yMin,yMax,"Y");
