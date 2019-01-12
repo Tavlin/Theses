@@ -1,26 +1,35 @@
-Durch das kombinieren aller Photonenkandidaten, wie es in Abschnitt \ref{s2s2s1} gezeigt wurde, ist ein gro{\ss}er Anteil der rekonstruierten Massen aus nicht korreliert Paaren.
-Das hei{\ss}t, dass die beiden Photonenkandidaten nicht zusammenh{"a}ngen {\"u}ber beispielsweise einen Zerfall.
-Um diesen unkorrelierten Untergrund abzusch{\"a}tzen werden im sogenannten Eventmixing Photonenkandidaten aus unterschiedlichen Events zusammen kombiniert, da so sicher keine Verbindung zwischen den beiden Photonenkandidaten besteht.
-Abbildung \ref{figUncorrBkg} zeigt das Ergebnis des Eventmixings f{\"u}r einen gew{\"a}hlten $p_{\rm{T}}$-Bereich.
 \begin{figure}[thp]
 \centering
-\includegraphics[width=.6\linewidth]{hUncorrBkg.pdf}
+\includegraphics[width=.7\linewidth]{hInvMass_pT_Bkg.pdf}
+\caption{$p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus unterschiedlichen Kollision.}
+\label{figInvMassPt_b}
+\end{figure}
+Durch das kombinieren aller Photonenkandidaten, wie es in Abschnitt \ref{s2s2s1} gezeigt wurde, besteht ein gro{\ss}er Anteil der rekonstruierten Massen aus nicht korreliert Paaren.
+Das hei{\ss}t, dass die beiden Photonenkandidaten nicht \"uber einen Zerfall zusammenh{"a}ngen.
+Um den unkorrelierten Untergrund abzusch\"atzen werden Photonenkandidaten aus unterschiedlichen \textit{Events} in der sogenannten \textit{mixed event method} miteinander kombiniert.
+Abbildung \ref{figInvMassPt_b} zeigt eine solche Verteilung, bei der Photonenkandidaten aus unterschiedlichen Kollisionen miteinander kombiniert wurden.
+Eine Anh\"aufung der Datenpunkte um eine bestimmte invariante Masse gibt es, wie zu erwarten, nicht.
+Die rechte Flanke aufgrund der $opening angle cuts$ hingegen bleibt bestehen.
+\begin{figure}[thp]
+\centering
+\includegraphics[width=.75\linewidth]{hUncorrBkg.pdf}
 \caption{Kombinationen von Photonenkandidaten aus unterschiedlichen Kollisionen, die keine Korrelationen zueinander haben, weshalb auch kein Peak im Bereich der $\pi^{0}$-Masse zu sehen ist. Dies dient als Grundlage zur Bestimmung des unkorrelierten Untergrunds.}
 \label{figUncorrBkg}
 \end{figure}
 \newline
-Abbildung \ref{figUncorrBkg} zeigt die invariante Massenverteilung f\"ur \textit{mixed events} in einem ausgew{\"a}hlten $p_{\rm{T}}$-Bereich..
-Diese Verteilung weist keinen Peak auf und hat eine gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge, als die Verteilung aus dem selben Events.
-Aufgrund der gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge muss die \textit{mixed event} Verteilung an die der \textit{same events} skaliert werden.
+Auch die \textit{mixed event} Verteilung wird in den gleichen $p_{\rm{T}}$-Intervallen integriert betrachtet wie zuvor die \textit{same event} Verteilung.
+Abbildung \ref{figUncorrBkg} zeigt die invariante Massenverteilung f\"ur das $p_{\text{T}}$-Intervall $(3,2 - 3,4) (\text{GeV/}c)$.
+Diese Verteilung weist keinen Peak auf und hat eine gr{\"o}{\ss}ere Anzahl Eintr{\"a}ge, als die Verteilung aus der \textit{same event method}.
+Aufgrund der gr{\"o}{\ss}eren Anzahl Eintr{\"a}ge muss die \textit{mixed event} Verteilung an die der \textit{same events} skaliert werden.
 Die Skalierung erfolgt im rechten Bereich au{\ss}erhalb des $\pi^{0}$-Peaks und es ergibt sich f{\"u}r den Skalierungsfaktor:
 \begin{align}
 \label{eqBackSkalierung}
 \alpha &= \frac{\sum_{i \neq j}\sum_{n}m_{\text{inv}}\left( \gamma^{(n)}_{i},\gamma^{(n)}_{j}\right) }{\sum_{i,j}\sum_{n \neq m}m_{\text{inv}}\left( \gamma^{(n)}_{i},\gamma^{(m)}_{j}\right) }
 \end{align}
-Die oberen Indizes stehen hierbei f{\"u}r das Event, aus dem ein Photon kommt.\newline
+Die oberen Indizes stehen hierbei f{\"u}r das Event, aus dem ein Photon kommt.
 \begin{figure}[thp]
 \centering
-\includegraphics[width=.6\linewidth]{hUncorrBkgNorm.pdf}
+\includegraphics[width=.75\linewidth]{hUncorrBkgNorm.pdf}
 \caption{Nach Gleichung \ref{eqBackSkalierung} skalierte {\it mixed event} Rekombinationen aus Abbildung \ref{figUncorrBkg} als Absch{\"a}tzung des unkorrelierten Untergrunds zusammen aufgetragen mit Signal zuz{\"u}glich beiden Untergrundkomponenten wie in Abbildung \ref{figSignalPlusBkg}.}
 \label{figUncorrBkgNorm}
 \end{figure}
@@ -29,10 +38,19 @@ Das Resultat der Skalierung ist in Abbildung \ref{figUncorrBkgNorm} zu sehen, wo
 Das es sich hierbei nur um eine Absch{\"a}tzung handelt kann daran ausgemacht werden, dass um $m_{\text{inv}} = 0,3 (\text{GeV/}c)$ der unkorrelierte Untergrund gr{\"o}{\ss}er ist, als das Signal mit beiden Untergrundkomponenten, was bedeutet, dass nach Abzug des unkorrelierten Untergrunds das Signal mit korreliertem Untergrund dort negativ w{\"a}re, was physikalisch nicht sinnvoll ist.
 \begin{figure}[tbp]
 \centering
-\includegraphics[width=.6\linewidth]{hInvMass_Data.pdf}
+\includegraphics[width=.75\linewidth]{hInvMass_Data.pdf}
 \caption{Signal nach Abzug des unkorrelierten Untergrunds.}
 \label{figInvMass_Data}
 \end{figure}
 \newline
-Abbildung \ref{figInvMass_Data} zeigt das Signal mit korreliertem Untergrund, nachdem also der unkorrelierte Untergrund abgezogen wurde.
-Die Absch\"atzung des korrelierten Untergrunds wird in den folgenden Abschnitten f\"r die beiden zuvor erw\"ahnte Methoden durchgef\"uhrt.
+Abbildung \ref{figInvMass_Data} zeigt das Signal mit korreliertem Untergrund, also nachdem der unkorrelierte Untergrund abgezogen wurde.
+Da Photonen durch Paarbildung in ein Elektron und ein Positron zerfallen k\"onnen, bestehen einige Photonenkandidaten aus \textit{Clustern} von nur einem der beiden Zerfallsprodukte.
+Diese Photonenkandidaten weisen dann eine geringere Energie auf, als das eigentliche Photon besa{\ss}.
+Durch Kombinationen mit diesen Photonenkandidaten entstehen Datenpunkte bei einer invarianten Masse, die geringer ist als die Masse von $\pi^{0}$, obwohl beide Photonenkandidaten dem selben $\pi^{0}$ entstammen.
+Deshalb wird links vom Peak ein Teil des Signals erwartet, jedoch auch korrelierter Untergrund.
+\newline
+Die Bestimmung des korrelierten Untergrunds, ist eine wichtige Aufgabe in der Analyse von neutralen Pionen.
+Das Parametrisieren einer Funktion hat sich als g\"angie Methode zur Bestimmung des korrelierten Untergrunds entwickelt und wird im folgenden als Standardmethode bezeichnet.
+In dieser Arbeit wird der korrelierte Untergr\"und sowie das reine $\pi^{0}$-Signal mit Hilfe von sogenannten \textit{Monte Carlo Templates} bestimmt.
+Die Ergebnisse der Analyse mit Hilfe von Monte Carlo Templates, sowie mit der Standardmethode werden miteinander vergleichen, um eine Aussage \"uber den m\"oglichen Nutzen von Analysen mit Hilfe von Monte Carlo Templates treffen zu k\"onnen.
+Im folgenden Abschnitt wird sowohl die Standardmethode kurz, als auch die Methode mit Hilfe von Monte Carlo Templates n\"aher erl\"autert.
