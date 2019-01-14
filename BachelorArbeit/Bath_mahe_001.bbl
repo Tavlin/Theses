@@ -1,6 +1,14 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{Wik18}
 
+\bibitem[B{\"u}s18]{script:kt1}
+Henner B{\"u}sching.
+\newblock Kerne und teilchen 1 die quarkstruktur der materie.
+\newblock
+  \url{https://elearning.physik.uni-frankfurt.de/goto_FB13-PhysikOnline_file_16390_download.html},
+  2018.
+\newblock Letzer Zugriff am 14.01.2019.
+
 \bibitem[Cri16]{PAPER:1}
 Renato Critelli.
 \newblock Strongly coupled non-abelian plasmas in a magnetic field.

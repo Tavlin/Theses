@@ -62,12 +62,25 @@ void Plotting(std::string current_path){
   hTrueDoubleCounting_Pi0 = (TH2D*)  lTrue_MC->FindObject("ESD_TrueDoubleCountPi0_InvMass_Pt");
   //////////////////////////////////////////////////////////////////////////////
 
+
+  TLegend* legSystem = new TLegend(0.3, 0.94, 0.7, 0.98);
+  legSystem->AddEntry((TObject*) 0x0, "pp, #sqrt{#it{s}} = 13 TeV", "");
+
   hInvMass_pT_Signal->GetXaxis()->SetNdivisions(505);
   hInvMass_pT_Bkg->GetXaxis()->SetNdivisions(505);
 
   TLine* lPi0_mass = new TLine(0.134977, 1.4, 0.134977, 12.0);
   lPi0_mass->SetLineWidth(3);
-  lPi0_mass->SetLineColor(kBlack);
+  lPi0_mass->SetLineColor(kRed+1);
+
+  TLine* lpTLines[39];
+
+  for(int k = 1; k <= 39; k++){
+    lpTLines[k-1] = new TLine(0.0, fBinsPi013TeVEMCPt[k], 0.3, fBinsPi013TeVEMCPt[k]);
+    lpTLines[k-1]->SetLineWidth(1);
+    lpTLines[k-1]->SetLineColor(kBlack);
+  }
+
 
   hInvMass_pT_Signal->SetTitle("#sqrt{#it{s}}=13TeV");
   hInvMass_pT_Bkg->SetTitle("#sqrt{#it{s}}=13TeV");
@@ -78,9 +91,13 @@ void Plotting(std::string current_path){
   hInvMass_pT_Signal->SetYTitle(pt_str);
 
   OAhists->Add(hInvMass_pT_Signal);
+  for(int k = 1; k <= 39; k++){
+    OAhists->Add(lpTLines[k-1]);
+  }
+  OAhists->Add(legSystem);
   OAhists->Add(lPi0_mass);
 
-  cPatrick = makeCanvas(OAhists, 0, "notimeThickSquare", 0, 0);
+  cPatrick = makeCanvas(OAhists, 0, "notimeSquare", 0, 0);
   cPatrick->Update();
   cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.pdf"));
   cPatrick->Clear();
@@ -93,8 +110,11 @@ void Plotting(std::string current_path){
   hInvMass_pT_Bkg->SetYTitle(pt_str);
 
   OAhists->Add(hInvMass_pT_Bkg);
+  for(int k = 1; k <= 39; k++){
+    OAhists->Add(lpTLines[k-1]);
+  }
 
-  cPatrick = makeCanvas(OAhists, 0, "notimeThickSquare", 0, 0);
+  cPatrick = makeCanvas(OAhists, 0, "notimeSquare", 0, 0);
   cPatrick->Update();
   cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.pdf"));
   cPatrick->Clear();
@@ -162,8 +182,8 @@ void Plotting(std::string current_path){
 
 
   cPatrick->cd();
-  TLegend* legSignalPlusBkg = new TLegend(0.6, 0.7, 0.9, 0.9);
-  legSignalPlusBkg->AddEntry(hSignalPlusBkg, "Signal", "lp");
+  TLegend* legSignalPlusBkg = new TLegend(0.55, 0.7, 0.85, 0.9);
+  legSignalPlusBkg->AddEntry(hSignalPlusBkg, "Signal", "p");
   legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
   legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
   SetHistogramProperties(hSignalPlusBkg, "minv", count_str, 5, 0.0, 0.3);
@@ -187,11 +207,11 @@ void Plotting(std::string current_path){
   hUncorrBkg->Rebin(4);
   cPatrick->cd();
   TLegend* legUncorrBkg = new TLegend(0.5, 0.3, 0.8, 0.5);
-  legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} Rekombinationen", "lp");
+  legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} Rekombinationen", "p");
   SetHistogramProperties(hUncorrBkg, "minv", count_str, 2, 0.0, 0.3);
 
   OAhists->Add(hUncorrBkg);
-  OAhists->Add(legUncorrBkg);
+  // OAhists->Add(legUncorrBkg);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
   // DrawLabelALICE(0.18, 0.85, 0.03, 30, str);
@@ -212,11 +232,11 @@ void Plotting(std::string current_path){
   cPatrick->SaveAs("../BachelorArbeit/Patrick.pdf");
   // scaled uncorrelated with Signal + both Backgrunds
   cPatrick->cd();
-  TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.7, 0.85, 0.9);
-  legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "lp");
+  TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.57, 0.8, 0.9);
+  legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "p");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
-  legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "skalierte #it{mixed event}", "lp");
+  legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "skalierte #it{mixed event}", "p");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "Rekombinationen", "");
   SetHistogramProperties(hUncorrBkgNorm, "minv", count_str, 2, 0.0, 0.3);
 
@@ -267,6 +287,10 @@ void Plotting(std::string current_path){
 
   delete legInvMass_Data;
   delete legUncorrBkgNorm;
+
+  for(int k = 1; k <= 39; k++){
+    delete lpTLines[k-1];
+  }
 
   delete hNEvents;
   delete hMC_Pi0InAcc_Pt;

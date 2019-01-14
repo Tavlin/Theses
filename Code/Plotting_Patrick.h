@@ -171,7 +171,7 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       hist2->GetYaxis()->SetLabelFont(lableFont);
       hist2->GetYaxis()->SetTitleFont(titleFont);
       hist2->GetYaxis()->SetTitleOffset(titleOffsetY);
-      // hist2->SetTitle("");
+      hist2->SetTitle("");
 
       hist2->SetAxisRange(xMin,xMax,"X");
       // hist2->SetAxisRange(yMin,yMax,"Y");
@@ -213,10 +213,10 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       pt->Draw();
     }else if (arraytoplot->At(hh)->InheritsFrom("TLegend")){
       cout<<"| Drawing a Legend "<<hh<<endl;
-      cout<<"| Rel. text size: "<<relativeTextSize<<endl;
+      cout<<"| Rel. text size: "<<1.2*relativeTextSize<<endl;
       TLegend *leghh = (TLegend*) arraytoplot->At(hh);
       leghh->SetTextFont(titleFont);
-      leghh->SetTextSize(relativeTextSize);
+      leghh->SetTextSize(1.2*relativeTextSize);
       leghh->SetFillColor(kWhite);
       leghh->SetFillStyle(0);
       leghh->SetBorderSize(0);
@@ -421,11 +421,11 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
     canvasHeight=700;
     padFraction = 0.5;
     titleOffsetY=1.4;
-    titleOffsetX=1.5;
+    titleOffsetX=1.2;
     leftMargin=0.12;
     rightMargin = leftMargin;
     topMargin=leftMargin-0.05;
-    lowMargin=leftMargin+0.05;
+    lowMargin=leftMargin-0.02;//+0.05;
     if(ratioArray){
       textSizeFactor =0.5 * 12000;
       leftMargin=0.13;
@@ -434,6 +434,16 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
       lowMargin = leftMargin/(padFraction)+0.05;
       titleOffsetY=1.4;
       titleOffsetX=2.8;
+    }
+    else if(histArray->At(0)->InheritsFrom("TH2")){
+      TH2D* hist = (TH2D*) histArray->At(0);
+      if( ((TString) hist->GetXaxis()->GetTitle()).Contains("#frac")){
+        titleOffsetX=1.5;
+        lowMargin=leftMargin+0.05;
+      }
+      else{
+        //emtpy statement
+      }
     }
   }else if (control.Contains("horizontal")||control.Contains("Horizontal")||control.Contains("HORIZONTAL")){
     cout<<"| - Horizontal Canvas"<<endl;
