@@ -39,6 +39,10 @@ void Plotting(std::string current_path){
   TH1D*  hCorrBckMC               = NULL;
   TH1D*  hUncorrBkgNorm           = NULL;
   TH1D*  hInvMass_Data            = NULL;
+  TF1*   fSignalPlusBkg           = NULL;
+  TF1*   fGauss                   = NULL;
+  TF1*   fTail                    = NULL;
+  TF1*   fBkg                     = NULL;
 
   TFile* ESDFile_MC       = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/Daten/" + current_path + ".root");
   if (ESDFile_MC->IsOpen() ) printf("ESDFile_MC opened successfully\n");
@@ -284,14 +288,60 @@ void Plotting(std::string current_path){
 
   cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_Data.pdf"));
   cPatrick->Clear();
+  OAhists->Clear();
 
   delete legInvMass_Data;
-  delete legUncorrBkgNorm;
+
+  /**
+   * Drawing Standardmethod parametrization with components
+   */
+
+  fSignalPlusBkg  = (TF1*) DataFile->Get(Form("Signal_InvMassFit_in_Pt_Bin%02i",k));
+  fSignalPlusBkg->  SetRange(0.0, 0.3);
+  fGauss          = new TF1("fGauss", "[0]*exp(-0.5*((x-[1])/[2])^2)", 0.0, 0.3);
+  fTail           = new TF1("fTail", "(x<[1])*[0]*(exp((x-[1])/[3])*(1-exp(-0.5*((x-[1])/[2])^2)))+(x>=[1])*0", 0.0, 0.3);
+  fBkg            = new TF1("fBkg", "[4] + [5]*x", 0.0, 0.3);
+  fGauss->SetParameter(0, fSignalPlusBkg->GetParameter(0));
+  fGauss->SetParameter(1, fSignalPlusBkg->GetParameter(1));
+  fGauss->SetParameter(2, fSignalPlusBkg->GetParameter(2));
+  fTail-> SetParameter(0, fSignalPlusBkg->GetParameter(0));
+  fTail-> SetParameter(1, fSignalPlusBkg->GetParameter(1));
+  fTail-> SetParameter(2, fSignalPlusBkg->GetParameter(2));
+  fTail-> SetParameter(3, fSignalPlusBkg->GetParameter(3));
+  fBkg->  SetParameter(4, fSignalPlusBkg->GetParameter(4));
+  fBkg->  SetParameter(5, fSignalPlusBkg->GetParameter(5));
+  fSignalPlusBkg->SetNpx(1000);
+  fGauss->        SetNpx(1000);
+  fTail->         SetNpx(1000);
+  fBkg->          SetNpx(1000);
+
+  TLegend* legStandardParam = new TLegend(0.55, 0.55, 0.85, 0.9);
+  legStandardParam->AddEntry(hInvMass_Data, "Signal", "lp");
+  legStandardParam->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
+  legStandardParam->AddEntry(fSignalPlusBkg, "kombinierte Funktion", "l");
+  legStandardParam->AddEntry(fGauss, "Gau#beta-Funktion", "l");
+  legStandardParam->AddEntry(fTail, "#it{Tail}-Funktion", "l");
+  legStandardParam->AddEntry(fBkg, "lineare Funktion", "l");
+
+
+  OAhists->Add(hInvMass_Data);
+  OAhists->Add(fSignalPlusBkg);
+  OAhists->Add(fGauss);
+  OAhists->Add(fTail);
+  OAhists->Add(fBkg);
+  OAhists->Add(legStandardParam);
+
+  cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
+
+  cPatrick->SaveAs(Form("../BachelorArbeit/StandardParam.pdf"));
+  cPatrick->Clear();
+  OAhists->Clear();
+
 
   for(int k = 1; k <= 39; k++){
     delete lpTLines[k-1];
   }
-
+  delete legUncorrBkgNorm;
   delete hNEvents;
   delete hMC_Pi0InAcc_Pt;
   delete hTrueDoubleCounting_Pi0;
@@ -309,5 +359,8 @@ void Plotting(std::string current_path){
   MCFile->Close();
   DataFile->Close();
   delete cPatrick;
+  delete fGauss;
+  delete fTail;
+  delete fBkg;
 
 }

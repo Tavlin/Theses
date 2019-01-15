@@ -37,7 +37,7 @@ void SetRatioRange(TObjArray *ratioArray = 0);
 
 Int_t GetNiceColor(Int_t i)
 {//
-  Int_t niceColors[] = {kRed+1, kGreen-3, kBlue+1, kViolet-4, kOrange-3, kBlack, kCyan-2, kGray+2, kOrange+2, kBlack, kYellow+3};
+  Int_t niceColors[] = {kRed+1, kGreen+2, kBlue+1, kViolet-4, kOrange-3, kBlack, kCyan-2, kGray+2, kOrange+2, kBlack, kYellow+3};
   return niceColors[i%11];
 }
 
@@ -259,12 +259,13 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       }
     }else if (arraytoplot->At(hh)->InheritsFrom("TF1")){
       cout<<"| Drawing a TF1 "<<hh<<endl;
+      cout<<"| colorArray[hh] "<<colorArray[hh]<<endl;
       TF1 *fun = (TF1*) arraytoplot->At(hh);
-      fun->SetLineColor(colorArray[hh]);
+      fun->SetLineColor(GetNiceColor(hh));
       if (markerArray[hh]< 10){
-        fun->SetLineStyle(markerArray[hh]);
+        fun->SetLineStyle(1);
       }else{
-        fun->SetLineStyle(3);
+        fun->SetLineStyle(1);
       }
       if(control.Contains("Thick")||control.Contains("thick")){
         fun->SetLineWidth(4);
@@ -373,7 +374,7 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
   if(ratioArray){SetRatioRange(ratioArray);}
   TString control(controlstring);
 
-  //   Short_t colorArray[]={kRed,kOrange-3,kGreen-3,kGreen+3,kCyan+3,kBlue};
+    // Short_t colorArray[]={kRed,kOrange-3,kGreen-3,kGreen+3,kCyan+3,kBlue};
     Short_t defaultColorArray[14] = {0};
   if(!colorArray) {
       Short_t copyArray[14]={kBlue-7,kRed+1,kGreen-3,6,8,9,11,12,13,14,15,16,17,18};
