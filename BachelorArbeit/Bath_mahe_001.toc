@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{7}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{6}{subsection.1.3}
 \contentsline {section}{\numberline {2}Experimenteller Aufbau}{9}{section.2}
 \contentsline {subsection}{\numberline {2.1}ALICE}{9}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Elektromagnetische Kaloriemeter EMCal}{10}{subsection.2.2}
