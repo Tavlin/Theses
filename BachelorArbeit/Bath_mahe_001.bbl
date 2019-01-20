@@ -9,11 +9,12 @@ Henner B{\"u}sching.
   2018.
 \newblock Letzer Zugriff am 14.01.2019.
 
-\bibitem[Cri16]{PAPER:1}
-Renato Critelli.
-\newblock Strongly coupled non-abelian plasmas in a magnetic field.
-\newblock \url{https://arxiv.org/abs/1609.03104}, 09 2016.
-\newblock Letzter Zugriff am 30.12.2018.
+\bibitem[Sey13]{PAPER:Phasediagaram}
+Peter Seyboth.
+\newblock Study of the onset of deconfinement and search for the critical point
+  of strongly interacting matter at the cern sps.
+\newblock \url{https://arxiv.org/abs/1301.5823}, 01 2013.
+\newblock Letzter Zugriff am 20.01.2019.
 
 \bibitem[T{\etalchar{+}}18]{book:pdg}
 M.~Tanabashi et~al.
