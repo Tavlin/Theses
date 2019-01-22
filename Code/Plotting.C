@@ -39,6 +39,10 @@ void Plotting(std::string current_path){
   TH1D*  hCorrBckMC               = NULL;
   TH1D*  hUncorrBkgNorm           = NULL;
   TH1D*  hInvMass_Data            = NULL;
+  TH1D*  hGG                      = NULL;
+  TH1D*  hGC                      = NULL;
+  TH1D*  hCC                      = NULL;
+  TH1D*  hSignalTemp              = NULL;
   TF1*   fSignalPlusBkg           = NULL;
   TF1*   fGauss                   = NULL;
   TF1*   fTail                    = NULL;
@@ -65,7 +69,6 @@ void Plotting(std::string current_path){
   hMC_Pi0InAcc_Pt         = (TH1D*)  lMC_MC->FindObject("MC_Pi0InAcc_Pt");
   hTrueDoubleCounting_Pi0 = (TH2D*)  lTrue_MC->FindObject("ESD_TrueDoubleCountPi0_InvMass_Pt");
   //////////////////////////////////////////////////////////////////////////////
-
 
   TLegend* legSystem = new TLegend(0.3, 0.94, 0.7, 0.98);
   legSystem->AddEntry((TObject*) 0x0, "pp, #sqrt{#it{s}} = 13 TeV", "");
@@ -175,6 +178,18 @@ void Plotting(std::string current_path){
   hCorrBckMC = (TH1D*) hSignalInvMassMC->Clone("hCorrBckMC");
   hCorrBckMC->Add(hTrueMesonInvMassMC,-1);
 
+
+  hGG                      = (TH1D*) MCFile->Get(Form("Mapping_TrueMesonCaloPhoton_InvMass_in_Pt_Bin%02d", k));
+  SetHistogramProperties(hGG, "minv", count_str, 2, 0.0, 0.3);
+
+  hGC                      = (TH1D*) MCFile->Get(Form("Mapping_TrueMesonMixedCaloConvPhoton_InvMass_in_Pt_Bin%02d", k));
+  SetHistogramProperties(hGC, "minv", count_str, 4, 0.0, 0.3);
+
+  hCC                      = (TH1D*) MCFile->Get(Form("Mapping_TrueMesonCaloConvPhoton_InvMass_in_Pt_Bin%02d", k));
+  SetHistogramProperties(hCC, "minv", count_str, 7, 0.0, 0.3);
+
+  hSignalTemp              = (TH1D*) OutputFile->Get(Form("hSignal_bin%02d",k));
+  SetHistogramProperties(hSignalTemp, "minv", count_str, 1, 0.0, 0.3);
 
   //////////////////////////////////////////////////////////////////////////
   // Fix! Changes < in TLatex to #leq

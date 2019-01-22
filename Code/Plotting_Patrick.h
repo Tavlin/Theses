@@ -385,7 +385,8 @@ TCanvas *makeCanvas(TObjArray *histArray, TObjArray *ratioArray,const char *cont
   } /// \remark If no colors are specified, use default: blue, red, green, magenta, wierd green, wierd blue and various grey
     Short_t defaultMarkerArray[14] = {0};
   if(!markerArray) {
-      Short_t copyArray[14]={20,21,22,23,24,25,26,27,28,29,30,20,20,20};
+      // Short_t copyArray[14]={20,21,22,23,24,25,26,27,28,29,30,20,20,20};
+      Short_t copyArray[14]={20,21,33,34,22,23,24,25,27,28,26,32,29,30};
       for (int i =0; i<14; ++i) {
           defaultMarkerArray[i] = copyArray[i];
       }
