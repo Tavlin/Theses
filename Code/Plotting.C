@@ -178,6 +178,12 @@ void Plotting(std::string current_path){
   hCorrBckMC = (TH1D*) hSignalInvMassMC->Clone("hCorrBckMC");
   hCorrBckMC->Add(hTrueMesonInvMassMC,-1);
 
+  /**
+   * open Output 3to8 File and get Signal
+   */
+
+  TFile* OutputFile = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/GammaCalo-All_503_normal_and_extra/OutputFileBetterBkg3to8.root");
+  if (OutputFile->IsOpen() ) printf("DataFile opened successfully\n");
 
   hGG                      = (TH1D*) MCFile->Get(Form("Mapping_TrueMesonCaloPhoton_InvMass_in_Pt_Bin%02d", k));
   SetHistogramProperties(hGG, "minv", count_str, 2, 0.0, 0.3);
@@ -333,10 +339,10 @@ void Plotting(std::string current_path){
   TLegend* legStandardParam = new TLegend(0.55, 0.55, 0.85, 0.9);
   legStandardParam->AddEntry(hInvMass_Data, "Signal", "lp");
   legStandardParam->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
-  legStandardParam->AddEntry(fSignalPlusBkg, "kombinierte Funktion", "l");
-  legStandardParam->AddEntry(fGauss, "Gau#beta-Funktion", "l");
-  legStandardParam->AddEntry(fTail, "#it{Tail}-Funktion", "l");
-  legStandardParam->AddEntry(fBkg, "lineare Funktion", "l");
+  legStandardParam->AddEntry(fSignalPlusBkg, "kombinierte Parametrisierung", "l");
+  legStandardParam->AddEntry(fGauss, "Gau#beta-Parametrisierung", "l");
+  legStandardParam->AddEntry(fTail, "#it{Tail}-Parametrisierung", "l");
+  legStandardParam->AddEntry(fBkg, "lineare Parametrisierung", "l");
 
 
   OAhists->Add(hInvMass_Data);

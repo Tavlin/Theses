@@ -1,8 +1,9 @@
-\babel@toc {german}{}
+\select@language {german}
 \contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Proton-Proton-Kollisionen}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Messung neutraler Pionen zur Untersuchung des Quark-Gluon-Plasma}{6}{subsection.1.4}
 \contentsline {section}{\numberline {2}Experimenteller Aufbau}{9}{section.2}
 \contentsline {subsection}{\numberline {2.1}ALICE}{9}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Elektromagnetische Kaloriemeter EMCal}{11}{subsection.2.2}
@@ -16,9 +17,9 @@
 \contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{20}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{20}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{21}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{22}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{22}{subsubsection.3.5.4}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{24}{section.4}
-\contentsline {subsection}{\numberline {4.1}Korrekturen}{24}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{24}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{24}{section.5}
+\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{23}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{24}{subsubsection.3.5.4}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{25}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{25}{section.5}
