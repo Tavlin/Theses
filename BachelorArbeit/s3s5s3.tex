@@ -5,5 +5,19 @@ Je kleiner $\chi^{2}$ ist, umso besser beschreibt die Verteilung die Daten, desh
 Als freie Parameter werden zwei Skalierungsfaktoren benutzt, einmal ein Skalierungsfaktor f\"ur das Template des Signals (SF\textsubscript{Signal}) und einmal ein Skalierungsfaktor f\"ur das Template des korrelierten Untergrunds (SF\textsubscript{korr. Untergrund}).
 F\"ur $\chi^{2}$ gilt dann:
 \begin{align}
-\chi^{2} = \sum_{i}\left(\frac{ax_{i}}{•}\right)
+\chi^{2} = \sum_{i}\left(\frac{\text{SF}_\text{Signal}\cdot x_{i}+\text{SF}_\text{korr. Untergrund}\cdot y_{i}-z_{i}}{\sqrt{\left(\text{SF}_\text{Signal}\cdot\Delta x_{i}\right)^{2}+\left(\text{SF}_\text{korr. Untergrund}\cdot\Delta y_{i}\right)^{2}+\left(\Delta z\right)^{2}}}\right)^{2}
+\label{eq:Chi2}
 \end{align}
+Hierbei steht $x$ f\"ur das Template des Signals, $y$ f\"ur das Template des korrelierten Untergrunds und $z$ f\"ur die Verteilung der invarianten Masse nach Abzug der unkorrelierten Untergrunds.
+Der Index $i$  symbolisiert, dass \"uber die verschiedenen Werte der invarianten Masse summiert wird.
+\begin{figure}[tp]
+\centering
+\includegraphics[width=.65\linewidth]{Chi2Map10_Data_2016.pdf}
+\caption{$\chi^{2}$ in Abh\"angigkeit der Skalierungsfaktoren f\"ur das Template des Signals und das Template des korrelierten Untergrunds.
+Die wei{\ss}e Kurve makiert die Unsicherheit auf $\chi^{2}_\text{min}$.}
+\label{fig:Chi2Map}
+\end{figure}
+\newline
+Abbildung \ref{fig:Chi2Map} zeigt eine Verteilung von $\chi^{2}$ f\"ur unterschiedliche Kombinationen der beiden Skalierungsfaktoren.
+Die wei{\ss}e Kurve umrahmt das Minimum $\chi^{2}_\text{min}$ und gibt die Unsicherheit bez\"uglich der beiden Skalierungsfaktoren an.
+Die Werte die auf der wei{\ss}en Kurve liegen bei $\chi^{2}_\text{min}+1$ \cite{book:chi2}.

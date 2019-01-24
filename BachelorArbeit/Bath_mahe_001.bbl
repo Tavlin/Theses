@@ -14,6 +14,11 @@ Adrian Mechler.
 \newblock Messung neutraler pionen in pp-kollisionen bei $\sqrt{s_\text{NN}} =
   5$ tev mit dem alice-dcal, 10 2018.
 
+\bibitem[P{\etalchar{+}}92]{book:chi2}
+William Press et~al.
+\newblock {\em Numerical Recipes in C: The Art of Scientific Computing}.
+\newblock Press Syndicate of the University of Cambridge,, 2 edition, 1992.
+
 \bibitem[Rog17]{Thesis:Tim}
 Tim Rogoschinski.
 \newblock Signalextraktion neutraler pionen in p-pb-kollisionen bei

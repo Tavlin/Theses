@@ -256,7 +256,8 @@ void Plotting(std::string current_path){
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
   cPatrick->SaveAs("../BachelorArbeit/Patrick.pdf");
   // scaled uncorrelated with Signal + both Backgrunds
-  cPatrick->cd();
+  cPatrick->Clear();
+
   TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.57, 0.8, 0.9);
   legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "p");
   legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");

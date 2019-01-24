@@ -171,6 +171,12 @@ void PlotArray(TObjArray *arraytoplot, const char *controlstring ,Short_t *color
       hist2->GetYaxis()->SetLabelFont(lableFont);
       hist2->GetYaxis()->SetTitleFont(titleFont);
       hist2->GetYaxis()->SetTitleOffset(titleOffsetY);
+
+      hist2->GetZaxis()->SetLabelSize(lableSize*relativeTextSize);
+      hist2->GetZaxis()->SetTitleSize(titleSize*relativeTextSize);
+      hist2->GetZaxis()->SetLabelFont(lableFont);
+      hist2->GetZaxis()->SetTitleFont(titleFont);
+      hist2->GetZaxis()->SetTitleOffset(titleOffsetY/2.);
       hist2->SetTitle("");
 
       hist2->SetAxisRange(xMin,xMax,"X");
