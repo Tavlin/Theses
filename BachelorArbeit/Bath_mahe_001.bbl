@@ -9,12 +9,20 @@ Henner B{\"u}sching.
   2018.
 \newblock Letzer Zugriff am 14.01.2019.
 
-\bibitem[Sey13]{PAPER:Phasediagaram}
-Peter Seyboth.
-\newblock Study of the onset of deconfinement and search for the critical point
-  of strongly interacting matter at the cern sps.
-\newblock \url{https://arxiv.org/abs/1301.5823}, 01 2013.
-\newblock Letzter Zugriff am 20.01.2019.
+\bibitem[Mec18]{thesis:Adrian}
+Adrian Mechler.
+\newblock Messung neutraler pionen in pp-kollisionen bei $\sqrt{s_\text{NN}} =
+  5$ tev mit dem alice-dcal, 10 2018.
+
+\bibitem[Rog17]{Thesis:Tim}
+Tim Rogoschinski.
+\newblock Signalextraktion neutraler pionen in p-pb-kollisionen bei
+  $\sqrt{s_\text{NN}} = 5,02$ tev mit dem alice-phos-detektor, 12 2017.
+
+\bibitem[Sch19]{thesis:Krissy}
+Kristina Schmitt.
+\newblock Multiplizit{\"a}tzabh{\"a}ngigkeit der produktion geladener teilchen
+  in proton-proton-kollision bei alice, 01 2019.
 
 \bibitem[T{\etalchar{+}}18]{book:pdg}
 M.~Tanabashi et~al.

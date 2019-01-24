@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  23 JAN 2019 19:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  24 JAN 2019 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,29 +621,29 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 30.
+less on input line 31.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 32.
+less on input line 33.
 
 (./Bath_mahe_001.aux)
 \openout1 = `Bath_mahe_001.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -703,9 +703,9 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 43.
+(lastpage)             ! on input line 44.
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -714,9 +714,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./Bath_mahe_001.out) (./Bath_mahe_001.out)
 \@outlinefile=\write3
@@ -739,7 +739,7 @@ xt4): destination with the same identifier (name{page.1}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \newpage
+l.60 \newpage
               [1] (./Bath_mahe_001.toc)
 \tf@toc=\write4
 \openout4 = `Bath_mahe_001.toc'.
@@ -755,7 +755,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \newpage
+l.64 \newpage
               [1
 
 ]
@@ -770,25 +770,25 @@ Overfull \hbox (5.53375pt too wide) in paragraph at lines 10--16
  [][] 
  []
 
-) (./s1s2.tex
-Overfull \hbox (16.07256pt too wide) in paragraph at lines 1--19
-\OT1/cmr/m/n/10.95 Die Kom-bi-na-tion der drei (Anti-)Farbladungen, oder die Ko
-m-bi-na-tion von Far-bladung mit entsprechen-
- []
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] <Phasediagram_Points-2008-neu.png, id=165, 433.62pt x 399.74344pt>
-File: Phasediagram_Points-2008-neu.png Graphic file (type png)
+[3] (./s1s2.tex
+Overfull \hbox (16.07256pt too wide) in paragraph at lines 1--19
+\OT1/cmr/m/n/10.95 Die Kom-bi-na-tion der drei (Anti-)Farbladungen, oder die Ko
+m-bi-na-tion von Far-bladung mit entsprechen-
+ []
 
-<use Phasediagram_Points-2008-neu.png>
-Package pdftex.def Info: Phasediagram_Points-2008-neu.png used on input line 54
-.
-(pdftex.def)             Requested size: 281.68517pt x 259.68985pt.
+<QCD_phase_diagram.pdf, id=165, 722.7pt x 542.025pt>
+File: QCD_phase_diagram.pdf Graphic file (type pdf)
+
+<use QCD_phase_diagram.pdf>
+Package pdftex.def Info: QCD_phase_diagram.pdf used on input line 55.
+(pdftex.def)             Requested size: 281.68517pt x 211.26483pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -803,21 +803,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]) (./s1s3.tex) (./s1s4.tex
+[5 <./QCD_phase_diagram.pdf>]) (./s1s3.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./Phasediagram_Points-2008-neu.png>]
-Overfull \hbox (2.35461pt too wide) in paragraph at lines 14--18
-\OT1/cmr/m/n/10.95 Neben der in-vari-anten Masse wird die Aufteilung des Im-pul
-s-es der Pho-to-nen bes-timmt, die wiederum
- []
+[6] (./s1s4.tex
 
-)
-Overfull \hbox (10.77237pt too wide) in paragraph at lines 20--77
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
+Overfull \hbox (10.77237pt too wide) in paragraph at lines 21--78
 \OT1/cmr/m/n/10.95 Die Mes-sung von $\OML/cmm/m/it/10.95 ^^Y[]$ \OT1/cmr/m/n/10
 .95 wird aus mehreren Gr[]unden zur Un-ter-suchung von hoch-en-er-getis-chen Te
 ilchenkol-
@@ -829,14 +830,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8] (./s2.tex) (./s2s1.tex <ALICE.jpg, id=208, 767.0256pt x 521.3076pt>
+[8] (./s2.tex) (./s2s1.tex <ALICE.jpg, id=238, 767.0256pt x 521.3076pt>
 File: ALICE.jpg Graphic file (type jpg)
 
 <use ALICE.jpg>
@@ -857,18 +851,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./ALICE.jpg>] (./s2s2.tex
+<m02&m20.png, id=253, 336.25626pt x 211.79124pt>
+File: m02&m20.png Graphic file (type png)
+ <use m02&m20.png>
+Package pdftex.def Info: m02&m20.png used on input line 29.
+(pdftex.def)             Requested size: 164.31754pt x 103.49422pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <m02&m20.png, id=228, 336.25626pt x 211.79124pt>
-File: m02&m20.png Graphic file (type png)
- <use m02&m20.png>
-Package pdftex.def Info: m02&m20.png used on input line 30.
-(pdftex.def)             Requested size: 164.31754pt x 103.49422pt.
-)
+[11])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -876,36 +871,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 <./m02&m20.png>] (./s3s2.tex
-<hInvMass_pT_Signal.pdf, id=238, 569.12625pt x 550.055pt>
+<hInvMass_pT_Signal.pdf, id=272, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Signal.pdf>
 Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 7.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 
-<hSignalPlusBkg.pdf, id=243, 569.12625pt x 387.4475pt>
+<hSignalPlusBkg.pdf, id=277, 569.12625pt x 387.4475pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 
 <use hSignalPlusBkg.pdf>
 Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 30.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
-Overfull \hbox (5.50708pt too wide) in paragraph at lines 3--96
+Overfull \hbox (1.85715pt too wide) in paragraph at lines 3--97
 \OT1/cmr/m/n/10.95 Abbildung []5[] zeigt eine Verteilung der in-vari-ante Masse
 n in einem $\OML/cmm/m/it/10.95 p[]$\OT1/cmr/m/n/10.95 -Intervall von $(3\OML/c
-mm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95
- 3\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 4)([]\OML/cmm/m/it/10.95 =c\OT1/cmr/
-m/n/10.95 )$.
+mm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 2 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.9
+5 3\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 4)([]\OML/cmm/m/it/10.95 =c\OT1/cm
+r/m/n/10.95 )$.
  []
 
 
-Overfull \hbox (15.91925pt too wide) in paragraph at lines 3--96
+Overfull \hbox (15.91925pt too wide) in paragraph at lines 3--97
 \OT1/cmr/m/n/10.95 Im fol-gen-den Ab-schnitt wird eine Meth-ode zur Ab-sch[]atz
 ung des un-ko-r-re-lierten Un-ter-grunds vorgestellt.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--96
+Underfull \hbox (badness 10000) in paragraph at lines 3--97
 
  []
 
@@ -923,14 +918,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>] (./s3s3.tex
-<hInvMass_pT_Bkg.pdf, id=346, 569.12625pt x 550.055pt>
+<hInvMass_pT_Bkg.pdf, id=380, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Bkg.pdf>
 Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 3.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 
-<hUncorrBkgNorm.pdf, id=349, 569.12625pt x 387.4475pt>
+<hUncorrBkgNorm.pdf, id=383, 569.12625pt x 387.4475pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 
 <use hUncorrBkgNorm.pdf>
@@ -943,7 +938,7 @@ LaTeX Warning: Reference `figUncorrBkg' on page 15 undefined on input line 33.
 
 LaTeX Warning: Reference `figUncorrBkg' on page 15 undefined on input line 33.
 
-<hInvMass_Data.pdf, id=355, 569.12625pt x 387.4475pt>
+<hInvMass_Data.pdf, id=389, 569.12625pt x 387.4475pt>
 File: hInvMass_Data.pdf Graphic file (type pdf)
  <use hInvMass_Data.pdf>
 Package pdftex.def Info: hInvMass_Data.pdf used on input line 41.
@@ -970,19 +965,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./hUncorrBkgNorm.pdf, page is rotated 90 degrees>] (./s3s4.tex
-<StandardParam.pdf, id=460, 569.12625pt x 387.4475pt>
+<StandardParam.pdf, id=494, 569.12625pt x 387.4475pt>
 File: StandardParam.pdf Graphic file (type pdf)
  <use StandardParam.pdf>
 Package pdftex.def Info: StandardParam.pdf used on input line 18.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
-Overfull \hbox (12.11958pt too wide) in paragraph at lines 1--100
+Overfull \hbox (12.11958pt too wide) in paragraph at lines 1--101
 \OT1/cmr/m/n/10.95 Wie im Ab-schnitt zu-vor erw[]ahnt, wird in diesem Ab-schnit
 t die Ex-trak-tion des Sig-nals, beziehungsweise
  []
 
 
-Overfull \hbox (6.12509pt too wide) in paragraph at lines 1--100
+Overfull \hbox (6.12509pt too wide) in paragraph at lines 1--101
 \OT1/cmr/m/n/10.95 die Ab-sch[]atzung des ko-r-re-lierten Un-ter-grunds durch p
 arametrisieren von Funk-tio-nen kurz vorgestellt. 
  []
@@ -1001,7 +996,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./StandardParam.pdf, page is rotated 90 degrees>] (./s3s5s1.tex
-<PeakTemplateMotivation10_Data_2016.pdf, id=558, 569.12625pt x 387.4475pt>
+<PeakTemplateMotivation10_Data_2016.pdf, id=592, 569.12625pt x 387.4475pt>
 File: PeakTemplateMotivation10_Data_2016.pdf Graphic file (type pdf)
 
 <use PeakTemplateMotivation10_Data_2016.pdf>
@@ -1017,7 +1012,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20 <./PeakTemplateMotivation10_Data_2016.pdf, page is rotated 90 degrees>]
 (./s3s5s2.tex
-<EntstehungUntergrund10_Data_2016.pdf, id=608, 569.12625pt x 387.4475pt>
+<EntstehungUntergrund10_Data_2016.pdf, id=642, 569.12625pt x 387.4475pt>
 File: EntstehungUntergrund10_Data_2016.pdf Graphic file (type pdf)
 
 <use EntstehungUntergrund10_Data_2016.pdf>
@@ -1025,7 +1020,7 @@ Package pdftex.def Info: EntstehungUntergrund10_Data_2016.pdf used on input lin
 e 5.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 
-<BackgroundWithRatio10_Data_2016.pdf, id=610, 569.12625pt x 550.055pt>
+<BackgroundWithRatio10_Data_2016.pdf, id=644, 569.12625pt x 550.055pt>
 File: BackgroundWithRatio10_Data_2016.pdf Graphic file (type pdf)
 
 <use BackgroundWithRatio10_Data_2016.pdf>
@@ -1088,7 +1083,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25] (./Bath_mahe_001.bbl
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26] (./Bath_mahe_001.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 5--11
 []\OT1/cmr/m/n/10.95 Henner B[]usching.  Kerne und teilchen 1 die quark-struk-t
 ur der ma-terie.
@@ -1108,28 +1110,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+[27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./Bath_mahe_001.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
 (rerunfilecheck)             Checksum: C63A6EFF1658B9847433371B7F6E2CC9;1955.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 9103 strings out of 494820
+ 9108 strings out of 494820
  135106 string characters out of 3178049
- 238837 words of memory out of 3000000
- 12004 multiletter control sequences out of 15000+200000
+ 236870 words of memory out of 3000000
+ 12006 multiletter control sequences out of 15000+200000
  15974 words of font info for 60 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
- 42i,16n,43p,1774b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,43p,1774b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1145,10 +1147,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (28 pages, 3166827 bytes).
+Output written on Bath_mahe_001.pdf (29 pages, 3225709 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 842 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 83 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

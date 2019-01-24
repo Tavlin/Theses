@@ -3,44 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Bath_mahe_001.aux
 The style file: alpha.bst
 Database file #1: bib_bath_mahe.bib
-You've used 4 entries,
+Warning--entry type for "thesis:Krissy" isn't style-file defined
+--line 83 of file bib_bath_mahe.bib
+Warning--entry type for "thesis:Tim" isn't style-file defined
+--line 92 of file bib_bath_mahe.bib
+Warning--entry type for "thesis:Adrian" isn't style-file defined
+--line 101 of file bib_bath_mahe.bib
+You've used 6 entries,
             2543 wiz_defined-function locations,
-            585 strings with 5106 characters,
-and the built_in function-call counts, 1210 in all, are:
-= -- 116
-> -- 43
-< -- 4
-+ -- 12
-- -- 12
-* -- 68
-:= -- 204
-add.period$ -- 15
-call.type$ -- 4
-change.case$ -- 20
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 49
-empty$ -- 102
-format.name$ -- 18
-if$ -- 250
+            594 strings with 5345 characters,
+and the built_in function-call counts, 1706 in all, are:
+= -- 157
+> -- 59
+< -- 6
++ -- 16
+- -- 16
+* -- 94
+:= -- 277
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 30
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 71
+empty$ -- 152
+format.name$ -- 26
+if$ -- 353
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 2
-newline$ -- 27
-num.names$ -- 12
-pop$ -- 33
+newline$ -- 33
+num.names$ -- 18
+pop$ -- 54
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 36
 quote$ -- 0
-skip$ -- 43
+skip$ -- 69
 stack$ -- 0
-substring$ -- 28
-swap$ -- 6
-text.length$ -- 4
-text.prefix$ -- 3
+substring$ -- 42
+swap$ -- 8
+text.length$ -- 6
+text.prefix$ -- 5
 top$ -- 0
-type$ -- 28
+type$ -- 44
 warning$ -- 0
-while$ -- 9
-width$ -- 5
-write$ -- 59
+while$ -- 13
+width$ -- 7
+write$ -- 75
+(There were 3 warnings)
