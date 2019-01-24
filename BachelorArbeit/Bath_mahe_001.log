@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  24 JAN 2019 15:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  24 JAN 2019 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,6 +789,11 @@ File: QCD_phase_diagram.pdf Graphic file (type pdf)
 <use QCD_phase_diagram.pdf>
 Package pdftex.def Info: QCD_phase_diagram.pdf used on input line 55.
 (pdftex.def)             Requested size: 281.68517pt x 211.26483pt.
+)
+Overfull \hbox (15.43259pt too wide) in paragraph at lines 21--73
+\OT1/cmr/m/n/10.95 Zum besseren Verst[]andnis von Kern-Kern-Kollisionen wer-den
+ auch Proton-Proton-Kollisionen studiert.
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -803,7 +808,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./QCD_phase_diagram.pdf>]) (./s1s3.tex)
+[5 <./QCD_phase_diagram.pdf>] (./s1s3.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -818,19 +823,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7])
-Overfull \hbox (10.77237pt too wide) in paragraph at lines 21--78
-\OT1/cmr/m/n/10.95 Die Mes-sung von $\OML/cmm/m/it/10.95 ^^Y[]$ \OT1/cmr/m/n/10
-.95 wird aus mehreren Gr[]unden zur Un-ter-suchung von hoch-en-er-getis-chen Te
-ilchenkol-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (./s2.tex) (./s2s1.tex <ALICE.jpg, id=238, 767.0256pt x 521.3076pt>
+[8] (./s2.tex) (./s2s1.tex <ALICE.jpg, id=233, 767.0256pt x 521.3076pt>
 File: ALICE.jpg Graphic file (type jpg)
 
 <use ALICE.jpg>
@@ -851,7 +850,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./ALICE.jpg>] (./s2s2.tex
-<m02&m20.png, id=253, 336.25626pt x 211.79124pt>
+<m02&m20.png, id=248, 336.25626pt x 211.79124pt>
 File: m02&m20.png Graphic file (type png)
  <use m02&m20.png>
 Package pdftex.def Info: m02&m20.png used on input line 29.
@@ -871,14 +870,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 <./m02&m20.png>] (./s3s2.tex
-<hInvMass_pT_Signal.pdf, id=272, 569.12625pt x 550.055pt>
+<hInvMass_pT_Signal.pdf, id=267, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Signal.pdf>
 Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 7.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 
-<hSignalPlusBkg.pdf, id=277, 569.12625pt x 387.4475pt>
+<hSignalPlusBkg.pdf, id=272, 569.12625pt x 387.4475pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 
 <use hSignalPlusBkg.pdf>
@@ -918,14 +917,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>] (./s3s3.tex
-<hInvMass_pT_Bkg.pdf, id=380, 569.12625pt x 550.055pt>
+<hInvMass_pT_Bkg.pdf, id=375, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 
 <use hInvMass_pT_Bkg.pdf>
 Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 3.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 
-<hUncorrBkgNorm.pdf, id=383, 569.12625pt x 387.4475pt>
+<hUncorrBkgNorm.pdf, id=378, 569.12625pt x 387.4475pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 
 <use hUncorrBkgNorm.pdf>
@@ -938,7 +937,7 @@ LaTeX Warning: Reference `figUncorrBkg' on page 15 undefined on input line 33.
 
 LaTeX Warning: Reference `figUncorrBkg' on page 15 undefined on input line 33.
 
-<hInvMass_Data.pdf, id=389, 569.12625pt x 387.4475pt>
+<hInvMass_Data.pdf, id=384, 569.12625pt x 387.4475pt>
 File: hInvMass_Data.pdf Graphic file (type pdf)
  <use hInvMass_Data.pdf>
 Package pdftex.def Info: hInvMass_Data.pdf used on input line 41.
@@ -965,7 +964,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./hUncorrBkgNorm.pdf, page is rotated 90 degrees>] (./s3s4.tex
-<StandardParam.pdf, id=494, 569.12625pt x 387.4475pt>
+<StandardParam.pdf, id=489, 569.12625pt x 387.4475pt>
 File: StandardParam.pdf Graphic file (type pdf)
  <use StandardParam.pdf>
 Package pdftex.def Info: StandardParam.pdf used on input line 18.
@@ -996,7 +995,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./StandardParam.pdf, page is rotated 90 degrees>] (./s3s5s1.tex
-<PeakTemplateMotivation10_Data_2016.pdf, id=592, 569.12625pt x 387.4475pt>
+<PeakTemplateMotivation10_Data_2016.pdf, id=587, 569.12625pt x 387.4475pt>
 File: PeakTemplateMotivation10_Data_2016.pdf Graphic file (type pdf)
 
 <use PeakTemplateMotivation10_Data_2016.pdf>
@@ -1012,7 +1011,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20 <./PeakTemplateMotivation10_Data_2016.pdf, page is rotated 90 degrees>]
 (./s3s5s2.tex
-<EntstehungUntergrund10_Data_2016.pdf, id=642, 569.12625pt x 387.4475pt>
+<EntstehungUntergrund10_Data_2016.pdf, id=637, 569.12625pt x 387.4475pt>
 File: EntstehungUntergrund10_Data_2016.pdf Graphic file (type pdf)
 
 <use EntstehungUntergrund10_Data_2016.pdf>
@@ -1020,7 +1019,7 @@ Package pdftex.def Info: EntstehungUntergrund10_Data_2016.pdf used on input lin
 e 5.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 
-<BackgroundWithRatio10_Data_2016.pdf, id=644, 569.12625pt x 550.055pt>
+<BackgroundWithRatio10_Data_2016.pdf, id=639, 569.12625pt x 550.055pt>
 File: BackgroundWithRatio10_Data_2016.pdf Graphic file (type pdf)
 
 <use BackgroundWithRatio10_Data_2016.pdf>
@@ -1043,17 +1042,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22 <./EntstehungUntergrund10_Data_2016.pdf, page is rotated 90 degrees> <./Bac
 kgroundWithRatio10_Data_2016.pdf, page is rotated 90 degrees>] (./s3s5s3.tex
-<Chi2Map10_Data_2016.pdf, id=743, 569.12625pt x 550.055pt>
+<Chi2Map10_Data_2016.pdf, id=738, 569.12625pt x 550.055pt>
 File: Chi2Map10_Data_2016.pdf Graphic file (type pdf)
 
 <use Chi2Map10_Data_2016.pdf>
 Package pdftex.def Info: Chi2Map10_Data_2016.pdf used on input line 15.
 (pdftex.def)             Requested size: 305.15295pt x 294.93538pt.
-)
-Overfull \hbox (7.17183pt too wide) in paragraph at lines 10--113
+
+Overfull \hbox (7.17183pt too wide) in paragraph at lines 10--25
 \OT1/cmr/m/n/10.95 Abbildung []13[] zeigt eine Verteilung von $\OML/cmm/m/it/10
 .95 ^^_[]$ \OT1/cmr/m/n/10.95 f[]ur un-ter-schiedliche Kom-bi-na-tio-nen der be
 i-den Skalierungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--25
+
  []
 
 
@@ -1062,7 +1066,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[23])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1118,10 +1122,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 9101 strings out of 494820
- 135009 string characters out of 3178049
- 237185 words of memory out of 3000000
- 11999 multiletter control sequences out of 15000+200000
+ 9099 strings out of 494820
+ 134976 string characters out of 3178049
+ 238204 words of memory out of 3000000
+ 11998 multiletter control sequences out of 15000+200000
  15974 words of font info for 60 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
  42i,16n,43p,1774b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1140,10 +1144,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (29 pages, 3283578 bytes).
+Output written on Bath_mahe_001.pdf (29 pages, 3283001 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 560 compressed objects within 6 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 84 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
