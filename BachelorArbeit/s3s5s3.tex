@@ -8,6 +8,7 @@ Für $\chi^{2}$ gilt dann:
 \label{eq:Chi2}
 \end{align}
 Hierbei steht $x$ für das Template des Signals, $y$ für das Template des korrelierten Untergrunds und $z$ für die Verteilung der invarianten Masse nach Abzug der unkorrelierten Untergrunds.
+Letzteres stammt dabei wieder aus den gemessenen Daten und nicht wie im Abschnitt davor aus einer Simulation.
 Der Index $i$  symbolisiert, dass über die verschiedenen Werte der invarianten Masse summiert wird.
 \begin{figure}[tp]
 \centering
@@ -19,6 +20,32 @@ Die weiße Kurve makiert die Unsicherheit auf $\chi^{2}_\text{min}$.}
 \newline
 Abbildung \ref{fig:Chi2Map} zeigt eine Verteilung von $\chi^{2}$ für unterschiedliche Kombinationen der beiden Skalierungsfaktoren in einem $p_{\text{T}}$-Intervall von $(3\,2 - 3\,4)(\text{GeV}/c)$.
 Die weiße Kurve umrahmt das Minimum $\chi^{2}_\text{min}$ und gibt die Unsicherheit bezüglich der beiden Skalierungsfaktoren an.
-Die Werte auf der weißen Kurve liegen bei $\chi^{2}_\text{min}+1$ \cite{book:chi2}.
+Die Werte auf der weißen Kurve liegen bei $\left(\chi^{2}_\text{min}+1\right)$ \cite{book:chi2}.
 \newline
-Um die Stabilität der Methode zu prüfen wird $\frac{\chi^{2}}{ndf}$ in Abhängigkeit 
+Um die Stabilität der Methode zu prüfen wird $\frac{\chi^{2}_\text{min}}{ndf}$ in Abhängigkeit von $p_{\text{T}}$ betrachtet.
+Der Nenner ndf steht für die Anzahl der Freiheitsgrade (in englisch \textit{\textbf{n}umbers of \textbf{d}egrees of \textbf{f}reedom}).
+Die Anzahl an Freiheitsgraden setzt sich dabei aus zwei Teilen zusammen.
+Zum einen gilt jeder Datenpunkt in der Verteilung der invarianten Masse, der weder in Daten, noch in einem der Templates den Wert 0 besitzt und sich innerhalb des Parametrisierungsbereiches befindet, als ein Freiheitsgrad.
+Zum anderen wird für jeden freien Parameter die Anzahl an Freiheitsgraden um eins reduziert.
+Die Anforderungen an den Öffnungswinkel reduzieren zu höherem $p_{\text{T}}$ hin die Anzahl an Freiheitsgraden zunehmend, weshalb die Normierung von $\chi^{2}_\text{min}$ auf die Anzahl an Freiheitsgraden für einen $p_{\text{T}}$-differenzierten Vergleich notwendig ist.
+Außerdem gibt der Wert von $\frac{\chi^{2}_\text{min}}{ndf}$ einen allgemeinen Hinweis auf die Güte der Parametrisierung.
+Für $\frac{\chi^{2}_\text{min}}{ndf} > 1$ gilt, dass die Parametrisierung der Templates und die Verteilung der Daten immer weniger gut übereinstimmen.
+Umgekehrt gilt für $\frac{\chi^{2}_\text{min}}{ndf} < 1$, dass die Unsicherheiten in der Verteilung der Daten oder den Templates zu groß sind, für eine sinnvolle Parametrisierung.
+\begin{figure}[tp]
+\centering
+\includegraphics[width=.65\linewidth]{Chi2Map10_Data_2016.pdf} %%%%NEEDS Change!!!!!
+\caption{Wrong Picture till Monday.}
+\label{fig:Chi2pT}
+\end{figure}
+\newline
+Abbildung \ref{fig:Chi2pT} zeigt $\frac{\chi^{2}_\text{min}}{ndf}$ in Abhängigkeit von $p_{\text{T}}$.
+%%% satz zum verhalten von Chi2
+\newline
+Die Skalierungsfaktoren aus die aus der $\chi^{2}$-Minimierung folgen werden in Abbildung \ref{KOMMT NOCH} gezeigt.
+Für SF\textsubscript{korr. Untergrund} zeigt sich ein Anstieg bis es sein Maximum bei FEHLT NOCH erreicht.
+Vom Maximum aus fällt SF\textsubscript{korr. Untergrund} ab, bis runter zur Null.
+Da für alle $p_{\text{T}}$-Intervall das gleiche Template des korrelierten Untergrunds verwendet wird, kann aus dem Verlauf von SF\textsubscript{korr. Untergrund} direkt auf die Menge an korrelierten Untergrund geschlossen werden.
+So wird für große $p_{\text{T}}$ kaum bis gar kein korrelierter Untergrund erwartet.
+\newline
+Die Templates des Signals sind jedoch für jeden $p_{\text{T}}$-Intervall unterschiedlich.
+Das annähernd konstante Verhalten von SF\textsubscript{Signal} zeigt entsprechend, dass die Produktionsrate von $\pi^{0}$ in der Simulation gleichmäßig gut die Produktionsrate von $\pi^{0}$ im Experiment beschreibt.
