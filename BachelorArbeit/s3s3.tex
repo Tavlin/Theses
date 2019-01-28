@@ -1,26 +1,18 @@
 \begin{figure}[tp]
 \centering
 \includegraphics[width=.7\linewidth]{hInvMass_pT_Bkg.pdf}
-\caption{$p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von rekombinierten  Cluster-Paaren aus unterschiedlichen Kollision.}
+\caption{$p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von kombinierten  \tetxit{Clusterpaaren} aus unterschiedlichen \textit{events}.}
 \label{figInvMassPt_b}
 \end{figure}
-Durch das paarweise Kombinieren aller Photonenkandidaten, wie es in Abschnitt \ref{s3s2} gezeigt wurde, besteht ein großer Anteil der rekonstruierten Datenpunkte aus unkorreliert Paaren.
-Das heißt, dass die beiden Photonenkandidaten nicht über einen Zerfall zusammenhängen.
-Um den unkorrelierten Untergrund abzuschätzen werden Photonenkandidaten aus unterschiedlichen \textit{events} mit Hilfe der sogenannten \textit{mixed event method} miteinander kombiniert.
-Abbildung \ref{figInvMassPt_b} zeigt eine solche Verteilung, bei der Photonenkandidaten aus unterschiedlichen Kollisionen miteinander kombiniert wurden.
+Durch das paarweise Kombinieren aller Photonenkandidaten, wie es in Abschnitt \ref{s3s2} vorgestellt wurde, besteht ein großer Anteil der rekonstruierten Datenpunkte aus unkorreliert Paaren.
+Um den unkorrelierten Untergrund abzuschätzen werden Photonenkandidaten aus unterschiedlichen \textit{events} paarweise miteinander kombiniert.
+Diese Methode wird als \textit{mixed event} Methode bezeichnet.
+Abbildung \ref{figInvMassPt_b} zeigt eine Verteilung, bei der Photonenkandidaten aus unterschiedlichen \textit{events} miteinander kombiniert wurden.
 Eine Häufung der Datenpunkte um eine bestimmte invariante Masse gibt es, wie zu erwarten, nicht.
-Die linke Flanke, aufgrund der Anforderung an den Öffnungswinkel hingegen, bleibt bestehen.
-%\begin{figure}[tp]
-%\centering
-%\includegraphics[width=.75\linewidth]{hUncorrBkg.pdf}
-%\caption{Kombinationen von Photonenkandidaten aus unterschiedlichen Kollisionen, die keine Korrelationen zueinander haben, weshalb auch kein Peak im Bereich der $\pi^{0}$-Masse zu sehen ist. Dies dient als Grundlage zur Bestimmung des unkorrelierten Untergrunds.}
-%\label{figUncorrBkg}
-%\end{figure}
+Durch die Anforderungen an den Öffnungswinkel sind wieder keine Datenpunkte bei kleinen invarianten Massen zu finden.
+Die untere Grenze, ab welcher invarianten Masse Kombinationen möglich sind steigt mit $p_\text{T}$, analog wie zuvor bei Abbildung  \ref{figInvMassPt_a}.
 \newline
-%Auch die \textit{mixed event} Verteilung wird in den gleichen $p_{\rm{T}}$-Intervallen integriert betrachtet wie zuvor die \textit{same event} Verteilung.
-%Abbildung \ref{figUncorrBkg} zeigt die invariante Massenverteilung für das $p_{\text{T}}$-Intervall $(3,2 - 3,4) (\text{GeV/}c)$.
-%Diese Verteilung weist keinen Peak auf und hat eine größere Anzahl Einträge, als die Verteilung aus der \textit{same event method}.
-Aufgrund der größeren Anzahl Einträge, da es in der \textit{mixed event method} mehr Kombinationsmöglichkeiten gibt als in der \textit{same event method}, muss die Verteilung aus der \textit{mixed event method} an die aus der \textit{same event method} skaliert werden.
+Aufgrund der größeren Anzahl Einträge, da es in der \textit{mixed event} Methode mehr Kombinationsmöglichkeiten gibt als in der \textit{same event} Methode, muss die Verteilung aus der \textit{mixed event} Methode an die aus der \textit{same event} Methode skaliert werden.
 Die Skalierung erfolgt im rechten Bereich außerhalb des $\pi^{0}$-Peaks bei $m_\text{inv} \in \left[0\,19,3\,0\right] (\text{GeV/}c^{2})$ und es ergibt sich für den Skalierungsfaktor:
 \begin{align}
 \label{eqBackSkalierung}
@@ -36,7 +28,7 @@ Die oberen Indize $m$ und $n$ stehen hierbei für ein Event, aus dem ein Photon 
 \newline
 Das Resultat der Skalierung ist in Abbildung \ref{figUncorrBkgNorm} zu sehen, wo zusätzlich noch das Signal eingezeichnet ist, um besser erkennen zu können, wie sich der abgeschätzte unkorrelierte Untergrund relativ zum gesamten Signal verhält.
 Nachdem der unkorrelierte Untergrund abgeschätzt wurde wird dieser vom Signal subtrahiert.
-\begin{figure}[tbp]
+\begin{figure}[tp]
 \centering
 \includegraphics[width=.75\linewidth]{hInvMass_Data.pdf}
 \caption{Signal nach Abzug des unkorrelierten Untergrunds.}
