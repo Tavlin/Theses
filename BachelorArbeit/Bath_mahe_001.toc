@@ -1,4 +1,4 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{4}{subsection.1.2}
@@ -14,12 +14,12 @@
 \contentsline {subsection}{\numberline {3.2}Clusterrekombination}{14}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{16}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Absch{\"a}tzung des korrelierten Untergrunds mit der Standardmethode}{19}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{20}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{21}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{21}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{22}{subsubsection.3.5.2}
 \contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{24}{subsubsection.3.5.3}
 \contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{27}{subsubsection.3.5.4}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{30}{section.4}
-\contentsline {subsection}{\numberline {4.1}Korrekturen}{30}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{30}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{31}{section.5}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{29}{section.4}
+\contentsline {subsection}{\numberline {4.1}Korrekturen}{29}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{29}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{30}{section.5}
