@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  29 JAN 2019 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  31 JAN 2019 18:49
 entering extended mode
 **./Bath_mahe_001.tex
 (Bath_mahe_001.tex
@@ -1163,12 +1163,12 @@ Package babel Info: Redefining ngerman shorthand "~
 <hInvMass_pT_Signal.pdf, id=277, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 <use hInvMass_pT_Signal.pdf>
-Package pdftex.def Info: hInvMass_pT_Signal.pdf  used on input line 7.
+Package pdftex.def Info: hInvMass_pT_Signal.pdf  used on input line 6.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 <hSignalPlusBkg.pdf, id=282, 569.12625pt x 387.4475pt>
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 <use hSignalPlusBkg.pdf>
-Package pdftex.def Info: hSignalPlusBkg.pdf  used on input line 30.
+Package pdftex.def Info: hSignalPlusBkg.pdf  used on input line 41.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
 
@@ -1200,13 +1200,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 97.
-[15 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>]
+[15]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 97.
  (s3s3.tex
-<hInvMass_pT_Bkg.pdf, id=384, 569.12625pt x 550.055pt>
+<hInvMass_pT_Bkg.pdf, id=340, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
 <use hInvMass_pT_Bkg.pdf>
 Package pdftex.def Info: hInvMass_pT_Bkg.pdf  used on input line 3.
@@ -1226,7 +1226,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
-[16]
+[16 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1242,17 +1242,22 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
 [17 <./hInvMass_pT_Bkg.pdf, page is rotated 90 degrees>]
-<hUncorrBkgNorm.pdf, id=441, 569.12625pt x 387.4475pt>
+<hUncorrBkgNorm.pdf, id=440, 569.12625pt x 387.4475pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
 <use hUncorrBkgNorm.pdf>
-Package pdftex.def Info: hUncorrBkgNorm.pdf  used on input line 24.
+Package pdftex.def Info: hUncorrBkgNorm.pdf  used on input line 27.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-<hInvMass_Data.pdf, id=447, 569.12625pt x 387.4475pt>
+<hInvMass_Data.pdf, id=446, 569.12625pt x 387.4475pt>
 File: hInvMass_Data.pdf Graphic file (type pdf)
 <use hInvMass_Data.pdf>
-Package pdftex.def Info: hInvMass_Data.pdf  used on input line 33.
+Package pdftex.def Info: hInvMass_Data.pdf  used on input line 36.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
+Overfull \hbox (0.71815pt too wide) in paragraph at lines 23--99
+\OT1/cmr/m/n/10.95 grunds. Das Absch[]atzen mit ei-ner li-nea-ren Funk-ti-on ha
+t sich als g[]angigste Me-tho-de zur Absch[]atzung
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1273,10 +1278,10 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 99.
  (s3s4.tex
-<StandardParam.pdf, id=499, 569.12625pt x 387.4475pt>
+<StandardParam.pdf, id=498, 569.12625pt x 387.4475pt>
 File: StandardParam.pdf Graphic file (type pdf)
 <use StandardParam.pdf>
-Package pdftex.def Info: StandardParam.pdf  used on input line 18.
+Package pdftex.def Info: StandardParam.pdf  used on input line 13.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
 
@@ -1301,13 +1306,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 101.
 [20 <./StandardParam.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
@@ -1326,23 +1331,38 @@ Package pdftex.def Info: PeakTemplateMotivation10_Data_2016.pdf  used on input
 line 6.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 107.
+[21 <./PeakTemplateMotivation10_Data_2016.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
 
 (s3s5s2.tex
-<EntstehungUntergrund10_Data_2016.pdf, id=598, 569.12625pt x 387.4475pt>
+<EntstehungUntergrund10_Data_2016.pdf, id=646, 569.12625pt x 387.4475pt>
 File: EntstehungUntergrund10_Data_2016.pdf Graphic file (type pdf)
 <use EntstehungUntergrund10_Data_2016.pdf>
 Package pdftex.def Info: EntstehungUntergrund10_Data_2016.pdf  used on input li
 ne 5.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-<BackgroundWithRatio10_Data_2016.pdf, id=600, 569.12625pt x 550.055pt>
+<BackgroundWithRatio10_Data_2016.pdf, id=648, 569.12625pt x 550.055pt>
 File: BackgroundWithRatio10_Data_2016.pdf Graphic file (type pdf)
 <use BackgroundWithRatio10_Data_2016.pdf>
 Package pdftex.def Info: BackgroundWithRatio10_Data_2016.pdf  used on input lin
-e 20.
+e 22.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 )
 
@@ -1359,7 +1379,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
-[21]
+[22]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1374,7 +1394,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
-[22 <./PeakTemplateMotivation10_Data_2016.pdf, page is rotated 90 degrees>]
+[23 <./EntstehungUntergrund10_Data_2016.pdf, page is rotated 90 degrees>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1389,42 +1409,41 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
-[23 <./EntstehungUntergrund10_Data_2016.pdf, page is rotated 90 degrees> <./Bac
-kgroundWithRatio10_Data_2016.pdf, page is rotated 90 degrees>]
+[24 <./BackgroundWithRatio10_Data_2016.pdf, page is rotated 90 degrees>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+[25]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
  (s3s5s3.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 9.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 9.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 9.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 9.
-[24]
-<Chi2Map10_Data_2016.pdf, id=751, 569.12625pt x 550.055pt>
+<Chi2Map10_Data_2016.pdf, id=757, 569.12625pt x 550.055pt>
 File: Chi2Map10_Data_2016.pdf Graphic file (type pdf)
 <use Chi2Map10_Data_2016.pdf>
-Package pdftex.def Info: Chi2Map10_Data_2016.pdf  used on input line 15.
+Package pdftex.def Info: Chi2Map10_Data_2016.pdf  used on input line 17.
 (pdftex.def)             Requested size: 305.15295pt x 294.93538pt.
-<Chi2NoComp_Data_2016.pdf, id=754, 569.12625pt x 387.4475pt>
+<Chi2NoComp_Data_2016.pdf, id=760, 569.12625pt x 387.4475pt>
 File: Chi2NoComp_Data_2016.pdf Graphic file (type pdf)
 <use Chi2NoComp_Data_2016.pdf>
-Package pdftex.def Info: Chi2NoComp_Data_2016.pdf  used on input line 36.
+Package pdftex.def Info: Chi2NoComp_Data_2016.pdf  used on input line 39.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<SF_Data_2016.pdf, id=756, 569.12625pt x 550.055pt>
+<SF_Data_2016.pdf, id=762, 569.12625pt x 550.055pt>
 File: SF_Data_2016.pdf Graphic file (type pdf)
 <use SF_Data_2016.pdf>
-Package pdftex.def Info: SF_Data_2016.pdf  used on input line 48.
+Package pdftex.def Info: SF_Data_2016.pdf  used on input line 51.
 (pdftex.def)             Requested size: 305.15295pt x 294.93538pt.
 )
 
@@ -1441,7 +1460,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[25 <./Chi2Map10_Data_2016.pdf, page is rotated 90 degrees>]
+[26]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1456,19 +1475,35 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[26 <./Chi2NoComp_Data_2016.pdf, page is rotated 90 degrees>]
+[27 <./Chi2Map10_Data_2016.pdf, page is rotated 90 degrees>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 114.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 114.
  (s3s5s4.tex
-<ParamResult_Bin10_Data_2016.pdf, id=858, 569.12625pt x 387.4475pt>
+<ParamResult_Bin10_Data_2016.pdf, id=819, 569.12625pt x 387.4475pt>
 File: ParamResult_Bin10_Data_2016.pdf Graphic file (type pdf)
 <use ParamResult_Bin10_Data_2016.pdf>
 Package pdftex.def Info: ParamResult_Bin10_Data_2016.pdf  used on input line 3.
 
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<UncorrYields_Data_2016.pdf, id=862, 569.12625pt x 387.4475pt>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 7.
+[28 <./Chi2NoComp_Data_2016.pdf, page is rotated 90 degrees>]
+<UncorrYields_Data_2016.pdf, id=872, 569.12625pt x 387.4475pt>
 File: UncorrYields_Data_2016.pdf Graphic file (type pdf)
 <use UncorrYields_Data_2016.pdf>
 Package pdftex.def Info: UncorrYields_Data_2016.pdf  used on input line 21.
@@ -1488,7 +1523,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 116.
-[27 <./SF_Data_2016.pdf, page is rotated 90 degrees>]
+[29 <./SF_Data_2016.pdf, page is rotated 90 degrees>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1503,7 +1538,23 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 116.
-[28 <./ParamResult_Bin10_Data_2016.pdf, page is rotated 90 degrees>]
+[30 <./ParamResult_Bin10_Data_2016.pdf, page is rotated 90 degrees> <./UncorrYi
+elds_Data_2016.pdf, page is rotated 90 degrees>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 116.
+[31]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1512,10 +1563,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 119.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 119.
+ (s4s1.tex
+
+LaTeX Warning: Reference `fig:Korrekturen' on page 32 undefined on input line 1
+0.
+
+
+LaTeX Warning: Reference `fig:CorrYield' on page 32 undefined on input line 12.
+
+
+)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 122.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1524,18 +1585,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
-[29 <./UncorrYields_Data_2016.pdf, page is rotated 90 degrees>]
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 124.
+[32]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 125.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1544,14 +1605,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
-[30] (Bath_mahe_001.bbl
+(babel)             in language  on input line 127.
+[33] (Bath_mahe_001.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 5--11
 []\OT1/cmr/m/n/10.95 Henner B[]usching.  Ker-ne und teil-chen 1 die quark-struk
 -tur der ma-te-rie.
@@ -1572,35 +1633,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-[31]
+(babel)             in language  on input line 131.
+[34]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+(babel)             in language  on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (Bath_mahe_001.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
-(rerunfilecheck)             Checksum: D10F22B68A9CF7DEDC69A57BDE6A62D3;1979.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+(rerunfilecheck)             Checksum: 4397EDC14C26F39EEF80E3003CF4EFAC;1991.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 9482 strings out of 493303
- 141090 string characters out of 3142328
- 255850 words of memory out of 3000000
- 12708 multiletter control sequences out of 15000+200000
+ 9490 strings out of 493303
+ 141205 string characters out of 3142328
+ 259890 words of memory out of 3000000
+ 12710 multiletter control sequences out of 15000+200000
  16333 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,16n,43p,1777b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,43p,700b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programme/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programme/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmbxti10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsf
@@ -1615,9 +1680,9 @@ c/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Prog
 ramme/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/Programme/MiKTeX/font
 s/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (33 pages, 3442555 bytes).
+Output written on Bath_mahe_001.pdf (36 pages, 3450407 bytes).
 PDF statistics:
- 1096 PDF objects out of 1200 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
+ 1111 PDF objects out of 1200 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

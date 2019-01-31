@@ -1,6 +1,6 @@
-Die Parametrisierung der beiden Templates erfolgt durch die sogenannte $\chi^{2}$-Minimierung.
-$\chi^{2}$ gibt dabei als ein Maß an, wie gut eine Verteilung an gegebene Daten passt.
-Je kleiner $\chi^{2}$ ist, umso besser beschreibt die Verteilung die Daten, deshalb wird $\chi^{2}$ bei der Parametrisierung minimiert.
+Die Parametrisierung der Templates des Signals und des korrelierten Untergrunds erfolgt durch die sogenannte $\chi^{2}$-Minimierung.
+$\chi^{2}$ gibt dabei ein Maß an, wie gut eine Verteilung an gegebene Daten passt.
+Je kleiner $\chi^{2}$ ist, umso besser beschreibt die Verteilung die Daten.
 Als freie Parameter werden zwei Skalierungsfaktoren benutzt, einmal ein Skalierungsfaktor für das Template des Signals (SF\textsubscript{Signal}) und einmal ein Skalierungsfaktor für das Template des korrelierten Untergrunds (SF\textsubscript{korr. Untergrund}).
 Für $\chi^{2}$ gilt dann:
 \begin{align}
@@ -9,7 +9,9 @@ Für $\chi^{2}$ gilt dann:
 \end{align}
 Hierbei steht $x$ für das Template des Signals, $y$ für das Template des korrelierten Untergrunds und $z$ für die Verteilung der invarianten Masse nach Abzug der unkorrelierten Untergrunds.
 Letzteres stammt dabei wieder aus den gemessenen Daten und nicht wie im Abschnitt davor aus einer Simulation.
-Der Index $i$  symbolisiert, dass über die verschiedenen Werte der invarianten Masse summiert wird.
+Der Index $i$, über den summiert wird, läuft über die Intervalle in der invarianten Masse innerhalb des Parametrisierungsbereiches.
+Der Parametrisierungsbereich wird so gewählt, dass die untere Seite außerhalb des Bereiches liegt wo die Anforderung an den Öffnungswinkel Kombinationsmöglichkeiten ausschließt.
+Um diese Werte zu bestimmen wird das Ergebnis der vereinfachten Monte Carlo Simulation benutzt.
 \begin{figure}[tp]
 \centering
 \includegraphics[width=.65\linewidth]{Chi2Map10_Data_2016.pdf}
@@ -18,9 +20,10 @@ Die weiße Kurve makiert die Unsicherheit auf $\chi^{2}_\text{min}$.}
 \label{fig:Chi2Map}
 \end{figure}
 \newline
-Abbildung \ref{fig:Chi2Map} zeigt eine Verteilung von $\chi^{2}$ für unterschiedliche Kombinationen der beiden Skalierungsfaktoren in einem $p_{\text{T}}$-Intervall von $(3\,2 - 3\,4)(\text{GeV}/c)$.
-Die weiße Kurve umrahmt das Minimum $\chi^{2}_\text{min}$ und gibt die Unsicherheit bezüglich der beiden Skalierungsfaktoren an.
-Die Werte auf der weißen Kurve liegen bei $\left(\chi^{2}_\text{min}+1\right)$ \cite{book:chi2}.
+Abbildung \ref{fig:Chi2Map} zeigt die Verteilung von $\chi^{2}$ für unterschiedliche Kombinationen der beiden Skalierungsfaktoren im $p_{\text{T}}$-Intervall $(3\,2 - 3\,4)(\text{GeV}/c)$.
+$\chi^{2}_\text{min}$ liegt bei dem schwarzen Punkt in der Mitte des Bildes.
+Die weiße Kurve, die das Minimum umgibt, gibt die Unsicherheit bezüglich der beiden Skalierungsfaktoren an.
+Die Werte auf der weißen Kurve liegen werden berechnet durch $\left(\chi^{2}_\text{min}+1\right)$ \cite{book:chi2}.
 \newline
 Um die Stabilität der Methode zu prüfen wird $\frac{\chi^{2}_\text{min}}{ndf}$ in Abhängigkeit von $p_{\text{T}}$ betrachtet.
 Der Nenner ndf steht für die Anzahl der Freiheitsgrade (in englisch \textit{\textbf{n}umbers of \textbf{d}egrees of \textbf{f}reedom}).
