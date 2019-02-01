@@ -11,15 +11,15 @@
 \contentsline {subsection}{\numberline {3.1}Datenauswahl}{14}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Datensatz}{14}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Clusterauswahlkriterien}{14}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Clusterrekombination}{14}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{16}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Absch{\"a}tzung des korrelierten Untergrunds mit der Standardmethode}{19}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{21}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{21}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{22}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{26}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{29}{subsubsection.3.5.4}
-\contentsline {section}{\numberline {4}Korrigierter Yield}{32}{section.4}
-\contentsline {subsection}{\numberline {4.1}Akzeptanz und Effizienz}{32}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{32}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{33}{section.5}
+\contentsline {subsection}{\numberline {3.2}Clusterrekombination}{15}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{18}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Absch{\"a}tzung des korrelierten Untergrunds mit der Standardmethode}{20}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{22}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{22}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{23}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{27}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{31}{subsubsection.3.5.4}
+\contentsline {section}{\numberline {4}Korrigierter Yield}{33}{section.4}
+\contentsline {subsection}{\numberline {4.1}Akzeptanz und Effizienz}{33}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{33}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{34}{section.5}

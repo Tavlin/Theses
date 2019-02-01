@@ -1,0 +1,30 @@
+An die \textit{Cluster} aus dem gewählten Datensatz werden unterschiedliche Anforderungen gestellt.
+Tabelle \ref{tab:Cluster} listet die in dieser Analyse gestellten Anforderungen auf.
+\begin{table}[b]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\multicolumn{2}{|c|}{Clusterauswahlkriterien}                   \\ \hline \hline
+Zeit                    & $-30\text{ ns} < t_\text{clust}<35\text{ ns}$ \\ \hline
+\textit{Bad Cell Map}   & angewandt                                     \\ \hline
+Energie                 & $E\geq700\text{ MeV}$                         \\ \hline
+Anzahl Zellen           & $N_\text{Zellen}\geq 2$                       \\ \hline
+Form                    & $0.1< M_{02}<0.7$                             \\ \hline
+\textit{Track matching} & angewandt                                     \\ \hline
+Öffnungswinkel          & $\theta>0.017\text{ rad}$                     \\ \hline
+\end{tabular}
+\caption{Auswahlkriterien für die \textit{Cluster} des EMCals.}
+\label{tab:Cluster}
+\end{table}
+\newline
+Der zeitliche Rahmen, in dem die \textit{Cluster} enstehen können wird eingeschränkt, um \textit{Cluster} von Teilchen auszuschließen, die nicht von einem \textit{minimum-bias event} stammen.
+Die \textit{Bad Cell Map} wird verwendet um schlechte Zellen von der Analyse auszuschließen \cite{thesis:Joshua}.
+\newline
+Die Energie die ein \textit{Cluster} mindestens braucht, sowie die Anforderung an die Form und die Anzahl an Zellen, aus denen ein \textit{Cluster} mindestens bestehen muss, helfen \textit{Cluster} von Photonen, und Konversionselektronen beziehungsweise Konversionspositronen zu selektieren.
+Die Mindestenergie steht dabei im direkten Zusammenhang mit der Mindestanzahl an Zellen.
+Wie Abschnitt \ref{s2s2} erwähnt, benötigt die Startzelle mindestens 600 MeV und jede weitere Zelle mindestens 100 MeV, um zu einem \textit{Cluster} hinzugefügt zu werden.
+Die Form angegeben durch den Parameter $M_{02}$ wurde in Abschnitt \ref{s2s2} ebenfalls bereits erläutert.
+Mit Hilfe des \textit{Track matching} können \textit{Cluster}, die von geladenen Teilchen kommen, ausgeschlossen werden, indem Spuren der geladenen Teilchen, die in der TPC hinterlassen wurden, rekonstruiert und bis zum EMCal extrapoliert werden.
+\newline
+Die Anforderung an den Öffnungswinkel stellt sicher, dass der Abstand zwischen zwei \textit{Clustern} mindestens der Größe einer Zelle entspricht.
+Dementsprechend werden zwei Teilchen, die sehr nah nebeneinander auf das EMCal treffen, zu einem \textit{Cluster} zusammengefasst.

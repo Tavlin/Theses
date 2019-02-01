@@ -1,5 +1,11 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{Wik18}
+\begin{thebibliography}{BHHL78}
+
+\bibitem[BHHL78]{Brun:118715}
+R~Brun, R~Hagelberg, M~Hansroul, and J~C Lassalle.
+\newblock {\em {Simulation program for particle physics experiments, GEANT:
+  user guide and reference manual}}.
+\newblock CERN, Geneva, 1978.
 
 \bibitem[B{\"u}s18]{script:kt1}
 Henner B{\"u}sching.
@@ -23,6 +29,12 @@ Frithjof Karsch.
   elementary particles and the exploration of new phases of matter in
   relativistic heavy ion collisions}.
 \newblock {\em J. Phys. Conf. Ser.}, 46:122--131, 2006.
+
+\bibitem[K{\"o}n17]{thesis:Joshua}
+Joshua K{\"o}nig.
+\newblock Studie zur datenqualität und signalextraktion in der messung von
+  $\pi^{0}$-mesonen mit dem alice-emcal detektor in pb-pb kollisionen bei
+  $\sqrt{s_{NN}} = 5,02$ tev, 02 2017.
 
 \bibitem[Mec18]{thesis:Adrian}
 Adrian Mechler.
