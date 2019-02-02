@@ -48,6 +48,8 @@ void Plotting(std::string current_path){
   TF1*   fTail                    = NULL;
   TF1*   fBkg                     = NULL;
 
+  TLegend* legpT                   = NULL;
+
   TFile* ESDFile_MC       = SafelyOpenRootfile("/data4/mhemmer/Documents/BachelorArbeit/Daten/" + current_path + ".root");
   if (ESDFile_MC->IsOpen() ) printf("ESDFile_MC opened successfully\n");
 
@@ -70,9 +72,12 @@ void Plotting(std::string current_path){
   hTrueDoubleCounting_Pi0 = (TH2D*)  lTrue_MC->FindObject("ESD_TrueDoubleCountPi0_InvMass_Pt");
   //////////////////////////////////////////////////////////////////////////////
 
-  TLegend* legSystem = new TLegend(0.3, 0.94, 0.7, 0.98);
-  legSystem->AddEntry((TObject*) 0x0, "pp, #sqrt{#it{s}} = 13 TeV", "");
+  TLegend* legSystem = new TLegend(0.1, 0.94, 0.7, 0.98);
+  legSystem->AddEntry((TObject*) 0x0, "ALICE, pp bei #sqrt{#it{s}} = 13 TeV, #pi^{0} #rightarrow #gamma#gamma mit EMCal", "");
 
+  /**
+   *plotting the minv, pt Signal TH2 with bin as TLines
+   */
   hInvMass_pT_Signal->GetXaxis()->SetNdivisions(505);
   hInvMass_pT_Bkg->GetXaxis()->SetNdivisions(505);
 
@@ -87,10 +92,6 @@ void Plotting(std::string current_path){
     lpTLines[k-1]->SetLineWidth(1);
     lpTLines[k-1]->SetLineColor(kBlack);
   }
-
-
-  hInvMass_pT_Signal->SetTitle("#sqrt{#it{s}}=13TeV");
-  hInvMass_pT_Bkg->SetTitle("#sqrt{#it{s}}=13TeV");
 
   hInvMass_pT_Signal->GetXaxis()->SetRangeUser(0.0, 0.3);
   hInvMass_pT_Signal->GetYaxis()->SetRangeUser(0.0, 12.0);
@@ -111,12 +112,17 @@ void Plotting(std::string current_path){
 
   OAhists->Clear();
 
+  /**
+   * Drawing minv, pt Bkg with TLines as Bins
+   */
+
   hInvMass_pT_Bkg->GetXaxis()->SetRangeUser(0.0, 0.3);
   hInvMass_pT_Bkg->GetYaxis()->SetRangeUser(0.0, 12.0);
   hInvMass_pT_Bkg->SetXTitle(minv_str);
   hInvMass_pT_Bkg->SetYTitle(pt_str);
 
   OAhists->Add(hInvMass_pT_Bkg);
+  OAhists->Add(legSystem);
   for(int k = 1; k <= 39; k++){
     OAhists->Add(lpTLines[k-1]);
   }
@@ -199,11 +205,13 @@ void Plotting(std::string current_path){
 
   //////////////////////////////////////////////////////////////////////////
   // Fix! Changes < in TLatex to #leq
-  str = hSignalInvMassMC->GetTitle();
-  TString str_copy = str.Copy();
-  str_copy.ReplaceAll("<","#leq");
-  str.Replace(0,20,str_copy,23);
-  str = Form("%.1lf #leq #it{p}_{T} (GeV/#it{c}) < %.1lf", fBinsPi013TeVEMCPt[k], fBinsPi013TeVEMCPt[k+1]);
+  // str = hSignalInvMassMC->GetTitle();
+  // TString str_copy = str.Copy();
+  // str_copy.ReplaceAll("<","#leq");
+  // str.Replace(0,20,str_copy,23);
+  str = Form("%.1lf #leq #it{p}_{T} /(GeV/#it{c}) < %.1lf", fBinsPi013TeVEMCPt[k], fBinsPi013TeVEMCPt[k+1]);
+  legpT = new TLegend(0.07, 0.8, 0.42, 0.9);
+  legpT->AddEntry((TObject*) 0x0, str, "");
 
 
   cPatrick->cd();
@@ -215,6 +223,8 @@ void Plotting(std::string current_path){
 
   OAhists->Add(hSignalPlusBkg);
   OAhists->Add(legSignalPlusBkg);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
   // DrawLabelALICE(0.18, 0.85, 0.03, 30, str);
@@ -236,6 +246,8 @@ void Plotting(std::string current_path){
   SetHistogramProperties(hUncorrBkg, "minv", count_str, 2, 0.0, 0.3);
 
   OAhists->Add(hUncorrBkg);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
   // OAhists->Add(legUncorrBkg);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
@@ -250,6 +262,8 @@ void Plotting(std::string current_path){
 
   OAhists->Add(hSignalPlusBkg);
   OAhists->Add(hUncorrBkgNorm);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
 
   OAratios = NULL;
 
@@ -269,6 +283,8 @@ void Plotting(std::string current_path){
   OAhists->Add(hSignalPlusBkg);
   OAhists->Add(hUncorrBkgNorm);
   OAhists->Add(legUncorrBkgNorm);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
@@ -283,10 +299,15 @@ void Plotting(std::string current_path){
 
   cPatrick->Clear();
 
+  SetHistogramProperties(hSignalPlusBkg, "minv", count_str, 5, 0.0, 0.3);
+  SetHistogramProperties(hUncorrBkgNorm, "minv", count_str, 2, 0.0, 0.3);
+
   OAhists->Add(hSignalPlusBkg);
   OAhists->Add(hUncorrBkgNorm);
   OAhists->Add(legUncorrBkgNorm);
+  OAhists->Add(legSystem);
   OAhists->Add(lBkgFitRange);
+  OAhists->Add(legpT);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
@@ -305,6 +326,8 @@ void Plotting(std::string current_path){
 
   OAhists->Add(hInvMass_Data);
   OAhists->Add(legInvMass_Data);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
@@ -337,10 +360,10 @@ void Plotting(std::string current_path){
   fTail->         SetNpx(1000);
   fBkg->          SetNpx(1000);
 
-  TLegend* legStandardParam = new TLegend(0.55, 0.55, 0.85, 0.9);
+  TLegend* legStandardParam = new TLegend(0.53, 0.55, 0.85, 0.9);
   legStandardParam->AddEntry(hInvMass_Data, "Signal", "lp");
   legStandardParam->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
-  legStandardParam->AddEntry(fSignalPlusBkg, "kombinierte Parametrisierung", "l");
+  legStandardParam->AddEntry(fSignalPlusBkg, "komb. Parametrisierung", "l");
   legStandardParam->AddEntry(fGauss, "Gau#beta-Parametrisierung", "l");
   legStandardParam->AddEntry(fTail, "#it{Tail}-Parametrisierung", "l");
   legStandardParam->AddEntry(fBkg, "lineare Parametrisierung", "l");
@@ -352,12 +375,16 @@ void Plotting(std::string current_path){
   OAhists->Add(fTail);
   OAhists->Add(fBkg);
   OAhists->Add(legStandardParam);
+  OAhists->Add(legSystem);
+  OAhists->Add(legpT);
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
   cPatrick->SaveAs(Form("../BachelorArbeit/StandardParam.pdf"));
   cPatrick->Clear();
   OAhists->Clear();
+
+  delete legpT;
 
 
   for(int k = 1; k <= 39; k++){
