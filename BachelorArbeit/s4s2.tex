@@ -1,9 +1,39 @@
-Systematische Unsicherheiten:
 Für den korrigierten Yield wird zu Letzt noch die systematische Unsicherheit bestimmt.
 Dabei wird sich in dieser Arbeit rein auf die systematische Unsicherheit, die durch Variation in der Peakeextraktion kommt, fokussiert.
 Die Variationen die in dieser Arbeit verwendet wurden lassen sich in vier Abschnitte unterteilen.
+\newline
 Bei der \textbf{Variation des Zählbereiches}, wird der Zählbereich einmal ausgeweitet und ein anderes mal verkleinert.
-Für das Verkleinern wird dabei der untere Wert für $m_\text{inv}$ um $ZAHL$ erhöht, während der obere Wert für $m_\text{inv}$ um $ZAHL$ verringert wird.
-Entsprechend wird beim Ausweiten der untere Wert für $m_\text{inv}$ um $ZAHL$ verringert der obere Wert für $m_\text{inv}$ um $ZAHL$ erhöht.
+Für das Verkleinern wird dabei der untere Wert für $m_\text{inv}$ um $0\,01 \text{ GeV}/c^{2}$ erhöht, während der obere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ verringert wird.
+Entsprechend wird beim Ausweiten der untere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ verringert der obere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ erhöht.
 Bei der \textbf{Variation des Parametrisierungsbereiches} wird analog verfahren, mit den gleichen Zahlenwerten.
 \newline
+Die \textbf{Variation der Templates des korrelierten Untergrunds} basiert auf den in Abschnitt \ref{s3s5s2} vorgestellten Methoden zur Bestimmung der Templates des korrelierten Untergrunds.
+%Text + Bild
+\begin{table}[b!]
+\centering
+\begin{tabular}{c|c|c|}
+\cline{2-3}
+                                                          & $\Delta m_\text{inv}$ $\left(\text{GeV}/c^{2}\right)$ & $p_\text{T}$-Intervall $\left(\text{GeV}/c\right)$ \\ \hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Standard}}           & $0\,004$                                              & $1\,4-7\,5$                                        \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,008$                                              & $7\,5-10$                                          \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,010$                                              & $10-12$                                            \\ \hline \hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Vergr{\"o}{\ss}ert}} & $0\,005$                                              & $1\,4-7\,5$                                        \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,010$                                              & $7\,5-10$                                          \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,016$                                              & $10-12$                                            \\ \hline \hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Verkleinert}}        & $0\,002$                                              & $1\,4-7\,5$                                        \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,005$                                               & $7\,5-10$                                          \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                    & $0\,008$                                              & $10-12$                                            \\ \hline
+\end{tabular}
+\caption{Die verschiedenen Breiten der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ in Abhängigkeit von $p_\text{T}$.}
+\label{tab:Binning}
+\end{table}
+\newline
+Als letztes wird noch die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ in der \textbf{Variation des Rebinnings} verändert.
+Die Werte für $\Delta m_\text{inv}$ hängen zunächst von zwei Faktoren ab.
+Zum einen werden die Daten für die Analyse in $800$ gleichgroße $m_\text{inv}$-Intervalle aufgeteilt, die von $m_\text{inv} = 0\,0 \text{ GeV}/c^{2}$ bis $m_\text{inv} = 0\,8 \text{ GeV}/c^{2}$ reichen.
+Somit beträgt $\Delta m_\text{inv}$ anfangs immer $0\,001 \text{ GeV}/c^{2}$.
+Dieser Wert wird vergrößert um die statistische Unsicherheit möglichst klein zu halten, wobei darauf geachtet werden muss, dass es sich bei dem Faktor, um den $\Delta m_\text{inv}$ vergrößert wird, um einen gemeinsamen Teiler von $800$ handelt.
+Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ im Normalfall, sowie für beide Variationen.
+Dabei hängt $\Delta m_\text{inv}$ zusätzlich von $p_\text{T}$ ab.
+\newline
+Die gesamte Systematische Unsicherheit ergibt sich aus dem quadratischen Mittelwert der mittleren systematischen Unsicherheiten der vier Variationsarten.
