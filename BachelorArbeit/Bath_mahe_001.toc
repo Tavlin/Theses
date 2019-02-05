@@ -22,5 +22,6 @@
 \contentsline {section}{\numberline {4}Korrigierter Yield}{32}{section.4}
 \contentsline {subsection}{\numberline {4.1}Akzeptanz und Effizienz}{32}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Systematische Unsicherheit}{33}{subsection.4.2}
-\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{35}{section.5}
-\contentsline {section}{Appendices}{36}{section*.25}
+\contentsline {subsection}{\numberline {4.3}Vergleich mit Standardmethode}{37}{subsection.4.3}
+\contentsline {section}{\numberline {5}Zusammenfassung und Ausblick}{38}{section.5}
+\contentsline {section}{Appendices}{39}{section*.31}
