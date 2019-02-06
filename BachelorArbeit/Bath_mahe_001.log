@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  5 FEB 2019 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  6 FEB 2019 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,17 +636,7 @@ less on input line 33.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 35.
 
-(./Bath_mahe_001.aux
-
-LaTeX Warning: Label `fig:IntSys' multiply defined.
-
-
-LaTeX Warning: Label `fig:IntSys' multiply defined.
-
-
-LaTeX Warning: Label `fig:IntSys' multiply defined.
-
-)
+(./Bath_mahe_001.aux)
 \openout1 = `Bath_mahe_001.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -1155,36 +1145,36 @@ Package pdftex.def Info: YieldsSysUncerIntRange_Data_2016.pdf used on input lin
 e 6.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
-<YieldsSysUncerFitRange_Data_2016.pdf, id=1094, 569.12625pt x 387.4475pt>
+<YieldsSysUncerFitRange_Data_2016.pdf, id=1095, 569.12625pt x 387.4475pt>
 File: YieldsSysUncerFitRange_Data_2016.pdf Graphic file (type pdf)
 
 <use YieldsSysUncerFitRange_Data_2016.pdf>
 Package pdftex.def Info: YieldsSysUncerFitRange_Data_2016.pdf used on input lin
-e 16.
+e 26.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
-<YieldsSysUncerBkgVariation_Data_2016.pdf, id=1095, 569.12625pt x 387.4475pt>
+<YieldsSysUncerBkgVariation_Data_2016.pdf, id=1096, 569.12625pt x 387.4475pt>
 File: YieldsSysUncerBkgVariation_Data_2016.pdf Graphic file (type pdf)
 
 <use YieldsSysUncerBkgVariation_Data_2016.pdf>
 Package pdftex.def Info: YieldsSysUncerBkgVariation_Data_2016.pdf used on input
- line 24.
+ line 34.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
-<YieldsSysUncerRebinning_Data_2016.pdf, id=1097, 569.12625pt x 387.4475pt>
+<YieldsSysUncerRebinning_Data_2016.pdf, id=1098, 569.12625pt x 387.4475pt>
 File: YieldsSysUncerRebinning_Data_2016.pdf Graphic file (type pdf)
 
 <use YieldsSysUncerRebinning_Data_2016.pdf>
 Package pdftex.def Info: YieldsSysUncerRebinning_Data_2016.pdf used on input li
-ne 32.
+ne 42.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
-<SystematischeUnsicherheit_Data_2016.pdf, id=1099, 569.12625pt x 387.4475pt>
+<SystematischeUnsicherheit_Data_2016.pdf, id=1100, 569.12625pt x 387.4475pt>
 File: SystematischeUnsicherheit_Data_2016.pdf Graphic file (type pdf)
 
 <use SystematischeUnsicherheit_Data_2016.pdf>
 Package pdftex.def Info: SystematischeUnsicherheit_Data_2016.pdf used on input 
-line 64.
+line 74.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
 
@@ -1213,11 +1203,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: KorrigierterYield_Data_2016.pdf Graphic file (type pdf)
 
 <use KorrigierterYield_Data_2016.pdf>
-Package pdftex.def Info: KorrigierterYield_Data_2016.pdf used on input line 80.
+Package pdftex.def Info: KorrigierterYield_Data_2016.pdf used on input line 90.
 
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 77--128
+Underfull \hbox (badness 10000) in paragraph at lines 87--128
 
  []
 
@@ -1227,22 +1217,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./SystematischeUnsicherheit_Data_2016.pdf, page is rotated 90 degrees> <./
-KorrigierterYield_Data_2016.pdf, page is rotated 90 degrees>]
+[36 <./SystematischeUnsicherheit_Data_2016.pdf, page is rotated 90 degrees>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38] (./Appendix.tex
+[37 <./KorrigierterYield_Data_2016.pdf, page is rotated 90 degrees>]
+(./Appendix.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 3.
@@ -1258,7 +1241,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39] (./Bath_mahe_001.bbl
+[38] (./Bath_mahe_001.bbl
 Underfull \hbox (badness 5652) in paragraph at lines 11--17
 []\OT1/cmr/m/n/10.95 Henner B[]usching.  Kerne und teilchen 1 die quark-struk-t
 ur der ma-terie.
@@ -1276,7 +1259,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]) 
+[39]) 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1284,7 +1267,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (./Bath_mahe_001.aux)
@@ -1292,17 +1275,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
 (rerunfilecheck)             Checksum: 257F0FEF27697919FEE68894BF2EC86C;2092.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 9315 strings out of 494820
- 139252 string characters out of 3178049
- 257242 words of memory out of 3000000
- 12139 multiletter control sequences out of 15000+200000
+ 9317 strings out of 494820
+ 139287 string characters out of 3178049
+ 257634 words of memory out of 3000000
+ 12142 multiletter control sequences out of 15000+200000
  16333 words of font info for 61 fonts, out of 3000000 for 9000
  198 hyphenation exceptions out of 8191
  42i,16n,43p,699b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1322,10 +1301,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (43 pages, 3490807 bytes).
+Output written on Bath_mahe_001.pdf (42 pages, 3491106 bytes).
 PDF statistics:
- 1500 PDF objects out of 1728 (max. 8388607)
- 865 compressed objects within 9 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 1496 PDF objects out of 1728 (max. 8388607)
+ 862 compressed objects within 9 object streams
+ 121 named destinations out of 1000 (max. 500000)
  329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
