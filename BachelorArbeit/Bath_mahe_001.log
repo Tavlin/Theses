@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  7 FEB 2019 13:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  7 FEB 2019 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,10 +875,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./m02&m20.png>] (./s3s1s1.tex) (./s3s1s2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--98
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -896,7 +892,7 @@ Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 4.
 File: hSignalPlusBkg.pdf Graphic file (type pdf)
 
 <use hSignalPlusBkg.pdf>
-Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 39.
+Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 40.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
 Overfull \hbox (15.91925pt too wide) in paragraph at lines 1--101
@@ -1301,7 +1297,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (42 pages, 3490023 bytes).
+Output written on Bath_mahe_001.pdf (42 pages, 3490690 bytes).
 PDF statistics:
  1496 PDF objects out of 1728 (max. 8388607)
  862 compressed objects within 9 object streams
