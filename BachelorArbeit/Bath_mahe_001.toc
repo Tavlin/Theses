@@ -1,4 +1,4 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasma}{4}{subsection.1.2}
@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{22}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Template des Signals}{22}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{23}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{27}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3}Parametriesierungsmethode}{26}{subsubsection.3.5.3}
 \contentsline {subsubsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{30}{subsubsection.3.5.4}
 \contentsline {section}{\numberline {4}Korrigierter Yield}{32}{section.4}
 \contentsline {subsection}{\numberline {4.1}Akzeptanz und Effizienz}{32}{subsection.4.1}
