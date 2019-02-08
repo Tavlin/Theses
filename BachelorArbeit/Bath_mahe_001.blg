@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Bath_mahe_001.aux
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Bath_mahe_001.aux
 The style file: alpha.bst
 Database file #1: bib_bath_mahe.bib
 Warning--entry type for "thesis:Krissy" isn't style-file defined
@@ -9,4 +11,45 @@ Warning--entry type for "thesis:Adrian" isn't style-file defined
 --line 74 of file bib_bath_mahe.bib
 Warning--entry type for "thesis:Joshua" isn't style-file defined
 --line 83 of file bib_bath_mahe.bib
+You've used 11 entries,
+            2543 wiz_defined-function locations,
+            627 strings with 6558 characters,
+and the built_in function-call counts, 3512 in all, are:
+= -- 329
+> -- 133
+< -- 10
++ -- 40
+- -- 40
+* -- 205
+:= -- 567
+add.period$ -- 31
+call.type$ -- 11
+change.case$ -- 57
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 154
+empty$ -- 300
+format.name$ -- 57
+if$ -- 735
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 8
+newline$ -- 57
+num.names$ -- 33
+pop$ -- 92
+preamble$ -- 1
+purify$ -- 69
+quote$ -- 0
+skip$ -- 139
+stack$ -- 0
+substring$ -- 126
+swap$ -- 23
+text.length$ -- 10
+text.prefix$ -- 8
+top$ -- 0
+type$ -- 76
+warning$ -- 0
+while$ -- 28
+width$ -- 13
+write$ -- 137
 (There were 4 warnings)

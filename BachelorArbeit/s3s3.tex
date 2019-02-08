@@ -4,17 +4,20 @@
 \caption{$p_\text{T}$ und $m_\text{inv}$ als Funktion von der Anzahl von kombinierten  \textit{Clusterpaaren} aus unterschiedlichen \textit{events}.}
 \label{figInvMassPt_b}
 \end{figure}
-Durch das paarweise Kombinieren aller \textit{Cluster}, wie es in Abschnitt \ref{s3s2} vorgestellt wurde, besteht ein großer Anteil der rekonstruierten Datenpunkte aus unkorreliert Paaren.
+Durch die paarweise Kombinationen aller \textit{Cluster} eines \textit{events}, wie es in Abschnitt \ref{s3s2} vorgestellt wurde, ensteht unkorrelierter Untergrund.
 Um den unkorrelierten Untergrund abzuschätzen werden \textit{Cluster} aus unterschiedlichen \textit{events} paarweise miteinander kombiniert.
-Dadurch wird sicher gestellt, dass zwischen den Teilchen, die den \textit{Cluster} zugrunde liegen, keine Korrelation besteht.
+Dadurch wird sichergestellt, dass zwischen den Teilchen, die den \textit{Clustern} zugrunde liegen, keine Korrelation besteht.
 Diese Methode wird als \textit{mixed event} Methode bezeichnet.
-Abbildung \ref{figInvMassPt_b} zeigt eine Verteilung, bei der \textit{Cluster} aus unterschiedlichen \textit{events} miteinander kombiniert wurden.
-Eine Häufung der Datenpunkte um eine bestimmte invariante Masse gibt es, wie zu erwarten, nicht.
-Das Wegfallen von Datenpunkten bei kleinen invarianten Massen, aufgrund der Anforderung an den Öffnungswinkel, zeigt sich, wie bei der \textit{same event} Methode, deutlich.
-Die untere Grenze der invarianten Masse, ab welcher Kombinationen möglich sind steigt mit $p_\text{T}$, analog wie zuvor bei Abbildung  \ref{figInvMassPt_a}.
+Abbildung \ref{figInvMassPt_b} zeigt die Verteilung, bei der \textit{Cluster} aus unterschiedlichen \textit{events} miteinander kombiniert wurden.
+Da keine Korrelationen zwischen den \textit{Clustern} vorliegen, gibt es keine eine Häufung der Datenpunkte um eine bestimmte invariante Masse.
+\newline
+Im selben \textit{event} würden \textit{Cluster}, die näher als eine Zelldiagonale aneinander liegen zu einem \textit{Cluster} zusammengefasst werden.
+Beim Kombinieren von \textit{Clustern} aus unterschiedlichen \textit{events} wird der Zellabstand durch die Anforderung an den Öffnungswinkel auf mindestens eine Zelldiagonale gesetzt.
+Durch diese Anforderung gibt es, wie zuvor in Abschnitt \ref{s3s2} erläutert, ein $p_\text{T}$ abhängiges Minimum für $m_\text{inv}$, wie zuvor bei Abbildung  \ref{figInvMassPt_a}.
 \newline
 In der \textit{mixed event} Methode gibt es eine größere Anzahl an Kombinationsmöglichkeiten, als in der \textit{same event} Methode.
-Daraus resultiert eine größere Anzahl an Einträgen in der Verteilung der invarianten Masse und des Transversalimpulses, weshalb die Verteilung, die aus der \textit{mixed event} Methode kommt, skaliert werden muss an die Verteilung aus der \textit{same event} Methode.
+Daraus resultiert eine größere Anzahl an Einträgen in der Verteilung der invarianten Masse und des Transversalimpulses aus der \textit{mixed event} Methode, als in der Verteilung aus der \textit{same event} Methode.
+Deshalb muss die Verteilung, die aus der \textit{mixed event} Methode kommt, skaliert werden an die Verteilung aus der \textit{same event} Methode.
 Die Skalierung erfolgt bei $m_\text{inv} \in \left[0\,19,3\,0\right] (\text{GeV/}c^{2})$, da dort kein Signal erwartet wird.
 Es ergibt sich für den Skalierungsfaktor:
 \begin{align}
@@ -29,22 +32,22 @@ Die oberen Indize $m$ und $n$ stehen hierbei für ein Event, aus dem ein Photon 
 \label{figUncorrBkgNorm}
 \end{figure}
 \newline
-Abbildung \ref{figUncorrBkgNorm} zeigt die skalierten \textit{mixed event} Kombinationen und das Signal zusammen mit dem korrelierten und dem unkorrelierten Untergrund.
-Nachdem der unkorrelierte Untergrund abgeschätzt wird, wird dieser von der Verteilung der invarianten Masse aus der \textit{same event} Methode subtrahiert.
+Abbildung \ref{figUncorrBkgNorm} zeigt die skalierten \textit{mixed event} Kombinationen und die \textit{same event} Kombinationen.
+Nachdem der unkorrelierte Untergrund abgeschätzt wurde, wird dieser von der Verteilung der invarianten Masse aus der \textit{same event} Methode subtrahiert.
 \begin{figure}[tp]
 \centering
 \includegraphics[width=.75\linewidth]{hInvMass_Data.pdf}
-\caption{Signal nach Abzug des unkorrelierten Untergrunds.}
+\caption{Verteilung der invarianten Masse aus der \textit{same Event} Methode nach Abzug des unkorrelierten Untergrunds.}
 \label{figInvMass_Data}
 \end{figure}
 \newline
-Abbildung \ref{figInvMass_Data} zeigt eine Verteilung der invarianten Masse aus der \textit{same event} Methode, nachdem die skalierten Kombinationen aus der \textit{mixed event} Methode, als Abschätzung der unkorrelierten Untergrunds, abgezogen wurden.
-Durch die Subtraktion geht jegliche Information verloren, welche \textit{Clusterpaare} welchen Datenpunkt bilden.
-Grund dafür ist, dass nicht einzelne Datenpunkte abgezogen werden, sonder lediglich eine gewisse Anzahl an Einträgen.
-Deshalb spiegelt die Verteilung eine statistische Auswertung wider, mit statistischen Unsicherheiten.
+Abbildung \ref{figInvMass_Data} zeigt die Verteilung der invarianten Masse aus der \textit{same Event} Methode, nachdem die skalierte Verteilung aus der \textit{mixed Event} Methode abgezogen wurden.
+%Durch die Subtraktion geht jegliche Information verloren, welche \textit{Clusterpaare} welchen Datenpunkt bilden.
+%Grund dafür ist, dass nicht einzelne Datenpunkte abgezogen werden, sonder lediglich eine gewisse Anzahl an Einträgen.
+%Deshalb spiegelt die Verteilung eine statistische Auswertung wider, mit statistischen Unsicherheiten.
 \newline
 Der nächste Schritt in der Analyse neutraler Pionen ist die Bestimmung des korrelierten Untergrunds.
 Das Abschätzen mit einer linearen Funktion hat sich als gängigste Methode zur Abschätzung des korrelierten Untergrunds entwickelt und wird im Folgenden als Standardmethode bezeichnet.
-In dieser Arbeit wird der korrelierte Untergrund sowie das reine $\pi^{0}$-Signal mit Hilfe von Monte Carlo Templates bestimmt.
-Die Ergebnisse der Analyse mit Hilfe von Monte Carlo Templates, sowie mit der Standardmethode werden miteinander vergleichen, um eine Aussage über den möglichen Nutzen von Analysen mit Hilfe von Monte Carlo Templates treffen zu können.
+In dieser Arbeit wird der korrelierte Untergrund sowie das $\pi^{0}$-Signal mit Hilfe von Monte Carlo Templates bestimmt.
+Die Ergebnisse der Analyse mit Hilfe von Monte Carlo Templates, sowie mit der Standardmethode werden miteinander vergleichen, um eine Aussage über den möglichen Nutzen der Verwendung von Monte Carlo Templates in der Analyse von $\pi^{0}$ treffen zu können.
 Im folgenden Abschnitt wird zunächst die Standardmethode kurz erläutert.
