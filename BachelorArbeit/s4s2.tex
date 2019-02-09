@@ -1,4 +1,4 @@
-Für den korrigierten Yield wird zuletzt noch die systematische Unsicherheit bestimmt.
+Für das korrigierte $p_\text{T}$-Spektrum wird zuletzt noch die systematische Unsicherheit bestimmt.
 Dabei wird sich in dieser Arbeit rein auf die systematische Unsicherheit, die durch Variation in der Peakextraktion kommt, fokussiert.
 Die Variationen die in dieser Arbeit verwendet wurden lassen sich in vier Abschnitte unterteilen.
 \begin{figure}[t!]
@@ -8,19 +8,25 @@ Die Variationen die in dieser Arbeit verwendet wurden lassen sich in vier Abschn
 \label{fig:IntSys}
 \end{figure}
 \newline
-Bei der \textbf{Variation des Zählbereiches}, wird der Zählbereich einmal ausgeweitet und ein anderes mal verkleinert.
-Für das Verkleinern wird dabei der untere Wert für $m_\text{inv}$ um $0\,01 \text{ GeV}/c^{2}$ erhöht, während der obere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ verringert wird.
-Entsprechend wird beim Ausweiten der untere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ verringert der obere Wert für $m_\text{inv}$ um $0\,025 \text{ GeV}/c^{2}$ erhöht.
+Bei der \textbf{Variation des Zählbereiches} und der \textbf{Variation des Parametrisierungsbereiches}, wird der Zähl- beziehungsweise Parametrisierungsbereich einmal ausgeweitet und ein anderes mal verkleinert.
+Bei der Variation wird die untere Grenze jeweils um $0,01 \text{ GeV}/c^{2}$ verschoben, während die obere Grenze um $0,025 \text{ GeV}/c^{2}$ verändert wird, wie Tabelle \ref{tab:ParamAndIntRange} zeigt.
+Die Änderung der unteren Grenze wurde so gewählt, dass das kombinierte Template des korrelierten Untergrunds die einzelnen Templates trotz der Anforderung an den Öffnungswinkel gut beschreibt.
+Gleichzeitig wird sicher gestellt, dass der Teil des Signals, der aus Konversionselektronen oder Konversionspositronen besteht, möglichst vollständig im Zähl- beziehungsweise Parametrisierungsbereich liegt.
+\begin{table}[b!]
+\centering
+\begin{tabular}{c|c||c||c|}
+\cline{2-4}
+                                                                      & Standard & Vergr{\"o}{\ss}ert & Verkleinert \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{$m_\text{inv}\text{ (GeV}/c)$}} & $0,06$   & $0,05$             & $0,07$      \\ \cline{2-4} 
+\multicolumn{1}{|c|}{}                                                & $0,25$   & $0,275$            & $0,225$     \\ \hline
+\end{tabular}
+\caption{Obere und untere Grenze des Parametrisierungs- und Zählbereichs}
+\label{tab:ParamAndIntRange}
+\end{table}
 \newline
-Abbildung \ref{fig:IntSys} zeigt die relative systematische Unsicherheit für die Variation des Zählbereiches. 
-%von Andrea, braucht Überarbeitung
-Die Abweichungen zeigen sowohl für breite als auch für schmale Grenzen einen annähernd linearen Verlauf, wobei sie im Fall der schmalen Grenzen positiv sind und im Fall der breiten Grenzen negativ. 
-%Dabei fallen besonders die ersten Werte für einen vergrößerten Zählbereich auf, da sie vergleichsweise groß sind.
-%Diese Werte lassen sich dadurch erklären, dass das kombinierte Template des korrelierten Untergrunds aus dem $p_\text{T}$-Intervall von $1,8 \leq p_\text{T}/(\text{ GeV}/c < 3,2)$.
-%Die Anforderung an den Öffnungswinkel bewirkt, dass bei den Templates des korrelierten Untergrunds keine Einträge im Bereich kleiner invarianter Massen vorliegt.
-%Durch die Anforderung an den Öffnungswinkel wandert die untere Grenze in der invarianten Masse, ab der es Einträge gibt, mit steigendem $p_\text{T}$ zu höheren $m_\text{inv}$.
-Das bedeutet, dass das kombinierte Template des korrelierten Untergrunds für kleine $m_\text{inv}$ nicht den Verlauf der Templates des korrelierten Untergrunds für $p_\text{T} < 1,8 \text{GeV/c}$ wiedergeben kann.
-%Die vereinfachte Simulation für die Anforderung an den Öffnungswinkel kann nur verwendet werden um die Anzahl an Einträgen in dem kombinierten Template zu skalieren.
+Abbildung \ref{fig:IntSys} zeigt die relative systematische Abweichung für die Variation des Zählbereiches.
+Beide Variationen weisen eine lineare Abweichung auf.
+Die Abweichungen für breite Grenzen liegt ab $p_\text{T} > 5,8 \text{ GeV}/c$ im positiven Bereich, während die Abweichungen für schmale Grenzen dort im negativen liegen.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerFitRange_Data_2016.pdf}
@@ -28,21 +34,40 @@ Das bedeutet, dass das kombinierte Template des korrelierten Untergrunds für kl
 \label{fig:ParamSys}
 \end{figure}
 \newline
-Bei der \textbf{Variation des Parametrisierungsbereiches} wird analog verfahren, mit den gleichen Zahlenwerten.
+Abbildung \ref{fig:ParamSys} zeigt die relative systematische Unsicherheit für die Variation des Parametrisierungsbereiches.
+Die Abweichungen befinden sich nahe der Null für schmale und breite Grenzen.
+Eine Ausnahme bildet der $p_\text{T}$-Bereiches von $5,8 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$.
+Dort liegen die Werte für breite Grenzen deutlich im positiven, die Werte für kleine Grenzen liegen hingegen im negativen Bereich.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerBkgVariation_Data_2016.pdf}
-\caption{Relative systematische Unsicherheit durch die Variation der Templates des korrelierten Untergrunds abhängig von $p_\text{T}$.}
+\caption{Relative systematische Abweichung durch die Variation der Templates des korrelierten Untergrunds abhängig von $p_\text{T}$.}
 \label{fig:BkgSys}
 \end{figure}
 \newline
 Die \textbf{Variation der Templates des korrelierten Untergrunds} basiert auf den in Abschnitt \ref{s3s5s2} vorgestellten Methoden zur Bestimmung der Templates des korrelierten Untergrunds.
+Für kleine $p_\text{T}$ von $1,4 \text{ GeV}/c$ bis $4,4 \text{ GeV}/c$ zeigen beide Methoden eine geringe Abweichung.
+Der $p_\text{T}$-Bereich von $4,4 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ hingegen weist starke Abweichungen für beide Methoden auf.
+Die Methode mit einzelnen Templates des korrelierten Untergrunds unterschätzt in diesem Bereich die Anzahl produzierter $\pi^{0}$ im Vergleich zur Methode mit kombiniertem Template des korrelierten Untergrunds stark.
+Die Ursache hierfür liegt vor allem in der großen statischen Unsicherheit der einzelnen Templates des korrelierten Untergrunds.
+Durch diese Unsicherheit wird der korrelierte Untergrund überschätzt.
+Bei der Methode mit den nächsten Nachbarn wird der korrelierten Untergrund hingegen unterschätzt, weshalb dort die Abweichung im positiven Bereich liegt.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerRebinning_Data_2016.pdf}
-\caption{Relative systematische Unsicherheit durch die Variation des Rebinnings des korrelierten Untergrunds abhängig von $p_\text{T}$.}
+\caption{Relative systematische Abweichung durch die Variation des Rebinnings des korrelierten Untergrunds abhängig von $p_\text{T}$.}
 \label{fig:BinningSys}
 \end{figure}
+\newline
+Die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ wird in der \textbf{Variation des Rebinnings} verändert.
+Die Werte für $\Delta m_\text{inv}$ hängen zunächst von zwei Faktoren ab.
+Zum einen werden die Daten für die Analyse in $800$ gleichgroße $m_\text{inv}$-Intervalle aufgeteilt, die von $m_\text{inv} = 0\,0 \text{ GeV}/c^{2}$ bis $m_\text{inv} = 0\,8 \text{ GeV}/c^{2}$ reichen.
+Somit beträgt $\Delta m_\text{inv}$ anfangs immer $0\,001 \text{ GeV}/c^{2}$.
+Dieser Wert wird vergrößert um die statistische Unsicherheit möglichst klein zu halten, wobei darauf geachtet werden muss, dass es sich bei dem Faktor, um den $\Delta m_\text{inv}$ vergrößert wird, um einen gemeinsamen Teiler von $800$ handelt.
+Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ im Normalfall, sowie für beide Variationen.
+Dabei hängt $\Delta m_\text{inv}$ zusätzlich von $p_\text{T}$ ab.
+\newline
+Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich von $6,0 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ bildet sich eine deutliche Abweichung für vergrößerte $\Delta m_\text{inv}$ ab.
 \begin{table}[b!]
 \centering
 \begin{tabular}{c|c|c|}
@@ -61,14 +86,18 @@ Die \textbf{Variation der Templates des korrelierten Untergrunds} basiert auf de
 \caption{Die verschiedenen Breiten der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ in Abhängigkeit von $p_\text{T}$.}
 \label{tab:Binning}
 \end{table}
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.65\linewidth]{YieldsSysUncerUncorrBkgVariation_Data_2016.pdf}
+\caption{Relative systematische Abweichung durch die Variation des Parametrisierungsbereiches des unkorrelierten Untergrunds abhängig von $p_\text{T}$.}
+\label{fig:LeftBkgSys}
+\end{figure}
 \newline
-Als letztes wird noch die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ in der \textbf{Variation des Rebinnings} verändert.
-Die Werte für $\Delta m_\text{inv}$ hängen zunächst von zwei Faktoren ab.
-Zum einen werden die Daten für die Analyse in $800$ gleichgroße $m_\text{inv}$-Intervalle aufgeteilt, die von $m_\text{inv} = 0\,0 \text{ GeV}/c^{2}$ bis $m_\text{inv} = 0\,8 \text{ GeV}/c^{2}$ reichen.
-Somit beträgt $\Delta m_\text{inv}$ anfangs immer $0\,001 \text{ GeV}/c^{2}$.
-Dieser Wert wird vergrößert um die statistische Unsicherheit möglichst klein zu halten, wobei darauf geachtet werden muss, dass es sich bei dem Faktor, um den $\Delta m_\text{inv}$ vergrößert wird, um einen gemeinsamen Teiler von $800$ handelt.
-Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ im Normalfall, sowie für beide Variationen.
-Dabei hängt $\Delta m_\text{inv}$ zusätzlich von $p_\text{T}$ ab.
+Bei der \textbf{Variation des Parametrisierungsbereiches des unkorrelierten Untergrunds} wird der Bereich verändert, indem die \textit{mixed Event} Verteilung skaliert wird.
+Abbildung \ref{fig:LeftBkgSys} zeigt die zugehörigen Abweichungen.
+Bis $p_\text{T} = 7,5 \text{ GeV}/c$ weisen beide Abweichungen einen linearen Verlauf um Null rum auf.
+Ab $p_\text{T} = 7,5 \text{ GeV}/c$ weicht die Variation, bei der die obere Grenze nach unten verschoben wurde, ins negative ab.
+Die Variation, bei der die untere Grenze verändert wurde, zeigt eine positive Abweichung, wobei diese erst ab $p_\text{T} = 8,5 \text{ GeV}/c$ auftritt.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{SystematischeUnsicherheit_Data_2016.pdf}
@@ -81,14 +110,24 @@ Es gilt:
 \begin{align}
 \sigma_{i,j} = \sqrt{\frac{1}{n}\sum_{k=1}^{n}\left(\Delta y_{i,j,k}\right)^{2}}
 \end{align}
-Die gesamte Systematische Unsicherheit $\sigma_{i}$ in einem $p_\text{T}$-Intervall $i$ ergibt sich aus dem quadratischen Mittelwert der systematischen Unsicherheiten der vier Variationsarten $\sigma_{i,j}$.
+Die gesamte Systematische Unsicherheit $\sigma_{i}$ in einem $p_\text{T}$-Intervall $i$ ergibt sich durch quadratische Addition der systematischen Unsicherheiten der fünf Variationsarten $\sigma_{i,j}$.
 \begin{align}
-\sigma_{i} = \sqrt{\frac{1}{n}\sum_{j=1}^{n}\left(\sigma_{i,j}\right)^{2}}
+\sigma_{i} = \sqrt{\sum_{j=1}^{n}\left(\sigma_{i,j}\right)^{2}}
 \end{align}
+Abbildung \ref{fig:SysUncer} zeigt die gesamte relative systematische Unsicherheit in Abhängigkeit von $p_\text{T}$.
+Für kleine $p_\text{T}$ im Bereich von $1,4 \text{ GeV}/c$ bis $4,5 \text{ GeV}/c$ liegt die systematischen Unsicherheit zwischen dem Minimalwert von etwa $0,8\%$ und $1,6\%$.
+Danach steigt die systematische Unsicherheit mit größerem $p_\text{T}$ an.
+Besonders der $p_\text{T}$-Bereich von $4,4 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ zeigt hierbei starke Schwankungen auf, die hauptsächlich durch die Variation der Templates des korrelierten Untergrunds, sowie der Änderung des Parametrisierungsbereiches kommen.
+In diesem Bereich liegt auch das Maximum mit einer systematischen Unsicherheit von etwa $6\%$.
+Die systematische Unsicherheit ab $p_\text{T} = 7,5 \text{ GeV}/c$ wird von der Variation des Parametrisierungsbereiches des unkorrelierten Untergrunds dominiert.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{KorrigierterYield_Data_2016.pdf}
-\caption{Korrigierter $\pi^{0}$-\textit{Yield} mit systematischen und statistischen Unsicherheiten.}
+\caption{Korrigiertes $p_\text{T}$-Spektrum mit systematischen und statistischen Unsicherheiten.}
 \label{fig:KorrYield}
 \end{figure}
 \newline
+Abbildung \ref{fig:KorrYield} zeigt das korrigierte $p_\text{T}$-Spektrum mit statistischen und systematischen Unsicherheiten.
+Die statistische Unsicherheit wird durch die vertikalen Linien, die systematische Unsicherheit durch die farbigen Boxen dargestellt.
+\newline
+Das korrigierte $p_\text{T}$-Spektrum wird im folgenden Abschnitt mit dem Ergebnis der Standardmethode verglichen.
