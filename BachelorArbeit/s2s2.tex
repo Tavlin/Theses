@@ -1,28 +1,28 @@
 In einem Abstand von circa 4,5 m vom Kollisionspunkt deckt das EMCal einen Azimuthalwinkelbereich von $\phi=107^{\circ}$ und einen Pseudorapiditätsbreich von $ |\eta| \leq 0\,7$ ab.
 %Aufgrund von Detektormaterial und Trägerstrukturen zwischen dem primären Vertex und dem EMCal können Teilchen abgelenkt werden oder Photonen in ein Elektron-Positron-Paar konvertieren.
 %Die Konvertierung von Photonen ist besonders zu beachten, da in dieser Analyse $\pi^{0}$, welche in zwei Photonen zerfallen, rekonstruiert werden.
-Das EMCal besteht aus zwölf sogenannten Supermodulen, zehn normal großen und zwei kleineren.
+Das EMCal besteht aus zwölf Supermodulen, zehn normal großen und zwei kleineren.
 Ein normal großes Supermodul besteht aus $24\times48$ Zellen, ein kleineres Supermodul aus $8\times48$ Zellen.
 Insgesamt hat das EMCal also 12288 Zellen, die hauptsächlich Photonen, Elektronen und Positronen detektieren und dabei die Energie dieser Teilchen messen.
-%Ein normal großes Supermodul unterteilt sich in 24 sogenannte Streifenmodule, welche wiederum aus 12 Modulen zusammengesetzt sind.
+%Ein normal großes Supermodul unterteilt sich in 24  Streifenmodule, welche wiederum aus 12 Modulen zusammengesetzt sind.
 %Jedes Modul beinhaltet 4 Zellen, womit das EMCal aus insgesamt 12288 Zellen besteht.
 %Die Zellen sind für das Detektieren und Messen der Energie von hauptsächlich Photonen, Elektronen und Positronen verantwortlich.
-Eine einzelne Zelle besteht aus abwechselnd 77 Szintillatoren- und 76 Bleischichten.
-In den Bleischichten entstehen sogenannten elektromagnetische Schauer, indem eintreffende Photonen durch Paarerzeugung in ein Elektron und ein Positron konvertieren, die wiederum durch Bremsstrahlung weitere Photonen abstrahlen.
+Eine einzelne Zelle besteht aus abwechselnd 77 Szintillator- und 76 Bleischichten.
+In den Bleischichten entstehen elektromagnetische Schauer, indem eintreffende Photonen durch Paarerzeugung in ein Elektron und ein Positron konvertieren, die wiederum durch Bremsstrahlung weitere Photonen abstrahlen.
 Die Szintillatoren werden durch die Photonen angeregt und geben ein messbares Lichtsignal ab.
 Alle Szintillatorschichten einer Zelle sind über einen Lichtleiter mit einem Photomultiplier verbunden.
 Der Photomultiplier wandelt das Lichtsignal in ein elektrisches Signal um, das proportional zur detektierten Energie der Zelle ist.
 \newline
-Jeder elektromagnetischer Schauer besitzt eine gewisse Ausdehnung, die über den sogenannten Moli\`ere-Radius $R_{\text{M}}$ definiert ist.
+Jeder elektromagnetische Schauer besitzt eine gewisse Ausdehnung, die über den Moli\`ere-Radius $R_{\text{M}}$ definiert ist.
 Der Moli\`ere-Radius gibt den Radius passend zu einem Zylinder an, in dem 90\% der gesamten Energie eines Schauers vom Detektor gemessen wird.
 Für das EMCal beträgt der Moliére-Radius $R_{\text{M}} = 3\,7$ cm, während die quadratischen Zellen eine Seitenlänge von 6 cm besitzen. 
 Der Schauer eines einzelnen Teilchens erstreckt sich also über mehrere Zellen.
-Benachbarte Zellen werden durch einen Algorithmus zu sogenannten \textit{Clustern} zusammengefasst.
+Benachbarte Zellen werden durch einen Algorithmus zu \textit{Clustern} zusammengefasst.
 Algorithmen zur Rekonstruktion von \textit{Clustern} werden als \textit{Clusterizer} bezeichnet.
-In der hier vorliegenden Analyse wird der sogenannte v2-\textit{Clusterizer} verwendet.
+In der hier vorliegenden Analyse wird der  v2-\textit{Clusterizer} verwendet.
 Dieser sucht zunächst nach der Zelle mit der größten deponierten Energie, die noch keinem \textit{Cluster} angehört und eine Schwellenenergie von typischerweise $600$ MeV besitzt.
 Von dieser Startzelle ausgehend werden die Nachbarzellen abgesucht und zum \textit{Cluster} hinzugefügt, wenn sie die Mindestenergie von typischerweise $100$ MeV überschreiten, aber eine geringere Energie als die Startzelle haben und ebefalls keinem weiteren \textit{Cluster} zugeordnet sind.
-Dies Suche nach Nachbarzellen geschieht dabei iterativ solange, bis keine Nachbarzellen die nötigen Kriterien erfüllen um dem \textit{Cluster} hinzugefügt zu werden.
+Diese Suche nach Nachbarzellen geschieht dabei iterativ so lange, bis keine Nachbarzellen die nötigen Kriterien erfüllen, um dem \textit{Cluster} hinzugefügt zu werden.
 Anschließend wird eine neue Startzelle für ein neues \textit{Cluster} gesucht und der Prozess beginnt von vorne.
 \begin{figure}[t!]
 \centering

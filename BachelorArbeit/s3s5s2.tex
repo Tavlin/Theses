@@ -1,5 +1,4 @@
-Für die Bestimmung des Templates des korrelierten Untergrunds wird das Template des Signals von einer Verteilung der invarianter Masse aus der Monte Carlo Simulation abgezogen, die im gleichen $p_\text{T}$-Intervall liegt, wie das Template des Signals.
-%Die Verteilung der invarianter Masse kommt dabei aus der Monte Carlo Simulation, auf die das Analyseverfahren bis einschließlich der Abschätzung der unkorrelierten Untergrunds angewandt wurde.
+Für die Bestimmung des Templates des korrelierten Untergrunds wird das Template des Signals von einer Verteilung der invarianten Masse aus der Monte Carlo Simulation abgezogen, die im gleichen $p_\text{T}$-Intervall liegt wie das Template des Signals.
 \begin{figure}[tp]
 \centering
 \includegraphics[width=.75\linewidth]{EntstehungUntergrund10_Data_2016.pdf}
@@ -11,14 +10,12 @@ Abbildung \ref{fig:BkgTemp} zeigt in pink das Template des korrelierten Untergru
 Zur Verdeutlichung sind ebenfalls die oben beschriebene Verteilung in schwarz und das Template des Signals in grün eingezeichnet.
 \newline
 Für die Anpassung der Templates an die Daten werden, relative zu den Werten der Einträge in den Templates, geringe statistische Unsicherheiten benötigt.
-%Für$p_\text{T}>6.0 (\text{ GeV}/c)$ wird die Unsicherheit der Templates des korrelierten Untergrunds relativ groß im Vergleich mit der Anzahl an Einträgen in der Verteilung der invarianten Masse.
-%Innerhalb der Unsicherheiten liegen die Integrale der Templates des korrelierten Untergrunds dann bei Null, wie Tabelle \ref{tab:IntAndError} im Anhang zeigt.
-%Dadurch wird eine Anpassung an die Daten, unter Berücksichtigung der statistischen Unsicherheiten, erschwert.
-%^geht das so^?
 Um die Unsicherheit zu verkleinern wird in dieser Arbeit der korrelierte Untergrund aus einem größeren $p_\text{T}$-Intervallen verwendet.
 Dieses Template wird im folgenden als kombiniertes Template des korrelierten Untergrunds bezeichnet, da das vergrößerte $p_\text{T}$-Intervall mehrere der normal großen $p_\text{T}$-Intervalle kombiniert.
 Dabei wird angenommen, dass sich nicht die Form, sondern nur die Anzahl der Einträge in den $p_\text{T}$-Intervallen unterscheidet.  
 Für das kombinierte Template des korrelierten Untergrunds wird $p_\text{T} \geq 1\,8\text{ GeV}/c$ bis $p_\text{T} \leq 3\,2\text{ GeV}/c$ benutzt, da in diesem Bereich die statistische Unsicherheit am geringsten ist.
+Um diese Methode zur Bestimmung des Template des korrelierten Untergrunds anwenden zu können, wird die Annahme getroffen, dass sich die Form des Template des korrelierten Untergrunds nicht ändert.
+Lediglich die Anzahl der Einträge in den Templates des korrelierten Untergrunds variiert.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.7\linewidth]{BackgroundWithRatio10_Data_2016.pdf}
@@ -54,16 +51,20 @@ Dadurch konnten größere Abweichungen für kleinere invariante Massen vermieden
 In Abschnitt \ref{s4s2} wird für die Bestimmung der systematischen Unsicherheit die Wahl des Templates des korrelierten Untergrunds variiert.
 \newline
 Zum einen werden die Templates einzeln verwendet, also jeweils das Template des korrelierten Untergrunds aus dem jeweiligen $p_\text{T}$-Intervall, aus dem auch die Verteilung der invarianten Masse und das Template des Signals kommen.
-Somit 
-Wie bereits erwähnt wird die statistisch Unsicherheit, relativ gesehen zu den Werten der Templates, groß.
+Wie bereits erwähnt wird die statistische Unsicherheit, relativ gesehen zu den Werten der Templates, groß.
+Tabelle \ref{tab:IntAndError} zeigt die Integrale sowie die Unsicherheit der verschiedenen $p_\text{T}$-Intervalle.
+Die statistischen Unsicherheiten sind für $6,0 \leq p_\text{T}/\text{ GeV}/c < 8,0 $ groß genug, sodass die Werte des Template des korrelierten Untergrunds mit Null kompatibel sind.
 Das hat zur Folge, dass je stärker das Template des korrelierten Untergrunds skaliert wird, desto größer werden die statistischen Unsicherheiten.
-Die statistischen Unsicherheiten sind jedoch immer groß genug, sodass die Werte des Template des korrelierten Untergrunds mit Null kompatibel sind.
 Effektiv wird nur die statistische Unsicherheit erhöht, was $\chi^{2}$ verkleinert.
 Dadurch wird die Anpassung über $\chi^{2}$-Minimierung verfälscht.
 Die Berechnung von $\chi^{2}$ wird im nächsten Abschnitt genauer erläutert.
 \newline
+Für $p_\text{T} > 8,0 \text{ GeV}/c$ liegen die Integrale im negativen Bereich, auch innerhalb der Unsicherheit.
+Da ein negativer korrelierter Untergrund physikalisch nicht sinnvoll ist, werden die Templates des korrelierten Untergrunds in diesem $p_\text{T}$-Bereich mit Null skaliert.
+\newline
 Zum anderen wird die Kombination variiert, sodass das Template des korrelierten Untergrunds nicht aus einem festen vergrößerten $p_\text{T}$-Intervall stammt.
 Stattdessen wird das $p_\text{T}$-Intervall eines einzelnen Templates des korrelierten Untergrunds ausgeweitet, bis das Intervall mindestens $4\text{ GeV}/c$ umfasst.
+Da also die nächsten Nachbarintervalle zusammengefasst werden, wird diese Methode zur Bestimmung der Template des korrelierten Untergrunds als nächste Nachbar Methode bezeichnet.
 Die Annahme, dass sich die Form der korrelierten Untergrunds nicht ändert, kann dabei aufgelockert werden, da nur benachbarte $p_\text{T}$-Intervall kombiniert werden.
 Es wäre also akzeptabel, wenn sich die Form verändert, solange die Änderung kontinuierlich und langsam statt findet.
 Die dadurch entstehende Korrelation in den statistischen Unsicherheiten der verschiedenen kombinierten Templates des korrelierten Untergrunds kann dabei nur grob abgeschätzt werden. 
