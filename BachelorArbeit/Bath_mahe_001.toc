@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Theoretische Grundlagen}{4}{chapter.1}
 \contentsline {section}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{4}{section.1.1}
 \contentsline {section}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasmas}{5}{section.1.2}
@@ -12,17 +12,17 @@
 \contentsline {subsection}{\numberline {3.1.1}Datensatz}{16}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Clusterauswahlkriterien}{17}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Clusterkombination}{18}{section.3.2}
-\contentsline {section}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{19}{section.3.3}
+\contentsline {section}{\numberline {3.3}Absch{\"a}tzung des unkorrelierten Untergrunds}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}Absch{\"a}tzung des korrelierten Untergrunds mit der Standardmethode}{23}{section.3.4}
 \contentsline {section}{\numberline {3.5}Peakextraktion mit Hilfe von Parametrisierungen von Templates}{24}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Template des Signals}{24}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Template des Signals}{25}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Template des korrelierten Untergrunds}{26}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Parametriesierungsmethode}{29}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{32}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{33}{subsection.3.5.4}
 \contentsline {chapter}{\numberline {4}Korrigierter Yield}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Akzeptanz und Effizienz}{35}{section.4.1}
 \contentsline {section}{\numberline {4.2}Systematische Unsicherheit}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Vergleich mit Standardmethode}{42}{section.4.3}
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{44}{chapter.5}
 \contentsline {chapter}{\numberline {A}}{45}{appendix.A}
-\contentsline {chapter}{\numberline {B}Danksagung}{49}{appendix.B}
+\contentsline {chapter}{\numberline {B}Danksagung}{48}{appendix.B}
