@@ -1,12 +1,7 @@
 Für das korrigierte $p_\text{T}$-Spektrum wird zuletzt noch die systematische Unsicherheit bestimmt.
 Dabei wird sich in dieser Arbeit rein auf die systematische Unsicherheit, die durch Variation in der Peakextraktion kommt, fokussiert.
+Das korrigierte $p_\text{T}$-Spektrum, das mit der Variation extrahiert wurde, wird mit dem korrigierten $p_\text{T}$-Spektrum ohne Variationen verglichen.
 Die Variationen die in dieser Arbeit verwendet wurden lassen sich in vier Abschnitte unterteilen.
-\begin{figure}[t!]
-\centering
-\includegraphics[width=.65\linewidth]{YieldsSysUncerIntRange_Data_2016.pdf}
-\caption{Relative systematische Unsicherheit durch die Variation des Zählbereiches abhängig von $p_\text{T}$.}
-\label{fig:IntSys}
-\end{figure}
 \newline
 Bei der \textbf{Variation des Zählbereiches} und der \textbf{Variation des Parametrisierungsbereiches}, wird der Zähl- beziehungsweise Parametrisierungsbereich einmal ausgeweitet und ein anderes mal verkleinert.
 Bei der Variation wird die untere Grenze jeweils um $0,01 \text{ GeV}/c^{2}$ verschoben, während die obere Grenze um $0,025 \text{ GeV}/c^{2}$ verändert wird, wie Tabelle \ref{tab:ParamAndIntRange} zeigt.
@@ -23,6 +18,12 @@ Gleichzeitig wird sicher gestellt, dass der Teil des Signals, der aus Konversion
 \caption{Obere und untere Grenze des Parametrisierungs- und Zählbereichs}
 \label{tab:ParamAndIntRange}
 \end{table}
+\begin{figure}[t]
+\centering
+\includegraphics[width=.65\linewidth]{YieldsSysUncerIntRange_Data_2016.pdf}
+\caption{Relative systematische Unsicherheit durch die Variation des Zählbereiches in Abhängigkeit von $p_\text{T}$.}
+\label{fig:IntSys}
+\end{figure}
 \newline
 Abbildung \ref{fig:IntSys} zeigt die relative systematische Abweichung für die Variation des Zählbereiches.
 Beide Variationen weisen eine lineare Abweichung auf.
@@ -30,7 +31,7 @@ Die Abweichungen für breite Grenzen liegt ab $p_\text{T} > 5,8 \text{ GeV}/c$ i
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerFitRange_Data_2016.pdf}
-\caption{Relative systematische Unsicherheit durch die Variation des Paramtrisierungsbereiches abhängig von $p_\text{T}$.}
+\caption{Relative systematische Unsicherheit durch die Variation des Paramtrisierungsbereiches in Abhängigkeit von $p_\text{T}$.}
 \label{fig:ParamSys}
 \end{figure}
 \newline
@@ -41,7 +42,7 @@ Dort liegen die Werte für breite Grenzen deutlich im positiven, die Werte für 
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerBkgVariation_Data_2016.pdf}
-\caption{Relative systematische Abweichung durch die Variation der Templates des korrelierten Untergrunds abhängig von $p_\text{T}$.}
+\caption{Relative systematische Abweichung durch die Variation der Templates des korrelierten Untergrunds in Abhängigkeit von $p_\text{T}$.}
 \label{fig:BkgSys}
 \end{figure}
 \newline
@@ -55,16 +56,12 @@ Bei der Methode mit den nächsten Nachbarn wird der korrelierten Untergrund hing
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerRebinning_Data_2016.pdf}
-\caption{Relative systematische Abweichung durch die Variation des Rebinnings des korrelierten Untergrunds abhängig von $p_\text{T}$.}
+\caption{Relative systematische Abweichung durch die Variation von $\Delta m_\text{inv}$ in Abhängigkeit von $p_\text{T}$.}
 \label{fig:BinningSys}
 \end{figure}
 \newline
-Die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ wird in der \textbf{Variation des Rebinnings} verändert.
-Die Werte für $\Delta m_\text{inv}$ hängen zunächst von zwei Faktoren ab.
-Zum einen werden die Daten für die Analyse in $800$ gleichgroße $m_\text{inv}$-Intervalle aufgeteilt, die von $m_\text{inv} = 0\,0 \text{ GeV}/c^{2}$ bis $m_\text{inv} = 0\,8 \text{ GeV}/c^{2}$ reichen.
-Somit beträgt $\Delta m_\text{inv}$ anfangs immer $0\,001 \text{ GeV}/c^{2}$.
-Dieser Wert wird vergrößert um die statistische Unsicherheit möglichst klein zu halten, wobei darauf geachtet werden muss, dass es sich bei dem Faktor, um den $\Delta m_\text{inv}$ vergrößert wird, um einen gemeinsamen Teiler von $800$ handelt.
-Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ im Normalfall, sowie für beide Variationen.
+Die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ wird in der \textbf{Variation von} $\boldsymbol{\Delta m}_\textbf{inv}$ verändert.
+Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ wie es für diese Analyse gewählt wurde, sowie für die Variationen.
 Dabei hängt $\Delta m_\text{inv}$ zusätzlich von $p_\text{T}$ ab.
 \newline
 Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich von $6,0 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ bildet sich eine deutliche Abweichung für vergrößerte $\Delta m_\text{inv}$ ab.
@@ -89,7 +86,7 @@ Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich vo
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerUncorrBkgVariation_Data_2016.pdf}
-\caption{Relative systematische Abweichung durch die Variation des Parametrisierungsbereiches des unkorrelierten Untergrunds abhängig von $p_\text{T}$.}
+\caption{Relative systematische Abweichung durch die Variation des Parametrisierungsbereiches des unkorrelierten Untergrunds in Abhängigkeit von $p_\text{T}$.}
 \label{fig:LeftBkgSys}
 \end{figure}
 \newline
@@ -123,11 +120,11 @@ Die systematische Unsicherheit ab $p_\text{T} = 7,5 \text{ GeV}/c$ wird von der 
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{KorrigierterYield_Data_2016.pdf}
-\caption{Korrigiertes $p_\text{T}$-Spektrum mit systematischen und statistischen Unsicherheiten.}
+\caption{Korrigiertes $p_\text{T}$-Spektrum mit systematischer und statistischer Unsicherheit.}
 \label{fig:KorrYield}
 \end{figure}
 \newline
-Abbildung \ref{fig:KorrYield} zeigt das korrigierte $p_\text{T}$-Spektrum mit statistischen und systematischen Unsicherheiten.
+Abbildung \ref{fig:KorrYield} zeigt das korrigierte $p_\text{T}$-Spektrum mit statistischer und systematischer Unsicherheit.
 Die statistische Unsicherheit wird durch die vertikalen Linien, die systematische Unsicherheit durch die farbigen Boxen dargestellt.
 \newline
 Das korrigierte $p_\text{T}$-Spektrum wird im folgenden Abschnitt mit dem Ergebnis der Standardmethode verglichen.

@@ -1,13 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  11 FEB 2019 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2018.12.4)  12 FEB 2019 15:55
 entering extended mode
-**./Bath_mahe_001.tex
-(Bath_mahe_001.tex
-LaTeX2e <2017-04-15>
-Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
-(D:\Programme\MiKTeX\tex\latex\base\report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(D:\Programme\MiKTeX\tex\latex\base\size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Bath_mahe_001.tex
+(./Bath_mahe_001.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, uk
+rainian, russian, bulgarian, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -22,21 +25,22 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(D:\Programme\MiKTeX\tex\latex\geometry\geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(D:\Programme\MiKTeX\tex\latex\graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(D:\Programme\MiKTeX\tex\generic\oberdiek\ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(D:\Programme\MiKTeX\tex\generic\oberdiek\ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(D:\Programme\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -51,60 +55,43 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-(D:\Programme\MiKTeX\tex\latex\geometry\geometry.cfg))
-(D:\Programme\MiKTeX\tex\generic\babel\babel.sty
-Package: babel 2018/01/24 3.17 The Babel package
-
-(D:\Programme\MiKTeX\tex\generic\babel\switch.def
-File: switch.def 2018/01/24 3.17 Babel switching mechanism
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-(D:\Programme\MiKTeX\tex\latex\arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(D:\Programme\MiKTeX\tex\latex\babel-german\ngerman.ldf
-Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(D:\Programme\MiKTeX\tex\latex\babel-german\ngermanb.ldf
-Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-(D:\Programme\MiKTeX\tex\generic\babel\babel.def
-File: babel.def 2018/01/24 3.17 Babel common definitions
-
-(D:\Programme\MiKTeX\tex\generic\babel\switch.def
-File: switch.def 2018/01/24 3.17 Babel switching mechanism
-)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen111
-
-(D:\Programme\MiKTeX\tex\generic\babel\txtbabel.def)
-\bbl@dirlevel=\count92
 )
-Package babel Info: Making " an active character on input line 125.
-)))
-(D:\Programme\MiKTeX\tex\latex\base\inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `ngerman'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@ngerman = a dialect from \language0
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-(D:\Programme\MiKTeX\tex\latex\base\utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(D:\Programme\MiKTeX\tex\latex\base\t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -169,94 +156,50 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -265,22 +208,10 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -288,40 +219,9 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -333,18 +233,14 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(D:\Programme\MiKTeX\tex\latex\base\ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -362,14 +258,6 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -380,8 +268,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(D:\Programme\MiKTeX\tex\latex\base\omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -404,32 +292,39 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(D:\Programme\MiKTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\Programme\MiKTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\Programme\MiKTeX\tex\latex\graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(D:\Programme\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(D:\Programme\MiKTeX\tex\latex\graphics-def\pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(D:\Programme\MiKTeX\tex\latex\caption\caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
 
-(D:\Programme\MiKTeX\tex\latex\caption\caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
 \captionmargin=\dimen114
 \captionmargin@=\dimen115
 \captionwidth=\dimen116
@@ -438,56 +333,43 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen119
 \caption@hangindent=\dimen120
 )
-\c@caption@flags=\count93
-\c@ContinuedFloat=\count94
+\c@ContinuedFloat=\count93
 )
-(D:\Programme\MiKTeX\tex\latex\caption\subcaption.sty
-Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count95
-\c@subtable=\count96
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count94
+\c@subtable=\count95
 )
-(D:\Programme\MiKTeX\tex\latex\base\fixltx2e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (D:\Programme\MiKTeX\tex\latex\lastpage\lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
 )
-(D:\Programme\MiKTeX\tex\latex\oberdiek\epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
-
-(D:\Programme\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(D:\Programme\MiKTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
-(D:\Programme\MiKTeX\tex\latex\oberdiek\grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(D:\Programme\MiKTeX\tex\latex\oberdiek\kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -495,78 +377,78 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(D:\Programme\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-))
-(D:\Programme\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip43
-\f@nch@O@elh=\skip44
-\f@nch@O@erh=\skip45
-\f@nch@O@olh=\skip46
-\f@nch@O@orh=\skip47
-\f@nch@O@elf=\skip48
-\f@nch@O@erf=\skip49
-\f@nch@O@olf=\skip50
-\f@nch@O@orf=\skip51
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
 )
-(D:\Programme\MiKTeX\tex\latex\amsmath\amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(D:\Programme\MiKTeX\tex\latex\amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
 
-(D:\Programme\MiKTeX\tex\latex\amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen121
 ))
-(D:\Programme\MiKTeX\tex\latex\amsmath\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen122
 )
-(D:\Programme\MiKTeX\tex\latex\amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count97
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count98
-\leftroot@=\count99
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count100
-\DOTSCASE@=\count101
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen123
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks19
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks20
 \eqnshift@=\dimen124
 \alignsep@=\dimen125
@@ -578,11 +460,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(D:\Programme\MiKTeX\tex\latex\amscls\amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks23
 \thm@bodyfont=\toks24
 \thm@headfont=\toks25
@@ -593,153 +475,150 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip57
 \dth@everypar=\toks28
 )
-(D:\Programme\MiKTeX\tex\latex\amsfonts\amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(D:\Programme\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(D:\Programme\MiKTeX\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(D:\Programme\MiKTeX\tex\latex\oberdiek\auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen130
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
 
-(D:\Programme\MiKTeX\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count111
+\Hy@SavedSpaceFactor=\count110
 
-(D:\Programme\MiKTeX\tex\latex\00miktex\hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count112
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count111
 
-(D:\Programme\MiKTeX\tex\latex\url\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen131
-\Fld@menulength=\count113
+\Fld@menulength=\count112
 \Field@Width=\dimen132
 \Fld@charsize=\dimen133
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count114
-\c@Item=\count115
-\c@Hfootnote=\count116
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-(D:\Programme\MiKTeX\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count117
-\c@bookmark@seq@number=\count118
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(D:\Programme\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip58
 )
-(D:\Programme\MiKTeX\tex\latex\multirow\multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip59
-\multirow@cntb=\count119
-\multirow@dima=\skip60
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen134
 )
-(D:\Programme\MiKTeX\tex\latex\appendix\appendix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count120
-\c@@ppsavesec=\count121
-\c@@ppsaveapp=\count122
+\c@@pps=\count118
+\c@@ppsavesec=\count119
+\c@@ppsaveapp=\count120
 )
-(D:\Programme\MiKTeX\tex\latex\mathtools\mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-(D:\Programme\MiKTeX\tex\latex\tools\calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count123
-\calc@Bcount=\count124
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
 \calc@Adimen=\dimen135
 \calc@Bdimen=\dimen136
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count125
-\calc@Cskip=\skip63
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip61
 )
-(D:\Programme\MiKTeX\tex\latex\mathtools\mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count126
+\g_MT_multlinerow_int=\count124
 \l_MT_multwidth_dim=\dimen137
-\origjot=\skip64
+\origjot=\skip62
 \l_MT_shortvdotswithinadjustabove_dim=\dimen138
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen139
 \l_MT_above_intertext_sep=\dimen140
@@ -747,9 +626,10 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen142
 \l_MT_below_shortintertext_sep=\dimen143
 )
-(D:\Programme\MiKTeX\tex\latex\setspace\setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (Bath_mahe_001.aux)
+)
+(./Bath_mahe_001.aux)
 \openout1 = `Bath_mahe_001.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -802,88 +682,66 @@ LaTeX Font Info:    ... okay on input line 51.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(D:\Programme\MiKTeX\tex\context\base\supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
+\scratchcounter=\count125
 \scratchdimen=\dimen144
 \scratchbox=\box28
-\nofMPsegments=\count128
-\nofMParguments=\count129
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count130
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen145
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks30
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 51.
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 51.
- (D:\Programme\MiKTeX\tex\latex\hyperref\nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(D:\Programme\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count131
 )
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
 
-(Bath_mahe_001.out) (Bath_mahe_001.out)
+(./Bath_mahe_001.out) (./Bath_mahe_001.out)
 \@outlinefile=\write3
 \openout3 = `Bath_mahe_001.out'.
 
- (TitelSeite.tex
+ (./TitelSeite.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-(D:\Programme\MiKTeX\tex\latex\amsfonts\umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(D:\Programme\MiKTeX\tex\latex\amsfonts\umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 57.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 57.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 57.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 57.
- [1
+)) [1
 
-{C:/Users/Twinhelix/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
- [2] (Bath_mahe_001.toc
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Bath_mahe
+_001.tocpdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 ...stematische Unsicherheit}{37}{section.4.2}
+l.24 ...stematische Unsicherheit}{38}{section.4.2}
                                                    [1
 
 
@@ -891,150 +749,58 @@ l.24 ...stematische Unsicherheit}{37}{section.4.2}
 \tf@toc=\write4
 \openout4 = `Bath_mahe_001.toc'.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.69 \chapter
-             *{Einleitung} [2] (s1.tex)
+             *{Einleitung} [2] (./s1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
  [3
 
 ]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
-
 [4]
 Kapitel 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
-(s1s1.tex
+(./s1s1.tex
 Overfull \hbox (5.53375pt too wide) in paragraph at lines 10--16
  [][] 
  []
 
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
- [5
+) [5
 
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 77.
- (s1s2.tex
-<QCD_phase_diagram.pdf, id=190, 722.7pt x 542.025pt>
+] (./s1s2.tex <QCD_phase_diagram.pdf, id=192, 722.7pt x 542.025pt>
 File: QCD_phase_diagram.pdf Graphic file (type pdf)
+
 <use QCD_phase_diagram.pdf>
-Package pdftex.def Info: QCD_phase_diagram.pdf  used on input line 50.
+Package pdftex.def Info: QCD_phase_diagram.pdf used on input line 50.
 (pdftex.def)             Requested size: 281.68517pt x 211.26483pt.
 )
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
- [7]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
-
-(s1s3.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 81.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 81.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 81.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 81.
- [8 <./QCD_phase_diagram.pdf>]
-Overfull \hbox (6.45572pt too wide) in paragraph at lines 82--82
-[]\OT1/cmr/bx/n/14.4 Messung neu-tra-ler Pio-nen zur Un-ter-su-chung des Quark-
-Gluon-
+Overfull \hbox (10.99052pt too wide) in paragraph at lines 16--79
+\OT1/cmr/m/n/10.95 QGP entspricht einem Medi-um mit ho-her Dichte von (Anti-)Qu
+arks und Glu-o-nen und beziehungsweise
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
-(s1s4.tex
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+(./s1s3.tex) [8 <./QCD_phase_diagram.pdf>]
+Overfull \hbox (6.45572pt too wide) in paragraph at lines 82--82
+[]\OT1/cmr/bx/n/14.4 Messung neu-traler Pi-o-nen zur Un-ter-suchung des Quark-G
+luon-
+ []
+
+(./s1s4.tex
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 25.16252pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 29.
 [9])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
  [10]
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
@@ -1042,238 +808,121 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
 [11]
 Kapitel 2.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
-(s2.tex)
+(./s2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
  [12
 
 ]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
-
-(s2s1.tex
-<ALICE.jpg, id=267, 767.0256pt x 521.3076pt>
+(./s2s1.tex <ALICE.jpg, id=269, 767.0256pt x 521.3076pt>
 File: ALICE.jpg Graphic file (type jpg)
-<use ALICE.jpg>
-Package pdftex.def Info: ALICE.jpg  used on input line 5.
+ <use ALICE.jpg>
+Package pdftex.def Info: ALICE.jpg used on input line 5.
 (pdftex.def)             Requested size: 422.52058pt x 287.17346pt.
 )
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
- [13 <./ALICE.jpg>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
- (s2s2.tex
-<m02&m20.png, id=277, 336.25626pt x 211.79124pt>
+[13 <./ALICE.jpg>] (./s2s2.tex
+<m02&m20.png, id=279, 336.25626pt x 211.79124pt>
 File: m02&m20.png Graphic file (type png)
-<use m02&m20.png>
-Package pdftex.def Info: m02&m20.png  used on input line 30.
+ <use m02&m20.png>
+Package pdftex.def Info: m02&m20.png used on input line 30.
 (pdftex.def)             Requested size: 164.31754pt x 103.49422pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
  [14])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
- [15 <./m02&m20.png>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 92.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 92.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 92.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 92.
- [16]
+ [15 <./m02&m20.png>] [16]
 Kapitel 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 92.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 92.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 96.
-(s3s1s1.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
- (s3s1s2.tex)
+(./s3s1s1.tex) (./s3s1s2.tex)
+Overfull \hbox (27.80676pt too wide) in paragraph at lines 1--101
+\OT1/cmr/m/n/10.95 Der zeitliche Rah-men um den Kol-li-sion-szeit-punkt, in dem
+ die \OT1/cmr/m/it/10.95 Clus-ter \OT1/cmr/m/n/10.95 ent-standen sind, wird ein
+geschr[]ankt,
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
  [17
 
 ]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
-
-(s3s2.tex
-<hInvMass_pT_Signal.pdf, id=311, 569.12625pt x 550.055pt>
-File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
-<use hInvMass_pT_Signal.pdf>
-Package pdftex.def Info: hInvMass_pT_Signal.pdf  used on input line 4.
-(pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
-<hSignalPlusBkg.pdf, id=317, 569.12625pt x 387.4475pt>
-File: hSignalPlusBkg.pdf Graphic file (type pdf)
-<use hSignalPlusBkg.pdf>
-Package pdftex.def Info: hSignalPlusBkg.pdf  used on input line 41.
-(pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-)
 Underfull \vbox (badness 2772) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
  [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./s3s2.tex <hInvMass_pT_Signal.pdf, id=320, 569.12625pt x 550.055pt>
+File: hInvMass_pT_Signal.pdf Graphic file (type pdf)
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
- [19 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
- (s3s3.tex
-<hInvMass_pT_Bkg.pdf, id=376, 569.12625pt x 550.055pt>
+<use hInvMass_pT_Signal.pdf>
+Package pdftex.def Info: hInvMass_pT_Signal.pdf used on input line 4.
+(pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
+
+<hSignalPlusBkg.pdf, id=326, 569.12625pt x 387.4475pt>
+File: hSignalPlusBkg.pdf Graphic file (type pdf)
+
+<use hSignalPlusBkg.pdf>
+Package pdftex.def Info: hSignalPlusBkg.pdf used on input line 42.
+(pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
+)
+Overfull \hbox (15.91925pt too wide) in paragraph at lines 1--104
+\OT1/cmr/m/n/10.95 Im fol-gen-den Ab-schnitt wird eine Meth-ode zur Ab-sch[]atz
+ung des un-ko-r-re-lierten Un-ter-grunds vorgestellt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--104
+
+ []
+
+[19 <./hInvMass_pT_Signal.pdf, page is rotated 90 degrees>] (./s3s3.tex
+<hInvMass_pT_Bkg.pdf, id=379, 569.12625pt x 550.055pt>
 File: hInvMass_pT_Bkg.pdf Graphic file (type pdf)
+
 <use hInvMass_pT_Bkg.pdf>
-Package pdftex.def Info: hInvMass_pT_Bkg.pdf  used on input line 3.
+Package pdftex.def Info: hInvMass_pT_Bkg.pdf used on input line 3.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
  [20]
+Overfull \hbox (2.66113pt too wide) in paragraph at lines 7--23
+\OT1/cmr/m/it/10.95 Clus-ter \OT1/cmr/m/n/10.95 aus un-ter-schiedlichen \OT1/cm
+r/m/it/10.95 Events \OT1/cmr/m/n/10.95 paar-weise miteinan-der kom-biniert. Dad
+urch wird sichergestellt,
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (13.6pt): 
  Make it at least 13.68405pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
 [21 <./hSignalPlusBkg.pdf, page is rotated 90 degrees>]
-<hUncorrBkgNorm.pdf, id=434, 569.12625pt x 387.4475pt>
+<hUncorrBkgNorm.pdf, id=437, 569.12625pt x 387.4475pt>
 File: hUncorrBkgNorm.pdf Graphic file (type pdf)
+
 <use hUncorrBkgNorm.pdf>
-Package pdftex.def Info: hUncorrBkgNorm.pdf  used on input line 30.
+Package pdftex.def Info: hUncorrBkgNorm.pdf used on input line 30.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-<hInvMass_Data.pdf, id=440, 569.12625pt x 387.4475pt>
+ <hInvMass_Data.pdf, id=443, 569.12625pt x 387.4475pt>
 File: hInvMass_Data.pdf Graphic file (type pdf)
+
 <use hInvMass_Data.pdf>
-Package pdftex.def Info: hInvMass_Data.pdf  used on input line 40.
+Package pdftex.def Info: hInvMass_Data.pdf used on input line 40.
+(pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
+) [22 <./hInvMass_pT_Bkg.pdf, page is rotated 90 degrees>] (./s3s4.tex <Standar
+dParam.pdf, id=494, 569.12625pt x 387.4475pt>
+File: StandardParam.pdf Graphic file (type pdf)
+
+<use StandardParam.pdf>
+Package pdftex.def Info: StandardParam.pdf used on input line 10.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
 )
-Overfull \hbox (0.71815pt too wide) in paragraph at lines 26--107
-\OT1/cmr/m/n/10.95 grunds. Das Absch[]atzen mit ei-ner li-nea-ren Funk-ti-on ha
-t sich als g[]angigste Me-tho-de zur Absch[]atzung
+Overfull \hbox (5.89816pt too wide) in paragraph at lines 1--110
+\OT1/cmr/m/n/10.95 sch[]atzung des An-teils des Sig-nals, dem Kon-ver-sion-se-l
+ek-tro-nen oder Kon-ver-sion-spositro-nen zu Grunde
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
-[22 <./hInvMass_pT_Bkg.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 108.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 108.
- (s3s4.tex
-<StandardParam.pdf, id=491, 569.12625pt x 387.4475pt>
-File: StandardParam.pdf Graphic file (type pdf)
-<use StandardParam.pdf>
-Package pdftex.def Info: StandardParam.pdf  used on input line 10.
-(pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1283,445 +932,259 @@ Package Fancyhdr Warning: \headheight is too small (13.6pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
 [23 <./hUncorrBkgNorm.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
- [24 <./hInvMass_Data.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 111.
- (s3s5.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 114.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 114.
- [25 <./StandardParam.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 114.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 114.
- (s3s5s1.tex
-<PeakTemplateMotivation10_Data_2016.pdf, id=638, 569.12625pt x 387.4475pt>
+ [24 <./hInvMass_Data.pdf, page is rotated 90 degrees>] (./s3s5.tex) (./s3s5s1.
+tex
+<PeakTemplateMotivation10_Data_2016.pdf, id=595, 569.12625pt x 387.4475pt>
 File: PeakTemplateMotivation10_Data_2016.pdf Graphic file (type pdf)
+
 <use PeakTemplateMotivation10_Data_2016.pdf>
-Package pdftex.def Info: PeakTemplateMotivation10_Data_2016.pdf  used on input 
-line 6.
+Package pdftex.def Info: PeakTemplateMotivation10_Data_2016.pdf used on input l
+ine 6.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 116.
- [26 <./PeakTemplateMotivation10_Data_2016.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 117.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 117.
- (s3s5s2.tex
-<EntstehungUntergrund10_Data_2016.pdf, id=688, 569.12625pt x 387.4475pt>
+) [25 <./StandardParam.pdf, page is rotated 90 degrees>] [26 <./PeakTemplateMot
+ivation10_Data_2016.pdf, page is rotated 90 degrees>] (./s3s5s2.tex
+<EntstehungUntergrund10_Data_2016.pdf, id=692, 569.12625pt x 387.4475pt>
 File: EntstehungUntergrund10_Data_2016.pdf Graphic file (type pdf)
+
 <use EntstehungUntergrund10_Data_2016.pdf>
-Package pdftex.def Info: EntstehungUntergrund10_Data_2016.pdf  used on input li
-ne 4.
+Package pdftex.def Info: EntstehungUntergrund10_Data_2016.pdf used on input lin
+e 4.
 (pdftex.def)             Requested size: 352.10287pt x 239.71245pt.
-<BackgroundWithRatio10_Data_2016.pdf, id=690, 569.12625pt x 550.055pt>
+
+<BackgroundWithRatio10_Data_2016.pdf, id=694, 569.12625pt x 550.055pt>
 File: BackgroundWithRatio10_Data_2016.pdf Graphic file (type pdf)
+
 <use BackgroundWithRatio10_Data_2016.pdf>
-Package pdftex.def Info: BackgroundWithRatio10_Data_2016.pdf  used on input lin
-e 21.
+Package pdftex.def Info: BackgroundWithRatio10_Data_2016.pdf used on input line
+ 24.
 (pdftex.def)             Requested size: 328.62791pt x 317.63046pt.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
- [27 <./EntstehungUntergrund10_Data_2016.pdf, page is rotated 90 degrees>]
+) [27 <./EntstehungUntergrund10_Data_2016.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
  [28 <./BackgroundWithRatio10_Data_2016.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
  [29]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 120.
-
-(s3s5s3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
  [30]
-<Chi2Map10_Data_2016.pdf, id=803, 569.12625pt x 550.055pt>
+(./s3s5s3.tex <Chi2Map10_Data_2016.pdf, id=808, 569.12625pt x 550.055pt>
 File: Chi2Map10_Data_2016.pdf Graphic file (type pdf)
+
 <use Chi2Map10_Data_2016.pdf>
-Package pdftex.def Info: Chi2Map10_Data_2016.pdf  used on input line 17.
+Package pdftex.def Info: Chi2Map10_Data_2016.pdf used on input line 18.
 (pdftex.def)             Requested size: 305.15295pt x 294.93538pt.
-<Chi2NoComp_Data_2016.pdf, id=806, 569.12625pt x 387.4475pt>
+
+<Chi2NoComp_Data_2016.pdf, id=811, 569.12625pt x 387.4475pt>
 File: Chi2NoComp_Data_2016.pdf Graphic file (type pdf)
+
 <use Chi2NoComp_Data_2016.pdf>
-Package pdftex.def Info: Chi2NoComp_Data_2016.pdf  used on input line 39.
+Package pdftex.def Info: Chi2NoComp_Data_2016.pdf used on input line 41.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<SF_Data_2016.pdf, id=808, 569.12625pt x 387.4475pt>
+
+Underfull \hbox (badness 1132) in paragraph at lines 45--45
+[]\OT1/cmr/m/n/10.95 Abbildung 3.11: |Ergeb-nis der $\OML/cmm/m/it/10.95 ^^_[]$
+\OT1/cmr/m/n/10.95 -Minimierung: $[]$ in Abh[]angigkeit von $\OML/cmm/m/it/10.9
+5 p[]$\OT1/cmr/m/n/10.95 . F[]ur $2\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 2 
+\OMS/cmsy/m/n/10.95 ^^T
+ []
+
+<SF_Data_2016.pdf, id=813, 569.12625pt x 387.4475pt>
 File: SF_Data_2016.pdf Graphic file (type pdf)
-<use SF_Data_2016.pdf>
-Package pdftex.def Info: SF_Data_2016.pdf  used on input line 52.
+ <use SF_Data_2016.pdf>
+Package pdftex.def Info: SF_Data_2016.pdf used on input line 56.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (10.82184pt too wide) in paragraph at lines 9--122
+\OT1/cmr/m/n/10.95 Abbildung []3.10[] zeigt die Verteilung von $\OML/cmm/m/it/1
+0.95 ^^_[]$ \OT1/cmr/m/n/10.95 f[]ur un-ter-schiedliche Kom-bi-na-tio-nen der b
+ei-den Skalierungs-
+ []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
+
+Overfull \hbox (22.89734pt too wide) in paragraph at lines 9--122
+\OT1/cmr/m/n/10.95 Die Skalierungs-fak-toren aus die aus der $\OML/cmm/m/it/10.
+95 ^^_[]$\OT1/cmr/m/n/10.95 -Minimierung fol-gen wer-den in Ab-bil-dung []3.12[
+] in Abh[]angigkeit
+ []
+
+
+Overfull \hbox (20.41425pt too wide) in paragraph at lines 9--122
+\OT1/cmr/m/n/10.95 von $\OML/cmm/m/it/10.95 p[]$ \OT1/cmr/m/n/10.95 gezeigt. F[
+]ur SF$[]$ zeigt sich ein Anstieg bis es sein Max-i-mum bei $1\OML/cmm/m/it/10.
+95 ;  \OT1/cmr/m/n/10.95 8 \OMS/cmsy/m/n/10.95 ^^T \OML/cmm/m/it/10.95 p[]=\OT1
+/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 =c\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/10.9
+5 <
+ []
+
+
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
  [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
- [32 <./Chi2Map10_Data_2016.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
- [33 <./Chi2NoComp_Data_2016.pdf, page is rotated 90 degrees> <./SF_Data_2016.p
-df, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
- (s3s5s4.tex
-<ParamResult_Bin10_Data_2016.pdf, id=957, 569.12625pt x 387.4475pt>
+ [32 <./Chi2Map10_Data_2016.pdf, page is rotated 90 degrees>] (./s3s5s4.tex
+<ParamResult_Bin10_Data_2016.pdf, id=870, 569.12625pt x 387.4475pt>
 File: ParamResult_Bin10_Data_2016.pdf Graphic file (type pdf)
+
 <use ParamResult_Bin10_Data_2016.pdf>
-Package pdftex.def Info: ParamResult_Bin10_Data_2016.pdf  used on input line 3.
-
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<UncorrYields_Data_2016.pdf, id=961, 569.12625pt x 387.4475pt>
-File: UncorrYields_Data_2016.pdf Graphic file (type pdf)
-<use UncorrYields_Data_2016.pdf>
-Package pdftex.def Info: UncorrYields_Data_2016.pdf  used on input line 21.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 125.
- [34 <./ParamResult_Bin10_Data_2016.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
- [35 <./UncorrYields_Data_2016.pdf, page is rotated 90 degrees>]
-Kapitel 4.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-(s4s1.tex
-<Korrekturfaktoren_Data_2016.pdf, id=1060, 569.12625pt x 387.4475pt>
-File: Korrekturfaktoren_Data_2016.pdf Graphic file (type pdf)
-<use Korrekturfaktoren_Data_2016.pdf>
-Package pdftex.def Info: Korrekturfaktoren_Data_2016.pdf  used on input line 10
-.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 131.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 131.
- [36
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 131.
- (s4s2.tex
-<YieldsSysUncerIntRange_Data_2016.pdf, id=1067, 569.12625pt x 387.4475pt>
-File: YieldsSysUncerIntRange_Data_2016.pdf Graphic file (type pdf)
-<use YieldsSysUncerIntRange_Data_2016.pdf>
-Package pdftex.def Info: YieldsSysUncerIntRange_Data_2016.pdf  used on input li
-ne 6.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<YieldsSysUncerFitRange_Data_2016.pdf, id=1070, 569.12625pt x 387.4475pt>
-File: YieldsSysUncerFitRange_Data_2016.pdf Graphic file (type pdf)
-<use YieldsSysUncerFitRange_Data_2016.pdf>
-Package pdftex.def Info: YieldsSysUncerFitRange_Data_2016.pdf  used on input li
-ne 32.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<YieldsSysUncerBkgVariation_Data_2016.pdf, id=1072, 569.12625pt x 387.4475pt>
-File: YieldsSysUncerBkgVariation_Data_2016.pdf Graphic file (type pdf)
-<use YieldsSysUncerBkgVariation_Data_2016.pdf>
-Package pdftex.def Info: YieldsSysUncerBkgVariation_Data_2016.pdf  used on inpu
-t line 43.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<YieldsSysUncerRebinning_Data_2016.pdf, id=1074, 569.12625pt x 387.4475pt>
-File: YieldsSysUncerRebinning_Data_2016.pdf Graphic file (type pdf)
-<use YieldsSysUncerRebinning_Data_2016.pdf>
-Package pdftex.def Info: YieldsSysUncerRebinning_Data_2016.pdf  used on input l
-ine 57.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<YieldsSysUncerUncorrBkgVariation_Data_2016.pdf, id=1076, 569.12625pt x 387.447
-5pt>
-File: YieldsSysUncerUncorrBkgVariation_Data_2016.pdf Graphic file (type pdf)
-<use YieldsSysUncerUncorrBkgVariation_Data_2016.pdf>
-Package pdftex.def Info: YieldsSysUncerUncorrBkgVariation_Data_2016.pdf  used o
-n input line 91.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-<SystematischeUnsicherheit_Data_2016.pdf, id=1078, 569.12625pt x 387.4475pt>
-File: SystematischeUnsicherheit_Data_2016.pdf Graphic file (type pdf)
-<use SystematischeUnsicherheit_Data_2016.pdf>
-Package pdftex.def Info: SystematischeUnsicherheit_Data_2016.pdf  used on input
- line 103.
+Package pdftex.def Info: ParamResult_Bin10_Data_2016.pdf used on input line 3.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
 
-Overfull \hbox (1.68454pt too wide) in paragraph at lines 1--110
-\OT1/cmr/m/n/10.95 Beide Va-ria-tio-nen zei-gen kaum Ab-wei-chun-gen, le-dig-li
-ch im $\OML/cmm/m/it/10.95 p[]$\OT1/cmr/m/n/10.95 -Bereich von $6\OML/cmm/m/it/
-10.95 ; \OT1/cmr/m/n/10.95 0[]\OML/cmm/m/it/10.95 =c$ \OT1/cmr/m/n/10.95 bis $7
-\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5[]\OML/cmm/m/it/10.95 =c$
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-[37 <./Korrekturfaktoren_Data_2016.pdf, page is rotated 90 degrees> <./YieldsSy
-sUncerIntRange_Data_2016.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
- [38 <./YieldsSysUncerFitRange_Data_2016.pdf, page is rotated 90 degrees>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
- [39 <./YieldsSysUncerBkgVariation_Data_2016.pdf, page is rotated 90 degrees>]
-Underfull \vbox (badness 2653) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
- [40 <./YieldsSysUncerRebinning_Data_2016.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 116.
- [41 <./YieldsSysUncerUncorrBkgVariation_Data_2016.pdf, page is rotated 90 degr
-ees> <./SystematischeUnsicherheit_Data_2016.pdf, page is rotated 90 degrees>]
-<KorrigierterYield_Data_2016.pdf, id=1411, 569.12625pt x 387.4475pt>
-File: KorrigierterYield_Data_2016.pdf Graphic file (type pdf)
-<use KorrigierterYield_Data_2016.pdf>
-Package pdftex.def Info: KorrigierterYield_Data_2016.pdf  used on input line 12
-5.
-(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
- (s4s3.tex
-<KorrigierteYields_Data_2016.pdf, id=1413, 536.0025pt x 739.76375pt>
-File: KorrigierteYields_Data_2016.pdf Graphic file (type pdf)
-<use KorrigierteYields_Data_2016.pdf>
-Package pdftex.def Info: KorrigierteYields_Data_2016.pdf  used on input line 3.
+ [33 <./Chi2NoComp_Data_2016.pdf, page is rotated 90 degrees>]
+<UncorrYields_Data_2016.pdf, id=924, 569.12625pt x 387.4475pt>
+File: UncorrYields_Data_2016.pdf Graphic file (type pdf)
 
+<use UncorrYields_Data_2016.pdf>
+Package pdftex.def Info: UncorrYields_Data_2016.pdf used on input line 20.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+) [34 <./SF_Data_2016.pdf, page is rotated 90 degrees> <./ParamResult_Bin10_Dat
+a_2016.pdf, page is rotated 90 degrees>]
+[35 <./UncorrYields_Data_2016.pdf, page is rotated 90 degrees>]
+Kapitel 4.
+(./s4s1.tex
+<Korrekturfaktoren_Data_2016.pdf, id=1066, 569.12625pt x 387.4475pt>
+File: Korrekturfaktoren_Data_2016.pdf Graphic file (type pdf)
+
+<use Korrekturfaktoren_Data_2016.pdf>
+Package pdftex.def Info: Korrekturfaktoren_Data_2016.pdf used on input line 10.
+
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<KorrigierterYieldNurStat_Data_2016.pdf, id=1068, 569.12625pt x 387.4475pt>
+File: KorrigierterYieldNurStat_Data_2016.pdf Graphic file (type pdf)
+
+<use KorrigierterYieldNurStat_Data_2016.pdf>
+Package pdftex.def Info: KorrigierterYieldNurStat_Data_2016.pdf used on input l
+ine 32.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+) [36
+
+] (./s4s2.tex
+<YieldsSysUncerIntRange_Data_2016.pdf, id=1076, 569.12625pt x 387.4475pt>
+File: YieldsSysUncerIntRange_Data_2016.pdf Graphic file (type pdf)
+
+<use YieldsSysUncerIntRange_Data_2016.pdf>
+Package pdftex.def Info: YieldsSysUncerIntRange_Data_2016.pdf used on input lin
+e 23.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<YieldsSysUncerFitRange_Data_2016.pdf, id=1078, 569.12625pt x 387.4475pt>
+File: YieldsSysUncerFitRange_Data_2016.pdf Graphic file (type pdf)
+
+<use YieldsSysUncerFitRange_Data_2016.pdf>
+Package pdftex.def Info: YieldsSysUncerFitRange_Data_2016.pdf used on input lin
+e 33.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<YieldsSysUncerBkgVariation_Data_2016.pdf, id=1080, 569.12625pt x 387.4475pt>
+File: YieldsSysUncerBkgVariation_Data_2016.pdf Graphic file (type pdf)
+
+<use YieldsSysUncerBkgVariation_Data_2016.pdf>
+Package pdftex.def Info: YieldsSysUncerBkgVariation_Data_2016.pdf used on input
+ line 44.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<YieldsSysUncerRebinning_Data_2016.pdf, id=1082, 569.12625pt x 387.4475pt>
+File: YieldsSysUncerRebinning_Data_2016.pdf Graphic file (type pdf)
+
+<use YieldsSysUncerRebinning_Data_2016.pdf>
+Package pdftex.def Info: YieldsSysUncerRebinning_Data_2016.pdf used on input li
+ne 58.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<YieldsSysUncerUncorrBkgVariation_Data_2016.pdf, id=1084, 569.12625pt x 387.447
+5pt>
+File: YieldsSysUncerUncorrBkgVariation_Data_2016.pdf Graphic file (type pdf)
+ <use YieldsSysUncerUncorrBkgVariation_Data_2016.pdf>
+Package pdftex.def Info: YieldsSysUncerUncorrBkgVariation_Data_2016.pdf used on
+ input line 88.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+<SystematischeUnsicherheit_Data_2016.pdf, id=1086, 569.12625pt x 387.4475pt>
+File: SystematischeUnsicherheit_Data_2016.pdf Graphic file (type pdf)
+
+<use SystematischeUnsicherheit_Data_2016.pdf>
+Package pdftex.def Info: SystematischeUnsicherheit_Data_2016.pdf used on input 
+line 100.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+
+Overfull \hbox (1.68454pt too wide) in paragraph at lines 1--107
+\OT1/cmr/m/n/10.95 Beide Vari-a-tio-nen zeigen kaum Ab-we-ichun-gen, lediglich 
+im $\OML/cmm/m/it/10.95 p[]$\OT1/cmr/m/n/10.95 -Bereich von $6\OML/cmm/m/it/10.
+95 ; \OT1/cmr/m/n/10.95 0[]\OML/cmm/m/it/10.95 =c$ \OT1/cmr/m/n/10.95 bis $7\OM
+L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5[]\OML/cmm/m/it/10.95 =c$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./Korrekturfaktoren_Data_2016.pdf, page is rotated 90 degrees> <./Korrigi
+erterYieldNurStat_Data_2016.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+ [38 <./YieldsSysUncerIntRange_Data_2016.pdf, page is rotated 90 degrees>] [39 
+<./YieldsSysUncerFitRange_Data_2016.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [40 <./YieldsSysUncerBkgVariation_Data_2016.pdf, page is rotated 90 degrees> <
+./YieldsSysUncerRebinning_Data_2016.pdf, page is rotated 90 degrees>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./YieldsSysUncerUncorrBkgVariation_Data_2016.pdf, page is rotated 90 degr
+ees>]
+<KorrigierterYield_Data_2016.pdf, id=1422, 569.12625pt x 387.4475pt>
+File: KorrigierterYield_Data_2016.pdf Graphic file (type pdf)
+
+<use KorrigierterYield_Data_2016.pdf>
+Package pdftex.def Info: KorrigierterYield_Data_2016.pdf used on input line 122
+.
+(pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
+) (./s4s3.tex
+<KorrigierteYields_Data_2016.pdf, id=1424, 536.0025pt x 739.76375pt>
+File: KorrigierteYields_Data_2016.pdf Graphic file (type pdf)
+
+<use KorrigierteYields_Data_2016.pdf>
+Package pdftex.def Info: KorrigierteYields_Data_2016.pdf used on input line 3.
 (pdftex.def)             Requested size: 305.15295pt x 421.15047pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
- [42 <./KorrigierterYield_Data_2016.pdf, page is rotated 90 degrees>]
-<StatistischeUnsicherheitVergleich_Data_2016.pdf, id=1464, 569.12625pt x 387.44
+ [42 <./SystematischeUnsicherheit_Data_2016.pdf, page is rotated 90 degrees>]
+<StatistischeUnsicherheitVergleich_Data_2016.pdf, id=1476, 569.12625pt x 387.44
 75pt>
 File: StatistischeUnsicherheitVergleich_Data_2016.pdf Graphic file (type pdf)
-<use StatistischeUnsicherheitVergleich_Data_2016.pdf>
-Package pdftex.def Info: StatistischeUnsicherheitVergleich_Data_2016.pdf  used 
-on input line 16.
+ <use StatistischeUnsicherheitVergleich_Data_2016.pdf>
+Package pdftex.def Info: StatistischeUnsicherheitVergleich_Data_2016.pdf used o
+n input line 16.
 (pdftex.def)             Requested size: 305.15295pt x 207.74644pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
- [43 <./KorrigierteYields_Data_2016.pdf>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
- [44 <./StatistischeUnsicherheitVergleich_Data_2016.pdf, page is rotated 90 deg
-rees>]
+) [43 <./KorrigierterYield_Data_2016.pdf, page is rotated 90 degrees>] [44 <./K
+orrigierteYields_Data_2016.pdf>] [45 <./StatistischeUnsicherheitVergleich_Data_
+2016.pdf, page is rotated 90 degrees>]
 Kapitel 5.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
-(s5.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
- [45
+(./s5.tex)
+Overfull \hbox (28.1892pt too wide) in paragraph at lines 1--139
+\OT1/cmr/m/n/10.95 plates ver-glichen mit dem ko-r-rigierten $\OML/cmm/m/it/10.
+95 p[]$\OT1/cmr/m/n/10.95 -Spektrum der Anal-yse mit Hil-fe von Funk-tion-spara
+metrisierung.
+ []
 
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
- [46]
+[46
+
+] [47]
 Anhang A.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
-(Appendix.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
- [47
+(./Appendix.tex) [48
 
 
-] (Bath_mahe_001.bbl
+] (./Bath_mahe_001.bbl
 Underfull \hbox (badness 5652) in paragraph at lines 11--17
-[]\OT1/cmr/m/n/10.95 Henner B[]usching.  Ker-ne und teil-chen 1 die quark-struk
--tur der ma-te-rie.
+[]\OT1/cmr/m/n/10.95 Henner B[]usching.  Kerne und teilchen 1 die quark-struk-t
+ur der ma-terie.
  []
 
 
@@ -1730,93 +1193,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--17
 goto _ FB13-[]PhysikOnline _ file _
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
-[48
+[49
 
-])
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 147.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 147.
- [49]
+]) [50]
 Anhang B.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 148.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 148.
-(Danksagung.tex)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 150.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 150.
- [50
+(./Danksagung.tex) [51
 
 
 ] 
 AED: lastpage setting LastPage
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
-[51]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
+[52]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
- (Bath_mahe_001.aux)
+ (./Bath_mahe_001.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `Bath_mahe_001.out' has not changed.
-(rerunfilecheck)             Checksum: C9B5F5DB55E62C316BC151FC66546037;2079.
+(rerunfilecheck)             Checksum: CC1407FE556E09EC80A18FC834F31DB7;2052.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 9789 strings out of 493303
- 147067 string characters out of 3142328
- 267414 words of memory out of 3000000
- 12926 multiletter control sequences out of 15000+200000
- 18778 words of font info for 69 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,16n,51p,703b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><D:/Programme
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programme/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbxti10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programm
-e/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Programme/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmib10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Programme/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Programme/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><D:/Programme/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Pr
-ogramme/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Programme/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmti8.pfb><D:/Programme/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb>
-Output written on Bath_mahe_001.pdf (53 pages, 3673529 bytes).
+ 9407 strings out of 494820
+ 140893 string characters out of 3178049
+ 252139 words of memory out of 3000000
+ 12191 multiletter control sequences out of 15000+200000
+ 21240 words of font info for 77 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 42i,16n,51p,701b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Bath_mahe_001.pdf (54 pages, 3577902 bytes).
 PDF statistics:
- 1684 PDF objects out of 1728 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1749 PDF objects out of 2073 (max. 8388607)
+ 996 compressed objects within 10 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

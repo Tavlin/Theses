@@ -1,11 +1,11 @@
-Die Korrekturen die auf das rohe Spektrum angewandt werden basieren auf der Monte Carlo Simulationen, aus der auch die Templates für diese Analyse stammen.
+Die Korrekturen die auf das rohe Spektrum angewandt werden basieren auf der Monte Carlo Simulation, aus der auch die Templates für diese Analyse stammen.
 \newline
 Die Detektorakzeptanz spiegelt dabei die Abdeckung des EMCals wider.
 Sie berechnet sich aus dem Verhältnis der \textit{Clusterpaare}, die auf das EMCal treffen, zu den produzierten \textit{Clusterpaaren}.
 \newline
-Die Effizienz berechnet sich aus der Division der \textit{Clusterpaare} aus dem Template des Signals geteilt durch die Anzahl der akzeptierten \textit{Clusterpaaren}.
+Die Effizienz berechnet sich aus der Division der \textit{Clusterpaare} aus dem Template des Signals durch die Anzahl der akzeptierten \textit{Clusterpaaren}.
 Für die Effizienz wird der $m_\text{inv}$ Bereich zum Zählen benutzt, der auch für die Bestimmung des rohen Spektrums benutzt wurde.
-\begin{figure}[t]
+\begin{figure}[t] %kein t!
 \centering
 \includegraphics[width=.65\linewidth]{Korrekturfaktoren_Data_2016.pdf}
 \caption{Detektorakzeptanz und Effizienz in Abhängigkeit von $p_\text{T}$.
@@ -22,6 +22,18 @@ Je größer $p_\text{T}$ umso kleiner $\theta_{\gamma\gamma}$.
 Deshalb treffen beide Photonen aus einem $\pi^{0}$-Zerfall bei niedrigem $p_\text{T}$ seltener auf das EMCal.
 Aus diesem Grund steigt die Detektorakzeptanz leicht an.
 \newline
-Durch die Anforderungen an die \textit{Cluster} werden unter anderem auch \textit{Cluster} ausgeschlossen, deren zugrunde liegende Teilchen aus dem Zerfall eines $\pi^{0}$ stammen, aber zu wenig Energie besitzen.
+Durch die Anforderungen an die \textit{Cluster} werden unter anderem auch \textit{Cluster} ausgeschlossen, deren zugrunde liegende Teilchen aus dem Zerfall eines $\pi^{0}$ stammen, aber beispielsweise zu wenig Energie besitzen.
 Gerade asymmetrische Zerfälle, bei denen der Anteil der zur Verfügung stehenden Energie ungleichmäßig auf die Zerfallsprodukte aufgeteilt wird, werden durch die Energieanforderung an die \textit{Cluster} ausgeschlossen.
-Deshalb steigt die Effizienz bis $p_\text{T} \approx 8 \text{ GeV}/c$ an und saturiert dann.
+Deshalb steigt die Effizienz bis $p_\text{T} = 8 \text{ GeV}/c$ an und saturiert dann.
+Im Saturationsbereich werden immer mehr \textit{Cluster} zusammengefasst, da sie zu nah aneinander liegen.
+Dadurch alleine würde die Effizienz wieder sinken, jedoch liegt der vorher genannte Effekt in diesem Bereich auch vor, wodurch die Saturation entsteht.
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.65\linewidth]{KorrigierterYieldNurStat_Data_2016.pdf}
+\caption{Korrigiertes $p_\text{T}$-Spektrum mit statistischer Unsicherheit.
+}
+\label{fig:YieldStatUncer}
+\end{figure}
+\newline
+Abbildung \ref{fig:YieldStatUncer} zeigt das korrigierte $p_\text{T}$-Spektrum mit statistischer Unsicherheit.
+Ausgehend von dem korrigierten $p_\text{T}$-Spektrum wird im folgenden Abschnitt die systematische Unsicherheit für dieses bestimmt.

@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Theoretische Grundlagen}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{5}{section.1.1}
 \contentsline {section}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasmas}{6}{section.1.2}
@@ -21,8 +21,8 @@
 \contentsline {subsection}{\numberline {3.5.4}Abzug des korrelierten Untergrunds und Integration des Signals}{34}{subsection.3.5.4}
 \contentsline {chapter}{\numberline {4}Korrigierter Yield}{36}{chapter.4}
 \contentsline {section}{\numberline {4.1}Akzeptanz und Effizienz}{36}{section.4.1}
-\contentsline {section}{\numberline {4.2}Systematische Unsicherheit}{37}{section.4.2}
+\contentsline {section}{\numberline {4.2}Systematische Unsicherheit}{38}{section.4.2}
 \contentsline {section}{\numberline {4.3}Vergleich mit Standardmethode}{43}{section.4.3}
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{45}{chapter.5}
-\contentsline {chapter}{\numberline {A}}{47}{appendix.A}
-\contentsline {chapter}{\numberline {B}Danksagung}{50}{appendix.B}
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{46}{chapter.5}
+\contentsline {chapter}{\numberline {A}}{48}{appendix.A}
+\contentsline {chapter}{\numberline {B}Danksagung}{51}{appendix.B}

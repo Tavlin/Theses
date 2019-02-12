@@ -6,8 +6,11 @@ Für die Bestimmung des Templates des korrelierten Untergrunds wird das Template
 \label{fig:BkgTemp}
 \end{figure}
 \newline
-Abbildung \ref{fig:BkgTemp} zeigt in pink das Template des korrelierten Untergrunds für das $p_\text{T}$-Intervall $(3\,2 - 3\,4) (\text{GeV/}c)$.
-Zur Verdeutlichung sind ebenfalls die zuvor beschriebene Verteilung in schwarz und das Template des Signals in grün eingezeichnet.
+Abbildung \ref{fig:BkgTemp} zeigt die Anzahl \textit{Clusterpaare}, die aus dem Zerfall eines einzelnen $\pi^{0}$ stammen, als Funktion von $m_\text{inv}$ in schwarz.
+In pink wird das Template des korrelierten Untergrunds dargestellt und in grün das Template des Signals.
+Alle drei Verteilungen stammen aus dem $p_\text{T}$-Intervall $(3\,2 - 3\,4) (\text{GeV/}c)$.
+Hierbei wird deutlich, dass in der Monte Carlo Simulation der korrelierte Untergrund im Bereich von $m_\text{inv} = 0,05 \text{ GeV/}c^{2}$ in der Größenordnung des Signals liegt.
+In der Standardmethode wurde zuvor gezeigt, dass in diesem $m_\text{inv}$-Bereich der korrelierte Untergrund dominiert.
 \newline
 Für die Anpassung der Templates an die Daten werden, relativ zu den Werten der Einträge in den Templates, geringe statistische Unsicherheiten der beiden Templates benötigt.
 Um die Unsicherheit zu verkleinern wird in dieser Arbeit der korrelierte Untergrund aus einem größeren $p_\text{T}$-Intervallen verwendet, als die in dieser Analyse gewählten $p_\text{T}$-Intervalle.
@@ -24,8 +27,8 @@ Lediglich die Anzahl der Einträge in den Templates des korrelierten Untergrunds
 \label{fig:BkgTempRatio}
 \end{figure}
 \newline
-Abbildung \ref{fig:BkgTempRatio} zeigt in orange das kombiniertes Template des korrelierten Untergrunds und in pink das Template des korrelierten Untergrunds für das $p_\text{T}$-Intervall $(3\,2 - 3\,4) (\text{GeV/}c)$.
-Um zu zeigen, dass die Annahme ihre Richtigkeit hat wird in Abbildung \ref{fig:BkgTempRatio} das Verhältnis aus einzelnen Templates des korrelierten Untergrunds zu dem Kombinierten dargestellt.
+Abbildung \ref{fig:BkgTempRatio} (oben) zeigt in orange das kombiniertes Template des korrelierten Untergrunds und in pink das Template des korrelierten Untergrunds für das $p_\text{T}$-Intervall $(3\,2 - 3\,4) (\text{GeV/}c)$.
+Um zu zeigen, dass die Annahme ihre Richtigkeit hat wird in Abbildung \ref{fig:BkgTempRatio} (unten) das Verhältnis aus einzelnen Templates des korrelierten Untergrunds zu dem Kombinierten dargestellt.
 Die rote Linie im unteren Teil der Abbildung basiert auf einer konstanten Parametrisierung des Verhältnisses.
 Die getroffene Annahme wird bestätigt, da die konstante Parametrisierung und das Verhältnis gut miteinander übereinstimmen.
 Die große Unsicherheit im Verhältnis um $m_\text{inv} = 0,225\text{ GeV}/c^{2}$ entsteht, da beide Templates an dieser Stelle eine Anzahl an Einträgen im Bereich nahe um die Null besitzen.
@@ -39,7 +42,7 @@ Um das kombinierte Template des korrelieren Untergrunds daran anzupassen wird ei
 In der Simulation werden $\pi^{0}$ mit zufälliger Energie simuliert, die in zwei Photonen zerfallen.
 Die Photonen müssen dann auf einen Raumwinkel auftreten der der Abdeckung des EMCals entspricht, um als detektiert zu gelten.
 Die Photonen werden hierbei nicht durch \textit{Cluster} repräsentiert.
-Dadurch sind Kombinationen von Photonenpaaren möglich, deren Öffnungswinkel unter der Anforderung an den Öffnungswinkel liegt.
+Dadurch wird verhindert, dass mehrere Teilchen zu einem \textit{Cluster} zusammengefasst werden können.
 Die Photonen werden paarweise kombiniert, wie bei der \textit{Clusterkombination}.
 Dabei wird einmal die Anforderung an den Öffnungswinkel gestellt wie sie in der Analyse vorliegt und einmal wird keine Anforderung an den Öffnungswinkel gestellt.
 In beiden Fällen werden so viele $\pi^{0}$ erzeugt, dass am Ende die gleiche Anzahl an Photonenpaaren kombiniert wurde.
@@ -50,7 +53,7 @@ Dadurch konnten größere Abweichungen für kleinere invariante Massen vermieden
 \newline
 In Abschnitt \ref{s4s2} wird für die Bestimmung der systematischen Unsicherheit die Wahl des Templates des korrelierten Untergrunds variiert.
 \newline
-Zum einen werden die Templates einzeln verwendet, also jeweils das Template des korrelierten Untergrunds aus dem jeweiligen $p_\text{T}$-Intervall, aus dem auch die Verteilung der invarianten Masse und das Template des Signals kommen.
+Zum einen werden die Templates des korrelierten Untergrunds aus dem jeweiligen $p_\text{T}$-Intervall verwendet, aus dem auch die Verteilung der invarianten Masse und das Template des Signals kommen.
 Wie bereits erwähnt wird die statistische Unsicherheit, relativ gesehen zu den Werten der Templates, groß.
 Tabelle \ref{tab:IntAndError} im Anhang \ref{Appendix:A} zeigt die Integrale sowie die Unsicherheit der verschiedenen $p_\text{T}$-Intervalle.
 Die statistischen Unsicherheiten sind für $6,0 \leq p_\text{T}/\text{ GeV}/c < 8,0 $ groß genug, sodass die Werte des Template des korrelierten Untergrunds mit Null kompatibel sind.
@@ -65,8 +68,9 @@ Da ein negativer korrelierter Untergrund physikalisch nicht sinnvoll ist, werden
 Zum anderen wird die Kombination variiert, sodass das Template des korrelierten Untergrunds nicht aus einem festen vergrößerten $p_\text{T}$-Intervall stammt.
 Stattdessen wird das $p_\text{T}$-Intervall eines einzelnen Templates des korrelierten Untergrunds ausgeweitet, bis das Intervall mindestens $4\text{ GeV}/c$ umfasst.
 Da also die nächsten Nachbarintervalle zusammengefasst werden, wird diese Methode zur Bestimmung der Template des korrelierten Untergrunds als nächste Nachbar Methode bezeichnet.
-Die Annahme, dass sich die Form der korrelierten Untergrunds nicht ändert, kann dabei aufgelockert werden, da nur benachbarte $p_\text{T}$-Intervall kombiniert werden.
-Es wäre also akzeptabel, wenn sich die Form verändert, solange die Änderung kontinuierlich und langsam statt findet.
+Im Gegensatz zur Methode mit dem kombinierten Template wird in deiser Methode eine etwaige Änderung der Form des korrelierten Untergrunds berücksichtigt.
+Die Änderung des korrelierten Untergrunds darf dabei allerdings nur kontinuierlich in $p\text{T}$ stattfinden.
+Durch das verbreitern aller $p_\text{T}$-Intervalle überlappen sich die $p_\text{}$-Bereiche aus denen die unterschiedlichen Templates des korrelierten Untergrunds stammen.
 Die dadurch entstehende Korrelation in den statistischen Unsicherheiten der verschiedenen kombinierten Templates des korrelierten Untergrunds kann dabei nur grob abgeschätzt werden. 
 \newline
 Aus den genannten negativ Gründen, sowie der Bestätigung der Annahme, dass die Form des korrelierten Untergrund nicht von $p_\text{T}$ abhängt, werden beide Methoden für die Bestimmung der systematischen Unsicherheiten benutzt und nicht als Standard.
