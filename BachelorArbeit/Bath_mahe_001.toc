@@ -1,4 +1,4 @@
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Theoretische Grundlagen}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Standardmodell der Elementarteilchenphysik}{5}{section.1.1}
 \contentsline {section}{\numberline {1.2}Starke Wechselwirkung und das Quark-Gluon-Plasmas}{6}{section.1.2}
