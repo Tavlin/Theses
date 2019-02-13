@@ -1,7 +1,8 @@
 Für das korrigierte $p_\text{T}$-Spektrum wird zuletzt noch die systematische Unsicherheit bestimmt.
+Die Peakextraktion von $\pi^{0}$ mit Hilfe von Monte Carlo Templates stellt eine neue Methode dar, weshalb die systematische Unsicherheit eine interessante Größe darstellt. 
 Dabei wird sich in dieser Arbeit rein auf die systematische Unsicherheit fokussiert, die durch Variation in der Peakextraktion kommt.
 Das korrigierte $p_\text{T}$-Spektrum, das mit der Variation extrahiert wurde, wird mit dem korrigierten $p_\text{T}$-Spektrum ohne Variationen verglichen.
-Die Variationen die in dieser Arbeit verwendet wurden lassen sich in fünf Abschnitte unterteilen.
+Die Variationen die in dieser Arbeit verwendet wurden lassen sich in fünf Abschnitte unterteilen und sind jeweils so gewählt, dass die Peakextraktion in einem physikalisch sinnvollen Rahmen stattfindet.
 \newline
 Bei der \textbf{Variation des Zählbereiches} und der \textbf{Variation des Parametrisierungsbereiches}, wird der Zähl- beziehungsweise Parametrisierungsbereich einmal ausgeweitet und ein anderes mal verkleinert.
 Bei der Variation wird die untere Grenze jeweils um $0,01 \text{ GeV}/c^{2}$ verschoben, während die obere Grenze um $0,025 \text{ GeV}/c^{2}$ verändert wird, wie Tabelle \ref{tab:ParamAndIntRange} zeigt.
@@ -18,7 +19,7 @@ Gleichzeitig wird sicher gestellt, dass der Teil des Signals, der aus Konversion
 \caption{Obere und untere Grenze des Parametrisierungs- und Zählbereichs}
 \label{tab:ParamAndIntRange}
 \end{table}
-\begin{figure}[t]
+\begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerIntRange_Data_2016.pdf}
 \caption{Relative systematische Unsicherheit durch die Variation des Zählbereiches in Abhängigkeit von $p_\text{T}$.}
@@ -42,20 +43,6 @@ Eine Ausnahme bildet der $p_\text{T}$-Bereiches von $5,8 \text{ GeV}/c$ bis $7,5
 Dort liegen die Werte für breite Grenzen deutlich im positiven, die Werte für kleine Grenzen liegen hingegen im negativen Bereich.
 \begin{figure}[t!]
 \centering
-\includegraphics[width=.65\linewidth]{YieldsSysUncerBkgVariation_Data_2016.pdf}
-\caption{Relative systematische Abweichung durch die Variation der Templates des korrelierten Untergrunds in Abhängigkeit von $p_\text{T}$.}
-\label{fig:BkgSys}
-\end{figure}
-\newline
-Die \textbf{Variation der Templates des korrelierten Untergrunds} basiert auf den in Abschnitt \ref{s3s5s2} vorgestellten Methoden zur Bestimmung der Templates des korrelierten Untergrunds.
-Für kleine $p_\text{T}$ von $1,4 \text{ GeV}/c$ bis $4,4 \text{ GeV}/c$ zeigen beide Methoden eine geringe Abweichung.
-Der $p_\text{T}$-Bereich von $4,4 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ hingegen weist starke Abweichungen für beide Methoden auf.
-Die Methode mit einzelnen Templates des korrelierten Untergrunds unterschätzt in diesem Bereich die Anzahl produzierter $\pi^{0}$ stark im Vergleich zur Methode mit kombiniertem Template des korrelierten Untergrunds.
-Die Ursache hierfür liegt vor allem in der großen statischen Unsicherheit der einzelnen Templates des korrelierten Untergrunds.
-Durch diese Unsicherheit wird der korrelierte Untergrund überschätzt.
-Bei der Methode mit den nächsten Nachbarn wird der korrelierten Untergrund hingegen unterschätzt, weshalb dort die Abweichung im positiven Bereich liegt.
-\begin{figure}[t!]
-\centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerRebinning_Data_2016.pdf}
 \caption{Relative systematische Abweichung durch die Variation von $\Delta m_\text{inv}$ in Abhängigkeit von $p_\text{T}$.}
 \label{fig:BinningSys}
@@ -65,7 +52,7 @@ Die Breite der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ wird in der \text
 Tabelle \ref{tab:Binning} zeigt $\Delta m_\text{inv}$ wie es für diese Analyse gewählt wurde, sowie für die Variationen.
 Dabei hängt $\Delta m_\text{inv}$ zusätzlich von $p_\text{T}$ ab.
 \newline
-Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich von $6,0 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ bildet sich eine deutliche Abweichung für vergrößerte $\Delta m_\text{inv}$ ab.
+Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich von $6,0 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ bildet sich eine Abweichung von maximal $6\%$ für vergrößerte $\Delta m_\text{inv}$ ab.
 \begin{table}[b!]
 \centering
 \begin{tabular}{c|c|c|}
@@ -84,6 +71,21 @@ Beide Variationen zeigen kaum Abweichungen, lediglich im $p_\text{T}$-Bereich vo
 \caption{Die verschiedenen Breiten der $m_\text{inv}$-Intervalle $\Delta m_\text{inv}$ in Abhängigkeit von $p_\text{T}$.}
 \label{tab:Binning}
 \end{table}
+\begin{figure}[t!]
+\centering
+\includegraphics[width=.65\linewidth]{YieldsSysUncerBkgVariation_Data_2016.pdf}
+\caption{Relative systematische Abweichung durch die Variation der Templates des korrelierten Untergrunds in Abhängigkeit von $p_\text{T}$.}
+\label{fig:BkgSys}
+\end{figure}
+\newline
+Die \textbf{Variation der Templates des korrelierten Untergrunds} basiert auf den in Abschnitt \ref{s3s5s2} vorgestellten Methoden zur Bestimmung der Templates des korrelierten Untergrunds.
+Abbildung \ref{fig:BkgSys} zeigt die systematische Abweichung der beiden Variationen.
+Für kleine $p_\text{T}$ von $1,4 \text{ GeV}/c$ bis $4,4 \text{ GeV}/c$ zeigen beide Methoden eine geringe Abweichung.
+Der $p_\text{T}$-Bereich von $4,4 \text{ GeV}/c$ bis $7,5 \text{ GeV}/c$ hingegen weist starke Abweichungen für beide Methoden auf.
+Die Methode mit einzelnen Templates des korrelierten Untergrunds unterschätzt in diesem Bereich die Anzahl produzierter $\pi^{0}$ stark im Vergleich zur Methode mit kombiniertem Template des korrelierten Untergrunds.
+Die Ursache hierfür liegt vor allem in der großen statischen Unsicherheit der einzelnen Templates des korrelierten Untergrunds.
+Durch diese Unsicherheit wird der korrelierte Untergrund überschätzt.
+Bei der Methode mit den nächsten Nachbarn wird der korrelierten Untergrund hingegen unterschätzt, weshalb dort die Abweichung im positiven Bereich liegt.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=.65\linewidth]{YieldsSysUncerUncorrBkgVariation_Data_2016.pdf}

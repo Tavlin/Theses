@@ -3,7 +3,7 @@ Die Korrekturen, die auf das rohe Spektrum angewandt werden, basieren auf der Mo
 Die Detektorakzeptanz spiegelt dabei die räumliche Abdeckung des EMCals wider.
 Sie berechnet sich aus dem Verhältnis der \textit{Clusterpaare}, die auf das EMCal treffen, zu den produzierten \textit{Clusterpaaren}.
 \newline
-Die Rekonstruktionseffizienz berechnet sich aus der Division der \textit{Clusterpaare} aus dem Template des Signals durch die Anzahl der akzeptierten \textit{Clusterpaaren}.
+Die Rekonstruktionseffizienz berechnet sich aus der Division der \textit{Clusterpaare} aus dem Template des Signals durch die Anzahl der akzeptierten \textit{Clusterpaare}.
 Für die Rekonstruktionseffizienz wird der $m_\text{inv}$-Bereich zum Zählen benutzt, der auch für die Bestimmung des rohen Spektrums benutzt wurde.
 \begin{figure}[t] %kein t!
 \centering
@@ -17,12 +17,13 @@ Durch das Korrigieren des rohen Spektrums mit der Detektorakzeptanz und der Reko
 Abbildung \ref{fig:Korrekturen} zeigt die beiden Korrekturgrößen Detektorakzeptanz und Rekonstruktionseffizienz.
 \newline
 Die Detektorakzeptanz wird mit steigendem $p_\text{T}$ größer.
-Zerfällt ein $\pi^{0}$ in zwei Photonen, so fliegen die Photonen im System des $\pi^{0}$ entgegengesetzt zu einander weg, $\theta_{\gamma\gamma}$ beträgt in diesem System $180^{\circ}$.
+Zerfällt ein $\pi^{0}$ in zwei Photonen, so fliegen die Photonen im System des $\pi^{0}$ entgegengesetzt zu einander weg, der Öffnungswinkel zwischen den beiden Photonen $\theta_{\gamma\gamma}$ beträgt in diesem System $180^{\circ}$.
 Abhängig vom $p_\text{T}$ den ein $\pi^{0}$ im Laborsystem hat verringert sich $\theta_{\gamma\gamma}$.
-Je größer $p_\text{T}$ umso kleiner $\theta_{\gamma\gamma}$ im Mittel.
+Je größer $p_\text{T}$ umso kleiner $\theta_{\gamma\gamma}$.
 Deshalb treffen beide Photonen aus einem $\pi^{0}$-Zerfall bei niedrigem $p_\text{T}$ seltener auf das EMCal.
 Aus diesem Grund steigt die Detektorakzeptanz mit wachsendem $p_\text{T}$ leicht an.
-\newline
+\newpage
+\noindent
 Die Rekonstruktionseffizienz steigt bis $p_\text{T} = 8 \text{ GeV}/c$ an und saturiert dann.
 Durch die Anforderungen an die \textit{Cluster} werden unter anderem auch \textit{Cluster} ausgeschlossen, deren zugrunde liegende Teilchen aus dem Zerfall eines $\pi^{0}$ stammen, aber beispielsweise zu wenig Energie besitzen.
 Gerade asymmetrische Zerfälle, bei denen der Anteil der zur Verfügung stehenden Energie ungleichmäßig auf die Zerfallsprodukte aufgeteilt wird, werden durch die Energieanforderung an die \textit{Cluster} ausgeschlossen.
@@ -36,5 +37,6 @@ Dadurch alleine würde die Rekonstruktionseffizienz wieder sinken, jedoch liegt 
 \label{fig:YieldStatUncer}
 \end{figure}
 \newline
-Abbildung \ref{fig:YieldStatUncer} zeigt das korrigierte $p_\text{T}$-Spektrum mit statistischer Unsicherheit.
+Die Detektorakzeptanz und die Rekosntruktionseffizienz werden auf das $p_\text{T}$-Spektrum der rekonstruierten $\pi^{0}$ angewandt.
+Abbildung \ref{fig:YieldStatUncer} zeigt das korrigierte $p_\text{T}$-Spektrum, das nun die Anzahl der produzierten $\pi^{0}$ darstellt.
 Ausgehend von dem korrigierten $p_\text{T}$-Spektrum wird im folgenden Abschnitt die systematische Unsicherheit für dieses bestimmt.
