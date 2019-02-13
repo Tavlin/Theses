@@ -7,29 +7,30 @@ Tabelle \ref{tab:Cluster} listet die in dieser Analyse gestellten Anforderungen 
 \multicolumn{2}{|c|}{Clusterauswahlkriterien}                   \\ \hline \hline
 Zeit                    & $-30\text{ ns} < t_\text{clust}<35\text{ ns}$ \\ \hline
 \textit{Bad Cell Map}   & angewandt                                     \\ \hline
-Energie                 & $E_{clust}\geq700\text{ MeV}$                         \\ \hline
+Energie                 & $E_\text{clust}\geq700\text{ MeV}$                         \\ \hline
 Anzahl Zellen           & $N_\text{Zellen}\geq 2$                       \\ \hline
 Form                    & $0.1< M_{02}<0.7$                             \\ \hline
-\textit{Track matching} & $p_\text{T}$ abhängig: $\Delta\eta$ $\Delta\phi$                                     \\ \hline
+\textit{Track Matching} & $p_\text{T}$ abhängig: $\Delta\eta$ $\Delta\phi$                                     \\ \hline
 Öffnungswinkel          & $\theta>0.017\text{ rad}$                     \\ \hline
 \end{tabular}
 \caption{Auswahlkriterien für die \textit{Cluster} des EMCals.}
 \label{tab:Cluster}
 \end{table}
 \newline
-Der zeitliche Rahmen um den Kollisionszeitpunkt, in dem die \textit{Cluster} entstanden sind, wird eingeschränkt, um \textit{Cluster} von Teilchen auszuschließen, die nicht von einem \textit{Event} stammen.
+Der zeitliche Rahmen, in dem die \textit{Cluster} entstanden sind, wird um den Kollisionszeitpunkt ein\-ge\-schränkt, um \textit{Cluster} von Teilchen auszuschließen, die nicht von einem \textit{Event} stammen.
 Die \textit{Bad Cell Map} wird verwendet, um schlechte Zellen von der Analyse auszuschließen \cite{thesis:Joshua}.
 \newline
-Die Energie, die ein \textit{Cluster} mindestens braucht, sowie die Anforderung an die Form und die Anzahl an Zellen, aus denen ein \textit{Cluster} mindestens bestehen muss, helfen \textit{Cluster} von Photonen zu selektieren:
+Die Energie, die ein \textit{Cluster} mindestens braucht, sowie die Anforderung an die Form und die Anzahl an Zellen, aus denen ein \textit{Cluster} mindestens bestehen muss, helfen \textit{Cluster} von Photonen zu selektieren.
 Die Mindestenergie von $700\text{ MeV}$ wir benötigt um detektorbedingtes  Rauschen zu unterdrücken.
 Der Schwellenwert für die Energie steht dabei im direkten Zusammenhang mit der Mindestanzahl an Zellen.
 Wie in Abschnitt \ref{s2s2} erwähnt, benötigt die Startzelle eine deponierte Energie von mindestens 600 MeV und jede weitere Zelle von mindestens 100 MeV, um zu einem \textit{Cluster} hinzugefügt zu werden.
 Um die angegebene Mindestenergie zu erreichen benötigt ein \textit{Cluster} entsprechend mindestens zwei Zellen.
 Die Form, charakterisiert durch den Parameter $M_{02}$, wurde in Abschnitt \ref{s2s2} bereits erläutert.
-Mit Hilfe des \textit{Track matching} können \textit{Cluster}, die von geladenen Teilchen kommen, ausgeschlossen werden, um die Reinheit des Signals zu erhöhen.
+Mit Hilfe des \textit{Track Matching} können \textit{Cluster}, die von geladenen Teilchen kommen, ausgeschlossen werden, um die Reinheit des Signals zu erhöhen.
 Dafür werden die Spuren der geladenen Teilchen, die in der TPC hinterlassen wurden, rekonstruiert und bis zum EMCal extrapoliert.
 Einige Photonen konvertieren erst nach dem sie die TPC passiert haben.
-\textit{Cluster} durch Elektronen beziehungsweise Positronen aus diesen Konversionen können entsprechend nicht durch das \textit{track matching} ausgeschlossen werden. 
-\newline
+\textit{Cluster} durch Elektronen beziehungsweise Positronen aus diesen Konversionen können entsprechend nicht durch das \textit{Track Matching} ausgeschlossen werden. 
+\newpage
+\noindent
 Durch die Anforderung an den Öffnungswinkel wird sicher gestellt, dass der Abstand zwischen zwei \textit{Clustern} mindestens der Größe einer Zellendiagonale entspricht.
 Diese Anforderung wird für die Bestimmung des Untergrunds benötigt.

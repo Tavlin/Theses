@@ -15,6 +15,11 @@ Henner B{\"u}sching.
   2018.
 \newblock Letzer Zugriff am 14.01.2019.
 
+\bibitem[C{\etalchar{+}}08]{Cortese:2008zza}
+P.~Cortese et~al.
+\newblock {ALICE electromagnetic calorimeter technical design report}.
+\newblock 2008.
+
 \bibitem[Kap00]{Kapusta:2000fe}
 Joseph~I Kapusta.
 \newblock {Quark - gluon plasma in the early universe}.
@@ -66,5 +71,12 @@ Wikipedia.
 \newblock Alice experiment.
 \newblock \url{https://en.wikipedia.org/wiki/ALICE_experiment}, 12 2018.
 \newblock Letzter Zugriff am 02.01.2019.
+
+\bibitem[ZZY{\etalchar{+}}18]{Zheng:2018yxq}
+Liang Zheng, Dai-Mei Zhou, Zhong-Bao Yin, Yu-Liang Yan, Gang Chen, Xu~Cai, and
+  Ben-Hao Sa.
+\newblock {Effect of single string structure and multiple string interaction on
+  strange particle production in pp collisions at $\sqrt{s}=7$ TeV}.
+\newblock {\em Phys. Rev.}, C98(3):034917, 2018.
 
 \end{thebibliography}
