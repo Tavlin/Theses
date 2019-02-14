@@ -24,5 +24,7 @@
 \contentsline {section}{\numberline {4.2}Systematische Unsicherheit}{38}{section.4.2}
 \contentsline {section}{\numberline {4.3}Vergleich mit Standardmethode}{43}{section.4.3}
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{46}{chapter.5}
-\contentsline {chapter}{\numberline {A}Vergleich der Templates des korrelierten Untergrunds}{48}{appendix.A}
+\contentsline {chapter}{\numberline {A}Template des korrelierten Untergrunds}{48}{appendix.A}
+\contentsline {section}{\numberline {A.1}Vergleich des kombinierten Templates mit dem einzelnem Template}{48}{section.A.1}
+\contentsline {section}{\numberline {A.2}Integral und Unsicherheit der einzelnen Templates}{53}{section.A.2}
 \contentsline {chapter}{\numberline {B}Danksagung}{56}{appendix.B}
