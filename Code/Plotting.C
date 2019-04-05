@@ -73,7 +73,7 @@ void Plotting(std::string current_path){
   //////////////////////////////////////////////////////////////////////////////
 
   TLegend* legSystem = new TLegend(0.1, 0.94, 0.7, 0.98);
-  legSystem->AddEntry((TObject*) 0x0, "ALICE, pp bei #sqrt{#it{s}} = 13 TeV, #pi^{0} #rightarrow #gamma#gamma mit EMCal", "");
+  legSystem->AddEntry((TObject*) 0x0, "ALICE, pp #sqrt{#it{s}} = 13 TeV, #pi^{0} #rightarrow #gamma#gamma with EMCal", "");
 
   /**
    *plotting the minv, pt Signal TH2 with bin as TLines
@@ -84,6 +84,11 @@ void Plotting(std::string current_path){
   TLine* lPi0_mass = new TLine(0.134977, 1.4, 0.134977, 12.0);
   lPi0_mass->SetLineWidth(3);
   lPi0_mass->SetLineColor(kRed+1);
+
+  TLine* line_0 = new TLine(0.0, 0.0, 0.3, 0.0);
+  line_0->SetLineWidth(3);
+  line_0->SetLineColor(kBlack);
+  line_0->SetLineStyle(1);
 
   TLine* lpTLines[39];
 
@@ -107,7 +112,7 @@ void Plotting(std::string current_path){
 
   cPatrick = makeCanvas(OAhists, 0, "notimeSquare", 0, 0);
   cPatrick->Update();
-  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Signal.eps"));
   cPatrick->Clear();
 
   OAhists->Clear();
@@ -129,7 +134,7 @@ void Plotting(std::string current_path){
 
   cPatrick = makeCanvas(OAhists, 0, "notimeSquare", 0, 0);
   cPatrick->Update();
-  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_pT_Bkg.eps"));
   cPatrick->Clear();
 
   OAhists->Clear();
@@ -210,15 +215,15 @@ void Plotting(std::string current_path){
   // str_copy.ReplaceAll("<","#leq");
   // str.Replace(0,20,str_copy,23);
   str = Form("%.1lf #leq #it{p}_{T} /(GeV/#it{c}) < %.1lf", fBinsPi013TeVEMCPt[k], fBinsPi013TeVEMCPt[k+1]);
-  legpT = new TLegend(0.07, 0.8, 0.42, 0.9);
+  legpT = new TLegend(0.07, 0.85, 0.42, 0.9);
   legpT->AddEntry((TObject*) 0x0, str, "");
 
 
   cPatrick->cd();
   TLegend* legSignalPlusBkg = new TLegend(0.55, 0.7, 0.85, 0.9);
-  legSignalPlusBkg->AddEntry(hSignalPlusBkg, "Signal", "p");
-  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
-  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
+  legSignalPlusBkg->AddEntry(hSignalPlusBkg, "signal", "p");
+  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ corr. background", "");
+  legSignalPlusBkg->AddEntry((TObject*) 0x0, "+ uncorr. background", "");
   SetHistogramProperties(hSignalPlusBkg, "minv", count_str, 5, 0.0, 0.3);
 
   OAhists->Add(hSignalPlusBkg);
@@ -229,7 +234,7 @@ void Plotting(std::string current_path){
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
   // DrawLabelALICE(0.18, 0.85, 0.03, 30, str);
   cPatrick->Update();
-  cPatrick->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hSignalPlusBkg.eps"));
   cPatrick->Clear();
 
   OAhists->Clear();
@@ -242,7 +247,7 @@ void Plotting(std::string current_path){
   hUncorrBkg->Rebin(4);
   cPatrick->cd();
   TLegend* legUncorrBkg = new TLegend(0.5, 0.3, 0.8, 0.5);
-  legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} Rekombinationen", "p");
+  legUncorrBkg->AddEntry(hUncorrBkg, "#it{mixed event} combinations", "p");
   SetHistogramProperties(hUncorrBkg, "minv", count_str, 2, 0.0, 0.3);
 
   OAhists->Add(hUncorrBkg);
@@ -253,7 +258,7 @@ void Plotting(std::string current_path){
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
   // DrawLabelALICE(0.18, 0.85, 0.03, 30, str);
   cPatrick->Update();
-  cPatrick->SaveAs(Form("../BachelorArbeit/hUncorrBkg.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hUncorrBkg.eps"));
   cPatrick->Clear();
 
   OAhists->Clear();
@@ -268,16 +273,16 @@ void Plotting(std::string current_path){
   OAratios = NULL;
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
-  cPatrick->SaveAs("../BachelorArbeit/Patrick.pdf");
+  cPatrick->SaveAs("../BachelorArbeit/Patrick.eps");
   // scaled uncorrelated with Signal + both Backgrunds
   cPatrick->Clear();
 
   TLegend* legUncorrBkgNorm = new TLegend(0.55, 0.57, 0.8, 0.9);
-  legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "Signal", "p");
-  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
-  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ unkorr. Untergrund", "");
-  legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "skalierte #it{mixed event}", "p");
-  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "Rekombinationen", "");
+  legUncorrBkgNorm->AddEntry(hSignalPlusBkg, "signal", "p");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ corr. background", "");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "+ uncorr. background", "");
+  legUncorrBkgNorm->AddEntry(hUncorrBkgNorm, "scaled #it{mixed event}", "p");
+  legUncorrBkgNorm->AddEntry((TObject*) 0x0, "combinations", "");
   SetHistogramProperties(hUncorrBkgNorm, "minv", count_str, 2, 0.0, 0.3);
 
   OAhists->Add(hSignalPlusBkg);
@@ -295,7 +300,7 @@ void Plotting(std::string current_path){
   TLine* lBkgFitRange = new TLine(0.19, gPad->GetUymax()*0.995, 0.30, gPad->GetUymax()*0.995);
   lBkgFitRange->SetLineColor(kCyan+2);
   lBkgFitRange->SetLineWidth(5);
-  legUncorrBkgNorm->AddEntry(lBkgFitRange, "Parametrisierungsbereich", "l");
+  legUncorrBkgNorm->AddEntry(lBkgFitRange, "param. range", "l");
 
   cPatrick->Clear();
 
@@ -311,7 +316,7 @@ void Plotting(std::string current_path){
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
-  cPatrick->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hUncorrBkgNorm.eps"));
   OAhists->Clear();
   cPatrick->Clear();
 
@@ -321,8 +326,8 @@ void Plotting(std::string current_path){
 
   SetHistogramProperties(hInvMass_Data, "minv", count_str, 5, 0.0, 0.3);
   TLegend* legInvMass_Data = new TLegend(0.55, 0.7, 0.85, 0.9);
-  legInvMass_Data->AddEntry(hInvMass_Data, "Signal", "lp");
-  legInvMass_Data->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
+  legInvMass_Data->AddEntry(hInvMass_Data, "signal", "lp");
+  legInvMass_Data->AddEntry((TObject*) 0x0, "+ corr. background", "");
 
   OAhists->Add(hInvMass_Data);
   OAhists->Add(legInvMass_Data);
@@ -331,7 +336,7 @@ void Plotting(std::string current_path){
 
   cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
 
-  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_Data.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/hInvMass_Data.eps"));
   cPatrick->Clear();
   OAhists->Clear();
 
@@ -360,13 +365,19 @@ void Plotting(std::string current_path){
   fTail->         SetNpx(1000);
   fBkg->          SetNpx(1000);
 
-  TLegend* legStandardParam = new TLegend(0.53, 0.55, 0.85, 0.9);
-  legStandardParam->AddEntry(hInvMass_Data, "Signal", "lp");
-  legStandardParam->AddEntry((TObject*) 0x0, "+ korr. Untergrund", "");
-  legStandardParam->AddEntry(fSignalPlusBkg, "komb. Parametrisierung", "l");
-  legStandardParam->AddEntry(fGauss, "Gau#beta-Parametrisierung", "l");
-  legStandardParam->AddEntry(fTail, "#it{Tail}-Parametrisierung", "l");
-  legStandardParam->AddEntry(fBkg, "lineare Parametrisierung", "l");
+  TLegend* legStandardParam = new TLegend(0.64, 0.85, 0.88, 0.9);
+  TLegend* legStandardParam4 = new TLegend(0.59, 0.8, 0.88, 0.85);
+  TLegend* legStandardParam2 = new TLegend(0.54, 0.75, 0.82, 0.8);
+  TLegend* legStandardParam3 = new TLegend(0.64, 0.55, 0.88, 0.75);
+  legStandardParam->AddEntry(hInvMass_Data, "signal", "lp");
+  legStandardParam4->AddEntry((TObject*) 0x0, "+ corr. background", "");
+
+  legStandardParam2->AddEntry((TObject*) 0x0, "parametrisation:", "");
+
+  legStandardParam3->AddEntry(fSignalPlusBkg, "combined ", "l");
+  legStandardParam3->AddEntry(fGauss, "gaussian ", "l");
+  legStandardParam3->AddEntry(fTail, "tail ", "l");
+  legStandardParam3->AddEntry(fBkg, "linear ", "l");
 
 
   OAhists->Add(hInvMass_Data);
@@ -375,12 +386,16 @@ void Plotting(std::string current_path){
   OAhists->Add(fTail);
   OAhists->Add(fBkg);
   OAhists->Add(legStandardParam);
+  OAhists->Add(legStandardParam4);
+  OAhists->Add(legStandardParam2);
+  OAhists->Add(legStandardParam3);
+  OAhists->Add(line_0);
   OAhists->Add(legSystem);
   OAhists->Add(legpT);
 
-  cPatrick = makeCanvas(OAhists, 0, "notimeThickHorizontal", 0, 0);
+  cPatrick = makeCanvas(OAhists, 0, "notimeThickSquare", 0, 0);
 
-  cPatrick->SaveAs(Form("../BachelorArbeit/StandardParam.pdf"));
+  cPatrick->SaveAs(Form("../BachelorArbeit/StandardParam.eps"));
   cPatrick->Clear();
   OAhists->Clear();
 
